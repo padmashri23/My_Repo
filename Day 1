@@ -7,4 +7,6 @@ for i in my_value:
         MinValue=i
 print('Lowest Value:',MinValue)
 
+Fun Fact:The word 'algorithm' comes from 'al-Khwarizmi', named after a Persian scholar who lived around year 800.
+
  
