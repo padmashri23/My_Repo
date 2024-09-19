@@ -1,0 +1,10 @@
+#to find the lowest value in an array
+
+my_value=[35,84,3,4,5,6]
+MinValue=my_value[0]
+for i in my_value:
+    if i<MinValue:
+        MinValue=i
+print('Lowest Value:',MinValue)
+
+ 
