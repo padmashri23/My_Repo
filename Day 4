@@ -1,0 +1,20 @@
+#Write a Python program to insert items into a list in sorted order.
+
+import bisect
+my_list=[1,25,465,159,45,78,23,4,2,5,6,8,852,963,741,7894,7]
+print("Original list:")
+print(my_list)
+sorted_list=[]
+for i in my_list:
+    position=bisect.bisect(sorted_list,i)
+    bisect.insort(sorted_list,i)
+print("Sorted list:")
+print(sorted_list)
+
+#OUTPUT
+
+Original list:
+[1, 25, 465, 159, 45, 78, 23, 4, 2, 5, 6, 8, 852, 963, 741, 7894, 7]
+Sorted list:
+[1, 2, 4, 5, 6, 7, 8, 23, 25, 45, 78, 159, 465, 741, 852, 963, 7894]
+
