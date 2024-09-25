@@ -1,0 +1,24 @@
+#Write a  Python program to create a queue and display all the members size of the queue.
+
+import queue
+q=queue.Queue()
+for x in range(20):
+    q.put(x)
+print("Members of the Queue:")
+y=z=q.qsize()
+
+#This line retrieves the current size of the queue using q.qsize(), which counts how many items are in the queue. Since there are four items in the queue (0, 1, 2, 3), the value of q.qsize() is 4. This value is assigned to both y and z.
+for n in list(q.queue):
+
+#q.queue accesses the internal deque object of the queue, which stores the elements. The list(q.queue) converts this deque into a list, allowing you to iterate over the elements. The for loop will now iterate through each element in the queue (0, 1, 2, 3).
+    print(n,end=" ")
+print("\nSize of the queue:")
+print(q.qsize())
+
+OUTPUT:
+Members of the Queue:
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+Size of the queue:
+20
+
+
