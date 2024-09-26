@@ -1,0 +1,33 @@
+#binary search DSA problem
+def binary_search(item_list,item):
+    low=0
+    high=len(item_list)-1
+    found=False
+    while(low<=high and not found):
+        mid=(low+high)//2
+        if item_list[mid]==item:
+            found=True
+        else:
+            if item<item_list[mid]:
+                high=mid-1
+            else:
+                low=mid+1
+    return found
+print(binary_search([1,2,3,4,5],9))
+print(binary_search([1,2,3,4,5],5))
+print(binary_search([1,2,3,4,5],3))
+print(binary_search([1,2,3,4,5],25))
+
+OUTPUT:
+False
+True
+True
+False
+
+
+
+
+
+
+
+
