@@ -9,7 +9,7 @@ def bubblesort(nlist):
                 nlist[i+1]=temp
 nlist = [1,3,4,56,34,5,6,78,89,100,500]
 bubblesort(nlist)
-print(nlist)
+print(nlist)  
 
 OUTPUT:
 [1, 3, 4, 5, 6, 34, 56, 78, 89, 100, 500]
