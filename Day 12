@@ -1,0 +1,33 @@
+#cocktail_shaker_sort 
+
+def cocktail_shaker_sort(num):
+    for i in range(len(num)-1,0,-1):
+        is_swapped=False
+        for j in range(i,0,-1):
+            if num[j]<num[j-1]:
+                num[j],num[j-1]=num[j-1],num[j]
+                is_swapped=True
+        for j in range(i):
+            if num[j]>num[j+1]:
+                num[j],num[j+1]=num[j+1],num[j]
+                is_swapped==True
+        if not is_swapped:
+            return num
+num1=input('enter the number with comma separated:\n').strip()
+num=[int(item) for item in num1.split(',')]
+print(cocktail_shaker_sort(num))
+
+
+OUTPUT:
+enter the number with comma separated:
+1,8,3,95,4,9,5,6,2,7,27,54,86,32,15,98,756,42,31,84,56
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 15, 27, 31, 32, 42, 54, 56, 84, 86, 95, 98, 756]
+
+Cocktail shaker sort, also known as bidirectional bubble sort, cocktail sort, shaker sort (which can also refer to a variant of selection sort), 
+ripple sort, shuffle sort, or shuttle sort, is a variation of bubble sort that is both a stable sorting algorithm and a comparison sort. 
+The algorithm differs from a bubble sort in that it sorts in both directions on each pass through the list.
+This sorting algorithm is only marginally more difficult to implement than a bubble sort, and solves the problem of turtles in bubble sorts.
+It provides only marginal performance improvements, and does not improve asymptotic performance;
+like the bubble sort, it is not of practical interest (insertion sort is preferred for simple sorts), though it finds some use in education.
+
+https://www.w3resource.com/w3r_images/Sorting_shaker_sort_anim.gif    
