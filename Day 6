@@ -1,3 +1,4 @@
+#Code:
 #Write a Python program to create a FIFO queue.
 
 import queue
