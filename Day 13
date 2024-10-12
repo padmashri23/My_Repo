@@ -1,0 +1,35 @@
+DEFINITION:
+In computing, an odd–even sort or odd–even transposition sort (also known as brick sort self-published source] or parity sort) is a relatively simple sorting algorithm, 
+developed originally for use on parallel processors with local interconnections.It is a comparison sort related to bubble sort, with which it shares many characteristics. 
+It functions by comparing all odd/even indexed pairs of adjacent elements in the list and, if a pair is in the wrong order (the first is larger than the second) the elements are switched. 
+The next step repeats this for even/odd indexed pairs (of adjacent elements). Then it alternates between odd/even and even/odd steps until the list is sorted.
+
+#odd_even_transposition_sort
+def odd_even_transposition(arr:list)->list:
+    arr_size=len(arr)
+    for _ in range(arr_size):
+        for i in range(_%2,arr_size-1,2):
+            if arr[i+1]<arr[i]:
+                arr[i],arr[i+1]=arr[i+1],arr[i]
+    return arr
+nums=[89,56,23,41,7,5,3,9,5,6,2,1,4]
+print("\nOriginal list:")
+print(nums)
+odd_even_transposition(nums)
+print("Sorted list:",nums)
+nums=[9,8,7,6,5,4,3,2,1,10,90,5,6,3,0,4,7,5,10,23]
+print("\nOriginal list:")
+print(nums)
+odd_even_transposition(nums)
+print("Sorted list:",nums)
+
+OUTPUT:
+
+Original list:
+[89, 56, 23, 41, 7, 5, 3, 9, 5, 6, 2, 1, 4]
+Sorted list: [1, 2, 3, 4, 5, 5, 6, 7, 9, 23, 41, 56, 89]
+
+Original list:
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 10, 90, 5, 6, 3, 0, 4, 7, 5, 10, 23]
+Sorted list: [0, 1, 2, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 8, 9, 10, 10, 23, 90]
+
