@@ -4,6 +4,7 @@ developed originally for use on parallel processors with local interconnections.
 It functions by comparing all odd/even indexed pairs of adjacent elements in the list and, if a pair is in the wrong order (the first is larger than the second) the elements are switched. 
 The next step repeats this for even/odd indexed pairs (of adjacent elements). Then it alternates between odd/even and even/odd steps until the list is sorted.
 
+CODE:
 #odd_even_transposition_sort
 def odd_even_transposition(arr:list)->list:
     arr_size=len(arr)
