@@ -1,0 +1,10 @@
+INFOSYS
+#Fibonnoci series:
+class Solution:
+    #Function to return list containing first n fibonacci numbers.
+    def printFibb(self,n):
+        # your code here
+        a=[1,1]
+        for j in range(2,n):
+            a.append(a[j-1]+a[j-2])
+        return a[:n]
