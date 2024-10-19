@@ -6,3 +6,17 @@ class Solution:
             return
         self.printTillN(N-1)
         print(N,end=" ")
+
+#Python heap queue algorithm
+import heapq as hq
+nums_list=[85,78,95,456,123,85,12,65,45,96,100]
+print("Original list")
+print(nums_list)
+largest_nums=hq.nlargest(4,nums_list)
+print("The largest 4 numbers are:",largest_nums)
+
+OUTPUT:
+Original list
+[85, 78, 95, 456, 123, 85, 12, 65, 45, 96, 100]
+The largest 4 numbers are: [456, 123, 100, 96]
+
