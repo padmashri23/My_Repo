@@ -1,0 +1,36 @@
+#The Lazy Caterer's Problem
+Example 1:
+
+Input: N = 5
+Output: 16
+Explanation:  16 pieces can be formed by
+making 5 cuts.
+Example 2:
+
+Input: N = 3
+Output: 7
+Explanation: 7 pieces can be formed by 
+making 3 cuts.
+
+FORMULA=(n*(n+1))//2+1
+PROGRAM:
+class Solution:
+	def maximum_Cuts(self, n):
+	    return (n*(n+1))//2+1
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#program to find the four smallest integers from a given list of numbers using the heap queue algorithm.
+
+import heapq as hq
+nums_list=[7,8,9,5,6,9,5,6,2,3,5,4,1,8,5,95,2,8,95,85,75]
+print("Original list")
+print(nums_list)
+smallest_num=hq.nsmallest(4,nums_list)
+print(smallest_num)
+
+OUTPUT:
+Original list
+[7, 8, 9, 5, 6, 9, 5, 6, 2, 3, 5, 4, 1, 8, 5, 95, 2, 8, 95, 85, 75]
+[1, 2, 2, 3]
+
