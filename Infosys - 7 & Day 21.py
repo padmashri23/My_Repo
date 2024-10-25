@@ -1,3 +1,4 @@
+#CODE:
 #Party of Couples
 class Solution:
     def findSingle(self,n,arr):
