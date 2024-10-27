@@ -13,3 +13,18 @@ class Solution:
 #Your Output: 
 518
 
+#Python: Push three items into the heap and print the items from the heap
+import heapq
+heap=[]
+heapq.heappush(heap,('V',1))
+heapq.heappush(heap,('V',2))
+heapq.heappush(heap,('V',3))
+for a in heap:
+    print(a)
+
+#OUTPUT:
+('V', 1)
+('V', 2)
+('V', 3)
+
+
