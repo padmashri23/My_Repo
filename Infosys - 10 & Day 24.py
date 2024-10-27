@@ -1,0 +1,15 @@
+#Middle of Three:
+
+class Solution:
+    def middle(self,A,B,C):
+        if(A>B and A<C) or (A>C and A<B):
+            return A
+        elif(B>A and B<C) or (B>C and B<A):
+            return B
+        else:
+            return C
+#For Input: 
+978 518 300
+#Your Output: 
+518
+
