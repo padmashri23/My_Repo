@@ -1,3 +1,4 @@
+CODE:
 #Middle of Three:
 
 class Solution:
