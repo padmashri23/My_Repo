@@ -72,6 +72,22 @@ else:
     print("no!")
 ```
 ![image](https://github.com/user-attachments/assets/135ecd89-2f1a-47a1-b1bb-b29f898e8fa2)
+### 8.Program to accept percentage from the user and dispaly the grade
+```python
+marks=int(input("Enter the marks:"))
+if marks>90 and marks<=100:
+    print("Grade A")
+if marks>80 and marks<=90:
+    print("Grade B")
+if marks>=60 and marks<=80:
+    print("Grade C")
+if marks<60 and marks>=0:
+    print("Grade D")
+if marks<0 or marks>100:
+    print("Enter marks between 0 to 100")
+```
+![image](https://github.com/user-attachments/assets/d75f8b0a-eb80-421d-8428-6aa273c7d2cf)
+
 
 
 
