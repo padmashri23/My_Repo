@@ -87,6 +87,29 @@ if marks<0 or marks>100:
     print("Enter marks between 0 to 100")
 ```
 ![image](https://github.com/user-attachments/assets/d75f8b0a-eb80-421d-8428-6aa273c7d2cf)
+### 9.program to calculate the tax of the bike by the give cost price
+```python
+tax=0
+price=int(input("Enter the Cost price(in Rs):"))
+if price>100000:
+    tax=15/100*price
+    print("The tax is:"+str(round(tax,2)))
+if price>50000 and price<=100000:
+    tax=10/100*price
+    print("The tax is:"+str(round(tax,2)))
+if price<=50000 and price>0:
+    tax=5/100*price
+    print("The tax is:"+str(round(tax,2)))
+if price<=0:
+    print("Invalid amount")
+```
+![image](https://github.com/user-attachments/assets/92efeffd-1492-4144-b934-0668732e3cf3)
+
+
+
+
+
+
 
 
 
