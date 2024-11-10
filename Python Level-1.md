@@ -25,6 +25,22 @@ else:
 
 ![image](https://github.com/user-attachments/assets/e0d67334-ecce-4567-b889-37219737b191)
 
+### 4.program to check whether a number is divisible by 7 or not
+```python
+num=int(input())
+if num%7==0:
+    print("Yes!divisible")
+else:
+    print("not divisible")
+```
+
+![image](https://github.com/user-attachments/assets/8cb50135-d491-4521-a7ee-a37932f57868)
+
+
+
+
+
+
 
 
 
