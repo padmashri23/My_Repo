@@ -46,6 +46,16 @@ else:
 ```
 ![image](https://github.com/user-attachments/assets/92e67691-0b0c-454b-8a6b-e44d35b9b602)
 
+### 6.program to dispaly last digit of a number
+```python
+num=int(input("enter the number:"))
+ld=num%10
+print("The last digit is:"+str(ld))
+```
+![image](https://github.com/user-attachments/assets/de42e677-ccfd-4789-8ab0-2b0b7a34aa0a)
+
+
+
 
 
 
