@@ -4,4 +4,21 @@ print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp ab
 ```
 ![image](https://github.com/user-attachments/assets/1fe91ac7-1dc1-490c-8a13-bde3e7bc0559)
 
+### 2.python program to find eligible for voting or not
+```python
+age=int(input("Enter your age:"))
+if age>=18:
+    print("You are eligible!")
+else:
+    print("You are not eligible!")
+```
+![image](https://github.com/user-attachments/assets/069a959b-d787-4c98-80cc-7a422b758166)
+
+    
+
+
+
+
+
+
 
