@@ -36,6 +36,21 @@ else:
 
 ![image](https://github.com/user-attachments/assets/8cb50135-d491-4521-a7ee-a37932f57868)
 
+### 5.program to display "Hello" if num is multiple by 5 or else "Bye":
+```python
+num=int(input("Enter the number:"))
+if num%5==0:
+    print("Hello")
+else:
+    print("Bye")
+```
+![image](https://github.com/user-attachments/assets/92e67691-0b0c-454b-8a6b-e44d35b9b602)
+
+
+
+
+
+
 
 
 
