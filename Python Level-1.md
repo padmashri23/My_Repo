@@ -14,6 +14,21 @@ else:
 ```
 ![image](https://github.com/user-attachments/assets/069a959b-d787-4c98-80cc-7a422b758166)
 
+### 3.program to check whether a number entered by user is even or odd:
+```python
+num=int(input("Enter the number:"))
+if num%2==0:
+    print("even")
+else:
+    print("odd")
+```
+
+![image](https://github.com/user-attachments/assets/e0d67334-ecce-4567-b889-37219737b191)
+
+
+
+
+
     
 
 
