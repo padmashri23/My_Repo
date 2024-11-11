@@ -104,6 +104,89 @@ if price<=0:
     print("Invalid amount")
 ```
 ![image](https://github.com/user-attachments/assets/92efeffd-1492-4144-b934-0668732e3cf3)
+### 10.Program to check whether an year is leap year or not:
+```python
+year=int(input('Enter the year:'))
+if year%100==0:
+    if year%400==0:
+        print("It is a leap year!")
+    else:
+        print("It is not a leap year!")
+else:
+    if year%4==0:
+        print("It is a leap year!")
+    else:
+        print("It is not a leap year!")
+```
+![image](https://github.com/user-attachments/assets/1e3bffe2-49be-478c-bf37-2277ff46ce61)
+### 11.Program to accept a number from 1 t0 7 and display the name of the day
+```python
+num=int(input("Please enter a number between 1 to 7:"))
+if num==1:
+    print("Sunday")
+elif num==2:
+    print("Monday")
+elif num==3:
+    print("Tuesday")
+elif num==4:
+    print("Wednesday")
+elif num==5:
+    print("Thursday")
+elif num==6:
+    print("Friday")
+elif num==7:
+    print("Saturday")
+else:
+    print("Invalid number!")
+```
+![image](https://github.com/user-attachments/assets/5b73092d-1511-4ac8-b786-46d0c910eddc)
+### 12.Program to accept a number from 1 to 12 to display the month and number of days in the month:
+```python
+num=int(input("Enter the number:"))
+if num==2:
+    year=int(input("Enter the year:"))
+    if year%100==0:
+        if year%400==0:
+            print("February,29 Days")
+        else:
+            print("February,28 Days")
+    else:
+        if year%4==0:
+            print("February,29 Days")
+        else:
+            print("February,28 Days")
+elif num==1:
+    print("January,31 Days")
+elif num==3:
+    print("March,31 Days")
+elif num==4:
+    print("April,30 Days")
+elif num==5:
+    print("May,31 Days")
+elif num==6:
+    print("June,30 Days")
+elif num==7:
+    print("July,31 Days")
+elif num==8:
+    print("August,31 Days")
+elif num==9:
+    print("September,30 Days")
+elif num==10:
+    print("October,31 Days")
+elif num==11:
+    print("November,30 Days")
+elif num==12:
+    print("December,31 Days")
+else:
+    print("Invalid number!")
+```
+![image](https://github.com/user-attachments/assets/7890b646-e49f-4f1d-b56c-99101006baf3)
+
+
+
+
+
+
 
 
 
