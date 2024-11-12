@@ -181,6 +181,21 @@ else:
     print("Invalid number!")
 ```
 ![image](https://github.com/user-attachments/assets/7890b646-e49f-4f1d-b56c-99101006baf3)
+### 13.Accept city from the user and display monument of that city:
+```python
+city=input("Enter the city name:")
+if city.lower()=="delhi":
+    print("Red Fort")
+elif city.lower()=="agra":
+    print("Taj Mahal")
+elif city.lower()=="jaipur":
+    print("Jal Mahal")
+else:
+    print("Enter the valid city name")
+```
+![image](https://github.com/user-attachments/assets/406a33eb-e470-43fc-8bf7-fdf8f9f5bf52)
+
+
 
 
 
