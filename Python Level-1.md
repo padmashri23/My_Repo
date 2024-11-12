@@ -212,6 +212,20 @@ else:
     print("Not a senior citizen!")
 ```
 ![image](https://github.com/user-attachments/assets/782866bb-3dd6-413b-9020-5425e0c95f35)
+### 16.Program to check whether a number is 3 digit or not and its middle number:
+```python
+num=input("Enter the number:")
+l=len(num)
+if l!=3:
+    print("The entered number is not a three digit number!")
+else:
+    print("It is a three digit number!")
+    print("The middle number is:"+str(int(num)%100//10))
+```
+![image](https://github.com/user-attachments/assets/daff9c98-8b25-44d1-85d3-f3724adc43c2)
+
+
+
 
 
 
