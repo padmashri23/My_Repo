@@ -223,6 +223,18 @@ else:
     print("The middle number is:"+str(int(num)%100//10))
 ```
 ![image](https://github.com/user-attachments/assets/daff9c98-8b25-44d1-85d3-f3724adc43c2)
+### 17.Program to find the lowest number out of two number:
+```python
+num1=int(input("Enter the number:"))
+num2=int(input("Enter the number:"))
+if num1>num2:
+    print("Lowest number:"+str(num2))
+else:
+    print("Lowest number:"+str(num1))
+```
+![Uploading image.png…]()
+
+
 
 
 
