@@ -234,7 +234,7 @@ else:
 ```
 ![image](https://github.com/user-attachments/assets/ae2543df-d4f5-4936-90a0-e4389cce74e5)
 
-### 17.Program to find the largest number out of two number:
+### 18.Program to find the largest number out of two number:
 ```python
 num1=int(input("Enter the number:"))
 num2=int(input("Enter the number:"))
@@ -244,6 +244,16 @@ else:
     print("Greatest number:"+str(num2))
 ```
 ![image](https://github.com/user-attachments/assets/eba9d39e-716a-441c-8fba-0809437491a5)
+### 19.Program to check positive or negative number:
+```python
+num=int(input())
+if num>0:
+    print("Positive number")
+else:
+    print("negative number")
+```
+![image](https://github.com/user-attachments/assets/468bada3-f232-4219-bea7-32b9d795c238)
+
 
 
 
