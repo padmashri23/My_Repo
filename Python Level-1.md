@@ -194,6 +194,17 @@ else:
     print("Enter the valid city name")
 ```
 ![image](https://github.com/user-attachments/assets/406a33eb-e470-43fc-8bf7-fdf8f9f5bf52)
+### 14.print "Hello" if the given number is greater than 5 and lesser than or equal to 10:
+```python
+num=int(input("Enter the number:"))
+if num>5 and num<=10:
+    print("Hello")
+else:
+    print("Bye")
+```
+![image](https://github.com/user-attachments/assets/5e877285-6d64-41c1-a16a-f9ba2101cc83)
+
+
 
 
 
