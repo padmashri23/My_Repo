@@ -232,7 +232,8 @@ if num1>num2:
 else:
     print("Lowest number:"+str(num1))
 ```
-![image](https://github.com/user-attachments/assets/48b4c303-19fb-4640-a08b-c1ec1c2f5bc3)
+![image](https://github.com/user-attachments/assets/ae2543df-d4f5-4936-90a0-e4389cce74e5)
+
 ### 17.Program to find the largest number out of two number:
 ```python
 num1=int(input("Enter the number:"))
@@ -242,7 +243,7 @@ if num1>num2:
 else:
     print("Greatest number:"+str(num2))
 ```
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/eba9d39e-716a-441c-8fba-0809437491a5)
 
 
 
