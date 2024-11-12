@@ -203,6 +203,16 @@ else:
     print("Bye")
 ```
 ![image](https://github.com/user-attachments/assets/5e877285-6d64-41c1-a16a-f9ba2101cc83)
+### 15.program to check whether a person is senior citizen or not-senior citizen:>=60:
+```python
+age=int(input('Enter the age:'))
+if age>=60:
+    print("Senior citizen!")
+else:
+    print("Not a senior citizen!")
+```
+![image](https://github.com/user-attachments/assets/782866bb-3dd6-413b-9020-5425e0c95f35)
+
 
 
 
