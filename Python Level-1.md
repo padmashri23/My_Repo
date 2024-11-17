@@ -253,6 +253,20 @@ else:
     print("negative number")
 ```
 ![image](https://github.com/user-attachments/assets/468bada3-f232-4219-bea7-32b9d795c238)
+### 20.Program to chech a number is divisible by 2 or 3 or by both
+```python
+num=int(input("Enter the number:"))
+if num%2==0 and num%3==0:
+    print("The number is divisible by both 2 and 3")
+elif num%2==0:
+    print("The number is divisible by 2")
+elif num%3==0:
+    print("The number is diviisible by 3")
+else:
+    print("The number is not divisible by both 2 and 3")
+```
+![image](https://github.com/user-attachments/assets/26145d4c-bd83-4ab0-bc5d-c025b1f70e4f)
+
 
 
 
