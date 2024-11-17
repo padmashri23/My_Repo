@@ -266,6 +266,29 @@ else:
     print("The number is not divisible by both 2 and 3")
 ```
 ![image](https://github.com/user-attachments/assets/26145d4c-bd83-4ab0-bc5d-c025b1f70e4f)
+### 21.Program to find the largest of 3 numbers:
+```python
+num1=int(input("Enter the number1:"))
+num2=int(input("Enter the number2:"))
+num3=int(input("Enter the number3:"))
+if num1>num2 and num1>num3:
+    print("greatest number is:"+str(num1))
+elif num2>num1 and num2>num3:
+    print("greatest number is:"+str(num2))
+elif num3>num1 and num3>num2:
+    print("greatest number is:"+str(num3))
+elif num1==num2==num3:
+    print("All numbers are eqaul and the greatest number is:"+str(num1))
+elif num1==num2:
+    print("Two numbers are equal and the greatest number is:"+str(num1))
+elif num2==num3:
+    print("Two numbers are equal and the greatest number is:"+str(num2))
+elif num1==num3:
+    print("Two numbers are equal and the greatest number is:"+str(num1))
+```
+![image](https://github.com/user-attachments/assets/db0cf3e1-51d4-4a09-8b0e-2ecac3c0b1ab)
+
+
 
 
 
