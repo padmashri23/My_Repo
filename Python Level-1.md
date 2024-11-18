@@ -72,7 +72,7 @@ else:
     print("no!")
 ```
 ![image](https://github.com/user-attachments/assets/135ecd89-2f1a-47a1-b1bb-b29f898e8fa2)
-### 8.Program to accept percentage from the user and dispaly the grade
+### 8.Program to accept percentage from the user and dispaly the grade:
 ```python
 marks=int(input("Enter the marks:"))
 if marks>90 and marks<=100:
