@@ -287,6 +287,30 @@ elif num1==num3:
     print("Two numbers are equal and the greatest number is:"+str(num1))
 ```
 ![image](https://github.com/user-attachments/assets/db0cf3e1-51d4-4a09-8b0e-2ecac3c0b1ab)
+### 22.Grade Calculator:
+```python
+num1=int(input())
+num2=int(input())
+num3=int(input())
+num4=int(input())
+num5=int(input())
+add=num1+num2+num3+num4+num5
+div=int(add/5)
+if div>=91 and div<=100:
+    print((div),"A")
+elif div>=81 and div<=90:
+    print((div),"B")
+elif div>=71 and div<=80:
+    print((div),"C")
+elif div>=61 and div<=70:
+    print((div),"D")
+elif div>=51 and div<=60:
+    print((div),"F")
+```
+![image](https://github.com/user-attachments/assets/9233a7c4-e5b0-4d3b-9a08-8edd5e8222fd)
+
+
+
 
 
 
