@@ -348,6 +348,34 @@ else:
     print("Invalid Operator")
 ```
 ![image](https://github.com/user-attachments/assets/4c24f37c-b433-4135-997d-98f5fe5b85b7)
+### 26.Simple Interest Program:
+```python
+p=int(input())
+n=float(input())
+r=float(input())
+SI=(p*n*r)/100
+print(SI)
+```
+![image](https://github.com/user-attachments/assets/a4213fa8-7fd3-4cb4-932b-3a534edef2f7)
+### 27.Promotion Program:
+```python
+num=int(input())
+if num>0 and num<=4:
+    print("AP I")
+elif num>0 and num<=7:
+    print("AP II")
+elif num>0 and num<=10:
+    print("AP III")
+elif num>0 and num<=13:
+    print("ASP")
+elif num>0 and num<=20:
+    print("Professor")
+elif num>0 and num>20:
+    print("Head")
+```
+![image](https://github.com/user-attachments/assets/d1b8dc5e-8897-4048-abb5-6861ea7324a3)
+
+
 
 
 
