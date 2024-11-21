@@ -388,6 +388,40 @@ else:
     print("Invalid Character")
 ```
 ![image](https://github.com/user-attachments/assets/88eb57a8-e0b8-4562-9e01-253e36d49523)
+### 29.Shapes Area Calculator:
+```python
+import math
+shape=input()
+if shape=="rectangle":
+    l=float(input())
+    w=float(input())
+    area=l*w
+    print(int(area))
+elif shape=="circle":
+    r=float(input())
+    area=math.pi*r*r
+    print(round(area,2))
+elif shape=="triangle":
+    b=float(input())
+    h=float(input())
+    area=1/2*b*h
+    print(int(area))
+elif shape=="parallelogram":
+    b=float(input())
+    h=float(input())
+    area=b*h
+    print(int(area))
+elif shape=="trapezoid":
+    b1=float(input())
+    b2=float(input())
+    h=float(input())
+    area=1/2*(b1+b2)*h
+    print(int(area))
+else:
+    print("Invalid shape")
+```   
+![image](https://github.com/user-attachments/assets/8ca41a11-b467-4794-bdb9-4a40702e9d88)
+
 
 
 
