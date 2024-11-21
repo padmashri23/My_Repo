@@ -315,6 +315,18 @@ mul=km*0.621371
 print(round(mul,3))
 ```
 ![image](https://github.com/user-attachments/assets/9e8c4519-04b5-49ea-a92a-1e125a8355bd)
+### 24.The Perfect Gift Price:
+```python
+num1,num2,num3=map(int,input().split())
+if num1>num2 and num1>num3:
+    print(num1)
+elif num2>num1 and num2>num3:
+    print(num2)
+else:
+    print(num3)
+```
+![image](https://github.com/user-attachments/assets/5109e4c9-c36d-447e-bedb-d967878bfa9c)
+
 
 
 
