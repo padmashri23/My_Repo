@@ -326,6 +326,29 @@ else:
     print(num3)
 ```
 ![image](https://github.com/user-attachments/assets/5109e4c9-c36d-447e-bedb-d967878bfa9c)
+### 25.Python Calculator:
+```python
+num1=int(input())
+num2=int(input())
+char=input()
+if char=="+":
+    print(int(num1+num2))
+elif char=="-":
+    print(int(num1-num2))
+elif char=="*":
+    print(int(num1*num2))
+elif char=="/":
+    if num2!=0:
+        print(int(num1/num2))
+    else:
+        print("the number is not divisible by 0")
+elif char=="%":
+    print(int(num1%num2))
+else:
+    print("Invalid Operator")
+```
+![image](https://github.com/user-attachments/assets/4c24f37c-b433-4135-997d-98f5fe5b85b7)
+
 
 
 
