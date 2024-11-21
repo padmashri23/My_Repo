@@ -374,6 +374,21 @@ elif num>0 and num>20:
     print("Head")
 ```
 ![image](https://github.com/user-attachments/assets/d1b8dc5e-8897-4048-abb5-6861ea7324a3)
+### 28.Temperature Conversion:
+```python
+temp=int(input())
+char=input()
+F=(9/5*temp)+32
+C=(temp-32)*5/9
+if char=="C":
+    print(str(round(F,1))+"F")
+elif char=="F":
+    print(str(round(C,1))+"C")
+else:
+    print("Invalid Character")
+```
+![image](https://github.com/user-attachments/assets/88eb57a8-e0b8-4562-9e01-253e36d49523)
+
 
 
 
