@@ -421,6 +421,22 @@ else:
     print("Invalid shape")
 ```   
 ![image](https://github.com/user-attachments/assets/8ca41a11-b467-4794-bdb9-4a40702e9d88)
+### 30.BMI Calculator:
+```python
+wt=int(input())
+ht=int(input())
+BMI=wt/float(ht*ht)*100
+if BMI<18.5:
+    print("UnderWeight")
+elif BMI>=18.5 and BMI<25:
+    print("Normal")
+elif BMI>=25 and BMI<30:
+    print("OverWeight")
+else:
+    print("Obese")
+```
+![image](https://github.com/user-attachments/assets/bbd64ff6-12df-4a13-9918-7e15337888cb)
+
 
 
 
