@@ -308,6 +308,14 @@ elif div>=51 and div<=60:
     print((div),"F")
 ```
 ![image](https://github.com/user-attachments/assets/9233a7c4-e5b0-4d3b-9a08-8edd5e8222fd)
+### 23.Fitness tracking application:
+```python
+km=int(input())
+mul=km*0.621371
+print(round(mul,3))
+```
+![image](https://github.com/user-attachments/assets/9e8c4519-04b5-49ea-a92a-1e125a8355bd)
+
 
 
 
