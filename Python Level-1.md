@@ -469,6 +469,18 @@ else:
   print("Invalid")
 ```
 ![image](https://github.com/user-attachments/assets/1d3b1f42-1246-4e3c-9dc5-b1107faba1d2)
+### 33.Average Speed Calculation:
+```python
+d=float(input())
+t=float(input())
+s=d/t
+if s==int(s):
+  print(int(s))
+else:
+  print(round(s,2))
+```
+![image](https://github.com/user-attachments/assets/0ff2679a-bba6-4c38-a563-ba157f2ee7a1)
+
 
 
 
