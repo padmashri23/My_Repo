@@ -436,6 +436,19 @@ else:
     print("Obese")
 ```
 ![image](https://github.com/user-attachments/assets/bbd64ff6-12df-4a13-9918-7e15337888cb)
+### 31.Power of 2:
+```python
+import math
+num=int(input())
+if num>0 and (num & (num-1))==0:
+    power=int(math.log2(num))
+    print(power)
+else:
+    print("NOT")
+```
+![Uploading image.png…]()
+
+
 
 
 
