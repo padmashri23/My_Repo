@@ -480,6 +480,32 @@ else:
   print(round(s,2))
 ```
 ![image](https://github.com/user-attachments/assets/0ff2679a-bba6-4c38-a563-ba157f2ee7a1)
+### 34.Direction Finder:
+```python
+deg=int(input())
+if deg==0:
+  print("East")
+elif deg==90:
+  print("North")
+elif deg==180:
+  print("West")
+elif deg==270:
+  print("South")
+elif deg==360:
+  print("East")
+elif deg>0 and deg<90:
+  print("North-East")
+elif deg>90 and deg<180:
+  print("North-West")
+elif deg>180 and deg<270:
+  print("South-West")
+elif deg>270 and deg<360:
+  print("South-East")
+else:
+  print("Invalid Input")
+```
+![image](https://github.com/user-attachments/assets/95e6029a-1196-44c7-9848-82f99d577285)
+
 
 
 
