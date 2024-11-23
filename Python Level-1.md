@@ -446,7 +446,31 @@ if num>0 and (num & (num-1))==0:
 else:
     print("NOT")
 ```
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/69bf5086-1290-4330-9313-c807dd5b636a)
+### 32.Quandrant finder:
+```python
+x=float(input())
+y=float(input())
+if x>0 and y>0:
+  print("Quandrant I")
+elif x<0 and y>0:
+  print("Quandrant II")
+elif x<0 and y<0:
+  print("Quandrant III")
+elif x>0 and y<0:
+  print("Quandrant IV")
+elif x==0 and y==0:
+  print("Origin")
+elif x==0:
+  print("y-axis")
+elif y==0:
+  print("x-axis")
+else:
+  print("Invalid")
+```
+![image](https://github.com/user-attachments/assets/1d3b1f42-1246-4e3c-9dc5-b1107faba1d2)
+
+
 
 
 
