@@ -119,7 +119,7 @@ else:
         print("It is not a leap year!")
 ```
 ![image](https://github.com/user-attachments/assets/1e3bffe2-49be-478c-bf37-2277ff46ce61)
-### 11.Program to accept a number from 1 t0 7 and display the name of the day
+### 11.Program to accept a number from 1 t0 7 and display the name of the day:
 ```python
 num=int(input("Please enter a number between 1 to 7:"))
 if num==1:
