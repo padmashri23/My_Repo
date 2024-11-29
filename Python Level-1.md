@@ -87,7 +87,7 @@ if marks<0 or marks>100:
     print("Enter marks between 0 to 100")
 ```
 ![image](https://github.com/user-attachments/assets/d75f8b0a-eb80-421d-8428-6aa273c7d2cf)
-### 9.program to calculate the tax of the bike by the give cost price
+### 9.program to calculate the tax of the bike by the give cost price:
 ```python
 tax=0
 price=int(input("Enter the Cost price(in Rs):"))
