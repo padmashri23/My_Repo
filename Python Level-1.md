@@ -53,7 +53,7 @@ ld=num%10
 print("The last digit is:"+str(ld))
 ```
 ![image](https://github.com/user-attachments/assets/de42e677-ccfd-4789-8ab0-2b0b7a34aa0a)
-### 7.program to check whether the last digit of a number is divisible by 3 or not
+### 7.program to check whether the last digit of a number is divisible by 3 or not:
 ```python
 num=int(input("Enter the number:"))
 ld=num%3
