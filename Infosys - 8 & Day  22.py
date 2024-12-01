@@ -1,5 +1,5 @@
 #CODE:
-#program to implement heapsort by pushing all values onto a heap and then popping off the smallest values one at a time.
+#program to implement heapsort by pushing all values onto a heap and then popping off the smallest values one at a time:
 import heapq as hq
 def heapsort(iterable):
     h=[]
