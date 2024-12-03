@@ -1,5 +1,5 @@
 #code:
-#Maximum Possible Sum of Products
+#Maximum Possible Sum of Products:
 class Solution:
 
     def MaxSum(self, A, B, N):
