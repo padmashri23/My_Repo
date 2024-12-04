@@ -1,5 +1,5 @@
 #CODE:
-INFOSYS
+INFOSYS:
 #Fibonnoci series:
 class Solution:
     #Function to return list containing first n fibonacci numbers.
