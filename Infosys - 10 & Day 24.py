@@ -14,7 +14,7 @@ class Solution:
 #Your Output: 
 518
 
-#Python: Push three items into the heap and print the items from the heap
+#Python: Push three items into the heap and print the items from the heap:
 import heapq
 heap=[]
 heapq.heappush(heap,('V',1))
