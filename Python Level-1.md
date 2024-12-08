@@ -524,6 +524,24 @@ else:
         print(ans)
 ```
 ![image](https://github.com/user-attachments/assets/759d69dc-fd2e-489d-ae24-088fbf81a6ff)
+### 36.Stone,Paper,Scissors:
+```python
+player1=input()
+player2=input()
+num1=int(input())
+num2=int(input())
+if (num1>2 or num2>2) or (num1<0 or num2<0):
+    print("Invalid!")
+elif num1==num2:
+    print("Draw")
+elif num1>num2:
+    print(player1)
+else:
+    print(player2)
+```
+![image](https://github.com/user-attachments/assets/cce75bfa-536d-4bde-ac54-0d0fdd94f64f)
+
+
 
 
 
