@@ -550,6 +550,18 @@ d=num-1
 print("Decrement =",d)
 ```
 ![image](https://github.com/user-attachments/assets/45f302b9-555c-46fe-923c-08d407f6efdf)
+### 39.Bank Problem:
+```python
+bal=float(input())
+wit=float(input())
+if wit>bal:
+    print("Insufficient balance")
+else:
+    res=bal-wit
+    print(int(res))
+```
+![image](https://github.com/user-attachments/assets/2ea6f4a4-2444-4a4c-8906-cffade4b6cb7)
+
 
 
 
