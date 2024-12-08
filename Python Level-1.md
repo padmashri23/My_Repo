@@ -505,8 +505,25 @@ else:
   print("Invalid Input")
 ```
 ![image](https://github.com/user-attachments/assets/95e6029a-1196-44c7-9848-82f99d577285)
-
-
+### 35.The Product Calculator:
+```python
+num1=float(input())
+num2=float(input())
+prod=num1*num2
+if prod%2==0:
+    ans=prod/2
+    if ans==int(ans):
+        print(int(ans))
+    else:
+        print(ans)
+else:
+    ans=prod/3
+    if ans==int(ans):
+        print(int(ans))
+    else:
+        print(ans)
+```
+![image](https://github.com/user-attachments/assets/759d69dc-fd2e-489d-ae24-088fbf81a6ff)
 
 
 
