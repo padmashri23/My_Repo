@@ -540,6 +540,18 @@ else:
     print(player2)
 ```
 ![image](https://github.com/user-attachments/assets/cce75bfa-536d-4bde-ac54-0d0fdd94f64f)
+### 37.Increment/Decrement:
+```python
+num=int(input())
+print("Original =",num)
+i=num+1
+print("Increment =",i)
+d=num-1
+print("Decrement =",d)
+```
+![image](https://github.com/user-attachments/assets/45f302b9-555c-46fe-923c-08d407f6efdf)
+
+
 
 
 
