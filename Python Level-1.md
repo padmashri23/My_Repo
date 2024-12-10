@@ -575,6 +575,24 @@ else:
     print(num1)
 ```
 ![image](https://github.com/user-attachments/assets/627bfeab-55ca-46d3-a702-7603a041f62a)
+### 41.Triangle Type Determination:
+```python
+ang1=float(input())
+ang2=float(input())
+ang3=float(input())
+sum=ang1+ang2+ang3
+if sum>180:
+    print("Invalid")
+else:
+    if ang1<90 and ang2<90 and ang3<90:
+        print("Acute")
+    elif ang1==90 or ang2==90 or ang3==90:
+        print("Right")
+    else:
+        print("Obtuse")
+```
+![image](https://github.com/user-attachments/assets/e958950e-0d32-4ccb-b443-08964cfcc179)
+
 
 
 
