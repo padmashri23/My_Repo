@@ -592,6 +592,15 @@ else:
         print("Obtuse")
 ```
 ![image](https://github.com/user-attachments/assets/e958950e-0d32-4ccb-b443-08964cfcc179)
+### 42.Half Price:
+```python
+num=float(input())
+div=num/2
+print(int(div))
+```
+![image](https://github.com/user-attachments/assets/59b3b438-c5dd-4923-b889-1a01aff7cbd2)
+
+
 
 
 
