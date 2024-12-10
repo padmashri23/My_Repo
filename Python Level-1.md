@@ -625,6 +625,24 @@ else:
     print("Loss",format(lossper,".2f"))
 ```
 ![image](https://github.com/user-attachments/assets/8a7e113b-4f88-4e02-b1c9-6e145b3a80bb)
+### 45.Ticket price Calculation:
+```python
+age=int(input())
+if age>=0 and age<=5:
+    print("Free")
+elif age>=6 and age<=12:
+    print("5.0")
+elif age>=13 and age<=18:
+    print("8.0")
+elif age>=19 and age<=60:
+    print("10.0")
+elif age<0:
+    print("Invalid age")
+else:
+    print("7.0")
+```
+![image](https://github.com/user-attachments/assets/2396c833-a0ae-431c-b5a2-414fa1953002)
+
 
 
 
