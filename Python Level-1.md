@@ -561,6 +561,21 @@ else:
     print(int(res))
 ```
 ![image](https://github.com/user-attachments/assets/2ea6f4a4-2444-4a4c-8906-cffade4b6cb7)
+### 40.Swap without third variables:
+```python
+num1=float(input())
+num2=float(input())
+if num2==int(num2):
+    print(int(num2))
+else:
+    print(num2)
+if num1==int(num1):
+    print(int(num1))
+else:
+    print(num1)
+```
+![image](https://github.com/user-attachments/assets/627bfeab-55ca-46d3-a702-7603a041f62a)
+
 
 
 
