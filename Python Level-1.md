@@ -609,6 +609,23 @@ print(format(dprice,".2f"))
 print(format(amtdis,".2f"))
 ```
 ![image](https://github.com/user-attachments/assets/2acd69f0-87a6-460b-9222-7f86b3f07cb6)
+### 44.gain or loss:
+```python
+purchaseprc=float(input())
+sellingprc=float(input())
+if sellingprc>purchaseprc:
+    gain=sellingprc-purchaseprc
+    gainper=(gain/purchaseprc)*100
+    print("Gain",format(gainper,".2f"))
+elif sellingprc==purchaseprc:
+    print("No gain or loss")
+else:
+    loss=purchaseprc-sellingprc
+    lossper=(loss*100)/purchaseprc
+    print("Loss",format(lossper,".2f"))
+```
+![image](https://github.com/user-attachments/assets/8a7e113b-4f88-4e02-b1c9-6e145b3a80bb)
+
 
 
 
