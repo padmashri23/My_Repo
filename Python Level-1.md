@@ -642,6 +642,19 @@ else:
     print("7.0")
 ```
 ![image](https://github.com/user-attachments/assets/2396c833-a0ae-431c-b5a2-414fa1953002)
+### 46.Final Velocity Calculator:
+```python
+iv=float(input())
+t=float(input())
+a=float(input())
+fv=iv+(a*t)
+if fv==int(fv):
+    print(int(fv))
+else:
+    print(format(fv,".1f"))
+```
+![image](https://github.com/user-attachments/assets/4c07bb55-3f61-4e0f-8bae-f31aa649f33e)
+
 
 
 
