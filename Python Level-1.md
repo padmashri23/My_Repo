@@ -654,6 +654,24 @@ else:
     print(format(fv,".1f"))
 ```
 ![image](https://github.com/user-attachments/assets/4c07bb55-3f61-4e0f-8bae-f31aa649f33e)
+### 47.Card Validity:
+```python
+age=int(input())
+card=input()
+if age>=18:
+    if card=="yes":
+        print("Access Granted: Full Access")
+    if card=="no":
+        print("Access Denied: Missing Access Card")
+elif age==16 or age==17:
+    if card=="yes" or card=="no":
+        print("Access Granted: Restricted Access")
+else:
+    if card=="yes" or card=="no":
+        print("Access Denied: Age below 16")
+```
+![image](https://github.com/user-attachments/assets/9c3a5e83-3b47-470b-ad8a-56074176ebb9)
+
 
 
 
