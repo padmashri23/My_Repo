@@ -671,6 +671,24 @@ else:
         print("Access Denied: Age below 16")
 ```
 ![image](https://github.com/user-attachments/assets/9c3a5e83-3b47-470b-ad8a-56074176ebb9)
+### 48.Negative Calculator:
+```python
+num1=float(input())
+num2=float(input())
+result=-(num1+num2)
+if result>0:
+    if result==int(result):
+        print("-"+str(int(result)))
+    else:
+        print("-"+str(format(result,".2f")))
+else:
+    if result==int(result):
+        print(int(result))
+    else:
+        print(format(result,".2f"))
+```
+![image](https://github.com/user-attachments/assets/469bf732-6082-4930-ac62-32dafa5285e8)
+
 
 
 
