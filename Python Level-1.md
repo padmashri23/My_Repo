@@ -599,7 +599,7 @@ div=num/2
 print(int(div))
 ```
 ![image](https://github.com/user-attachments/assets/59b3b438-c5dd-4923-b889-1a01aff7cbd2)
-### 43.Discount percentage;
+### 43.Discount percentage:
 ```python
 oprice=float(input())
 dper=float(input())
