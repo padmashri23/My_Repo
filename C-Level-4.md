@@ -1,5 +1,5 @@
 <h1><u><b>STRINGS</b></u></h1>
-
+ 
 ### 1.Count the length of the string:
 
 ```C
