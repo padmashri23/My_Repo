@@ -36,6 +36,28 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/63607ebd-9edc-4f3d-b6dc-d6f95ce85cfe)
+### 3.Program to concatenate two strings using strcat() function
+```C
+#include<stdio.h>
+#include<string.h>
+#define MAX_SIZE 1000
+int main()
+{
+    char str1[MAX_SIZE],str2[MAX_SIZE];
+    printf("Enter the first string:");
+    fgets(str1,MAX_SIZE,stdin);
+    str1[strcspn(str1,"\n")]='\0';
+    printf("Enter the second string:");
+    fgets(str2,MAX_SIZE,stdin);
+    str2[strcspn(str2,"\n")]='\0';
+    strcat(str1," ");
+    strcat(str1,str2);
+    printf("The concatenated string is:%s",str1);
+    return 0;
+}
+```
+![image](https://github.com/user-attachments/assets/2a0c0fb1-d35f-44b1-8214-26f73bfafec6)
+
 
 
 
