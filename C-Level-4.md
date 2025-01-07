@@ -89,6 +89,38 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/b2781726-4913-4c38-9ae4-d2b6ac1753e1)
+### 5.C program to convert lowercase to uppercase and uppercase to lowercase:
+```C
+#include<stdio.h>
+#include<ctype.h>
+#define MAX_SIZE 1000
+int main()
+{
+    char str[MAX_SIZE];
+    int i;
+    printf("Enter the string:");
+    fgets(str,MAX_SIZE,stdin);
+    printf("Toggeled Case:");
+    for(i=0;str[i]!='\0';i++)
+    {
+        if(isupper(str[i]))
+        {
+            putchar(tolower(str[i]));
+        }
+        else if(islower(str[i]))
+        {
+            putchar(toupper(str[i]));
+        }
+        else
+        {
+            putchar(str[i]);
+        }
+    }
+    return 0;
+}
+```
+![image](https://github.com/user-attachments/assets/64fc9455-577b-4cdd-baf1-db352f503dad)
+
 
 
 
