@@ -120,6 +120,43 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/64fc9455-577b-4cdd-baf1-db352f503dad)
+### 6.Coutn the number of alphabets,digits and special characters in a string:
+```C
+#include<stdio.h>
+#include<string.h>
+#define MAX_SIZE 1000
+int main()
+{
+    char str[MAX_SIZE];
+    int alphabets,digits,others,i;
+    alphabets=digits=others=i=0;
+    printf("Enter the string:");
+    fgets(str,MAX_SIZE,stdin);
+    str[strcspn(str,"\n")]='\0';
+    while(str[i]!='\0')
+    {
+        if((str[i]>='a' && str[i]<='z')||(str[i]>='A' && str[i]<='Z'))
+        {
+            alphabets++;
+        }
+        else if (str[i]>='0' && str[i]<='9')
+        {
+            digits++;
+        }
+        else
+        {
+            others++;
+        }
+        i++;
+    }
+    printf("Alphabets=%d\n",alphabets);
+    printf("Digits=%d\n",digits);
+    printf("Special Characters=%d\n",others);
+    return 0;
+}
+```
+![image](https://github.com/user-attachments/assets/5a4c3a3c-9278-4138-aaa1-fe2210d7e8df)
+
 
 
 
