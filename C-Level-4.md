@@ -120,7 +120,7 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/64fc9455-577b-4cdd-baf1-db352f503dad)
-### 6.Count the number of alphabets,digits and special characters in a string:
+### 6.C program to Count the number of alphabets,digits and special characters in a string:
 ```C
 #include<stdio.h>
 #include<string.h>
