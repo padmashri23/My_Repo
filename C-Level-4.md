@@ -185,6 +185,36 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/2b32d406-2ca4-4c23-9768-ea0e30953831)
+### 8.C program to convert Uppercase string to lowercase:
+```C
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+#define MAX_SIZE 1000
+int main()
+{
+    int i;
+    char str[MAX_SIZE];
+    printf("Enter the string:");
+    fgets(str,MAX_SIZE,stdin);
+    str[strcspn(str,"\n")]='\0';
+    printf("The converted string is:");
+    for(i=0;str[i]!='\0';i++)
+    {
+        if(isupper(str[i]))
+        {
+            putchar(tolower(str[i]));
+        }
+        else
+        {
+            putchar(str[i]);
+        }
+    }
+    return 0;
+}
+```
+![image](https://github.com/user-attachments/assets/633cf936-dd47-492b-81d8-269bce26f2d8)
+
 
 
 
