@@ -36,7 +36,7 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/63607ebd-9edc-4f3d-b6dc-d6f95ce85cfe)
-### 3.Program to concatenate two strings using strcat() function
+### 3.Program to concatenate two strings using strcat() function:
 ```C
 #include<stdio.h>
 #include<string.h>
