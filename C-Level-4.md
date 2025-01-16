@@ -214,6 +214,42 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/633cf936-dd47-492b-81d8-269bce26f2d8)
+### 9.C program to count total number of vowels and consonants in a string:
+```C
+#include<stdio.h>
+#include<string.h>
+#define MAX_SIZE 1000
+int main()
+{
+    int i,len,vowel,consonant;
+    char str[MAX_SIZE];
+    printf("Enter the string:");
+    fgets(str,MAX_SIZE,stdin);
+    str[strcspn(str,"\n")]='\0';
+    vowel=0;
+    consonant=0;
+    len=strlen(str);
+    for(i=0;i<len;i++)
+    {
+        if((str[i]>='a' && str[i]<='z') || (str[i]>='A' && str[i]<='Z'))
+        {
+            if (str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' || str[i]=='u' || str[i]=='A' || str[i]=='E' || str[i]=='I' ||str[i]=='O' ||str[i]=='U' )
+            {
+                vowel++;
+            }
+            else
+            {
+                consonant++;
+            }
+        }
+    }
+    printf("Vowels:%d\n",vowel);
+    printf("Consonant:%d",consonant);
+    return 0;
+}
+```
+![image](https://github.com/user-attachments/assets/86ac76e2-830a-4243-b2da-2fc90e729e48)
+
 
 
 
