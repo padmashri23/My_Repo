@@ -297,6 +297,45 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/50aeb894-2af1-4624-a74c-985b51fbe99b)
+### 12.Program to check palindrome string:
+```C
+#include<stdio.h>
+#include<string.h>
+#define MAX_SIZE 1000
+int main()
+{
+    int i,start,end,ispalindrome=1;
+    char str[MAX_SIZE];
+    printf("Enter the string:");
+    fgets(str,MAX_SIZE,stdin);
+    str[strcspn(str,"\n")]='\0';
+    start=0;
+    end=strlen(str)-1;
+    while(start<end)
+    {
+        if(str[start]!=str[end])
+        {
+            ispalindrome=0;
+            break;
+        }
+        start++;
+        end--;
+    }
+    if(ispalindrome)
+    {
+        printf("Palindrome");
+    }
+    else
+    {
+        printf("Not palindrome");
+    }
+    return 0;
+}
+```
+![image](https://github.com/user-attachments/assets/72eb41c4-c4fa-4070-ae65-91891e7012fd)
+![image](https://github.com/user-attachments/assets/e0854514-216b-4aee-9256-9ad3d3dc3ede)
+
+
 
 
 
