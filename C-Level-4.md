@@ -273,6 +273,31 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/cd84be9a-3033-4b4f-894d-836af897ffa5)
+### 11.//Program to find reverse of a string
+```C
+#include<stdio.h>
+#include<string.h>
+#define MAX_SIZE 1000
+int main()
+{
+    int i,len;
+    char temp,str[MAX_SIZE];
+    printf("Enter the string:");
+    fgets(str,MAX_SIZE,stdin);
+    str[strcspn(str,"\n")]='\0';
+    len=strlen(str);
+    for(i=0;i<len/2;i++)
+    {
+        temp=str[i];
+        str[i]=str[len-i-1];
+        str[len-i-1]=temp;
+    }
+    printf("The reversed string is:%s",str);
+    return 0;
+}
+```
+![image](https://github.com/user-attachments/assets/50aeb894-2af1-4624-a74c-985b51fbe99b)
+
 
 
 
