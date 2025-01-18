@@ -249,6 +249,30 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/86ac76e2-830a-4243-b2da-2fc90e729e48)
+### 10.//C Program to count number of words in string
+```C
+#include<stdio.h>
+#include<string.h>
+#define MAX_SIZE 1000
+int main()
+{
+    int i,w=0;
+    char str[MAX_SIZE];
+    printf("Enter the string:");
+    fgets(str,MAX_SIZE,stdin);
+    str[strcspn(str,"\n")]='\0';
+    for(i=0;str[i]!='\0';i++)
+    {
+        if((str[i]!=' ' && str[i]!='\n')&&(str[i+1]==' '||str[i+1]=='\n' || str[i+1]=='\0'))
+        {
+            w++;
+        }
+    }
+    printf("The WordCount is:%d",w);
+    return 0;
+}
+```
+![image](https://github.com/user-attachments/assets/cd84be9a-3033-4b4f-894d-836af897ffa5)
 
 
 
