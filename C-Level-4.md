@@ -156,8 +156,8 @@ int main()
 }
 ```
 ![image](https://github.com/user-attachments/assets/5a4c3a3c-9278-4138-aaa1-fe2210d7e8df)
-### 7.C program to convert lowercase string to uppercase
-```
+### 7.C program to convert lowercase string to uppercase:
+```C
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
