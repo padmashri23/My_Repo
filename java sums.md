@@ -15,3 +15,5 @@ class Main {
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/98de8989-3b73-4380-86f3-50249f553112)
+
