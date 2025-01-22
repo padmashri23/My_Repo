@@ -19,7 +19,7 @@ class Solution {
     }
 }
 ```
-Another approach for the same sum:
+### Another approach for the same sum:
 ```java
 class Solution {
     public static int chocolates(int n, int[] arr) {
@@ -36,3 +36,24 @@ class Solution {
     }
 }
 ```
+### Move All Zeroes to End:
+```java
+class Solution {
+    void pushZerosToEnd(int[] arr) {
+        int l=0,r=0,n=arr.length;
+        while(r<n)
+        {
+            if(arr[r]!=0)
+            {
+                int temp=arr[l];
+                arr[l]=arr[r];
+                arr[r]=temp;
+                l++;
+            }
+            r++;
+        }
+    }
+}
+```
+![WhatsApp Image 2025-01-22 at 23 48 06_6c82f1cc](https://github.com/user-attachments/assets/dc1fd36e-a099-4749-9730-f54eb8583a40)
+
