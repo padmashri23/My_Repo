@@ -1,4 +1,4 @@
-### 1.A. Is your horseshoe on the other hoof?
+### 1.A. Is your horseshoe on the other hoof?:
 ```java
 import java.util.*;
 public class Main
