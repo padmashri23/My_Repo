@@ -56,4 +56,20 @@ class Solution {
 }
 ```
 ![WhatsApp Image 2025-01-22 at 23 48 06_6c82f1cc](https://github.com/user-attachments/assets/dc1fd36e-a099-4749-9730-f54eb8583a40)
+### 3.Sum of Natural Numbers:
+```java
+class Solution {
+    public static int seriesSum(int n) {
+        int sum=0;
+         for(int i=0;i<=n;i++)
+        {
+            sum=sum+i;
+        }
+        return sum;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/2b0aeca9-55f4-4e5a-b172-342920d18dba)
+
+
 
