@@ -21,4 +21,27 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/931d69d0-4a36-49ba-ae84-c62e4d29ac45)
+### 2.Boy or Girl:
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner=new Scanner(System.in);
+	    String username =scanner.nextLine();
+	    Set<Character> distchar = new HashSet<>();
+	    for(char c:username.toCharArray())
+	    {
+	        distchar.add(c);
+	    }
+	    if(distchar.size()%2==0)
+	    System.out.println("CHAT WITH HER!");
+	    else
+		System.out.println("IGNORE HIM!");
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/87eb6ffc-24a1-4cdf-a4d5-636e9e16be42)
+
+
 
