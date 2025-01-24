@@ -70,6 +70,24 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/2b0aeca9-55f4-4e5a-b172-342920d18dba)
+### 4.Value equals to index value:
+```java
+class Solution {
+    public List<Integer> valueEqualToIndex(List<Integer> nums) {
+        List<Integer> result =new ArrayList<>();
+        for(int i=0;i<nums.size();i++)
+        {
+            if(nums.get(i)==i+1)
+            {
+              result.add(i+1);  
+            }
+        }
+        return result;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/eb9a673a-f7a2-4ca7-912f-a4e5b6695d35)
+
 
 
 
