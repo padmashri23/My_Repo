@@ -42,6 +42,32 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/87eb6ffc-24a1-4cdf-a4d5-636e9e16be42)
+### 3.A-Team
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    int n=scanner.nextInt();
+	    int count=0;
+	    for(int i=0;i<n;i++)
+	    {
+	        int petya=scanner.nextInt();
+	        int vasya=scanner.nextInt();
+	        int tonya=scanner.nextInt();
+	        if(petya+vasya+tonya>=2)
+	        {
+	            count++;
+	        }
+	    }
+		System.out.println(count);
+		scanner.close();
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/19030ae8-2940-41be-91a6-2368713eba29)
+
 
 
 
