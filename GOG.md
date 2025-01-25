@@ -87,6 +87,24 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/eb9a673a-f7a2-4ca7-912f-a4e5b6695d35)
+### 5.Alternates in an Array:
+```java
+class Solution {
+    public ArrayList<Integer> getAlternates(int arr[]) {
+       ArrayList<Integer> result = new ArrayList<>();
+       for(int i=0;i<arr.length;i++)
+       {
+         if(i%2==0)
+         {
+             result.add(arr[i]);
+         }
+       }
+       return result;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/fbd770fc-f319-4c5d-8bec-e62866394678)
+
 
 
 
