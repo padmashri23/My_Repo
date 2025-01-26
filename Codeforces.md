@@ -67,6 +67,33 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/19030ae8-2940-41be-91a6-2368713eba29)
+### 4.A-Perfect Permutations:
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    int n= scanner.nextInt();
+	    if(n%2!=0)
+	    {
+	     System.out.println(-1);   
+	    }
+	    else
+	    {
+	        for(int i=0;i<n;i+=2)
+	        {
+	          System.out.print((i+2)+" "+(i+1)+" ");      
+	        }
+	    }
+	    scanner.close();
+		
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/c2f60469-7169-4fd9-a03a-12b0082bac49)
+
+
 
 
 
