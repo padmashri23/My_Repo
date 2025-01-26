@@ -149,6 +149,21 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/12ba4f2f-9756-4f74-be9a-e3b8694bcff3)
+### 8.Sum of Array:
+```java
+class Solution {
+    int arraySum(int arr[]) {
+        int sum=0;
+        for(int num:arr)
+        {
+            sum=sum+num;
+        }
+        return sum;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/1c287c94-0ec6-4a90-9790-24b6d7ac5768)
+
 
 
 
