@@ -163,7 +163,7 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/1c287c94-0ec6-4a90-9790-24b6d7ac5768)
-### Print Elemnts of Array;
+### 8.Print Elements of Array:
 ```java
 class Solution {
 
@@ -175,7 +175,32 @@ class Solution {
     }
 }
 ```
-(image.png)
+![image](https://github.com/user-attachments/assets/38d1e503-042d-486c-8e99-5387d49acc0b)
+### 9.Find Index:
+```java
+class Solution {
+    static int[] findIndex(int arr[], int key) {
+     int startIndex=-1;
+     int endIndex=-1;
+     for(int i=0;i<arr.length;i++)
+     {
+         if(arr[i]==key)
+         {
+             if(startIndex==-1)
+             {
+                 startIndex=i;
+             }
+             endIndex=i;
+         }
+     }
+     return new int[]{startIndex,endIndex};
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/b1131d05-d7f6-4461-915e-0c9facebfe76)
+![image](https://github.com/user-attachments/assets/efda9260-8c4a-4080-91fa-2cce359c4016)
+
+
 
 
 
