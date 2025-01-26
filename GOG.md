@@ -104,6 +104,35 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/fbd770fc-f319-4c5d-8bec-e62866394678)
+### 6.Palindromic Array
+```java
+class Solution {
+    public static boolean isPalinArray(int[] arr) {
+        for(int num:arr)
+        {
+            if(!isPalindrome(num))
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+    private static boolean isPalindrome(int num)
+    {
+        int original=num;
+        int reverse =0;
+        while(num>0)
+        {
+        int digit=num%10;
+        reverse=reverse*10+digit;
+        num=num/10;
+        }
+        return original==reverse;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/6fbe8350-bc22-4c7f-8478-2ca2b5fd1347)
+
 
 
 
