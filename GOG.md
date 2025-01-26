@@ -132,6 +132,24 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/6fbe8350-bc22-4c7f-8478-2ca2b5fd1347)
+### 7.Count of Smaller elements:
+```java
+class Solution {
+    public int countOfElements(int x, List<Integer> arr) {
+        int count=0;
+        for(int num:arr)
+        {
+           if(num<=x)
+           {
+               count++;
+           }
+        }
+        return count;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/12ba4f2f-9756-4f74-be9a-e3b8694bcff3)
+
 
 
 
