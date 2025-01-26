@@ -163,8 +163,19 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/1c287c94-0ec6-4a90-9790-24b6d7ac5768)
+### Print Elemnts of Array;
+```java
+class Solution {
 
-working in 
+    void printArray(int arr[]) {
+      for(int i=0;i<arr.length;i++)
+      {
+          System.out.print(" "+arr[i]);
+      }
+    }
+}
+```
+![alt text](image.png)
 
 
 
