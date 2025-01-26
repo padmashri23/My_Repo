@@ -199,6 +199,27 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/b1131d05-d7f6-4461-915e-0c9facebfe76)
 ![image](https://github.com/user-attachments/assets/efda9260-8c4a-4080-91fa-2cce359c4016)
+### 10.Swap kth element:
+```java
+class Solution {
+    public void swapKth(List<Integer> arr, int k) {
+        int n=arr.size();
+        if(k>n || k<1)
+        {
+            return;
+        }
+        int firstIndex=k-1;
+        int lastIndex=n-k;
+        
+        int temp=arr.get(firstIndex);
+        arr.set(firstIndex,arr.get(lastIndex));
+        arr.set(lastIndex,temp);
+        
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/39254e72-7b40-41aa-b1d7-875c9f8d46bd)
+
 
 
 
