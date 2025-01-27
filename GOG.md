@@ -235,6 +235,9 @@ class Solution {
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/2081106e-eeac-49ba-a16d-5b90948072dc)
+![image](https://github.com/user-attachments/assets/3bf14ac0-47e4-42e7-8982-6d4fce46c06d)
+
 
 
 
