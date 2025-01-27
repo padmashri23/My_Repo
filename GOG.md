@@ -219,6 +219,23 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/39254e72-7b40-41aa-b1d7-875c9f8d46bd)
+### 11.Display longest name
+```java
+class Solution {
+    public String longest(List<String> arr) {
+       String longest=arr.get(0);
+       for(String name:arr)
+       {
+           if(name.length()>longest.length())
+           {
+               longest=name;
+           }
+       }
+       return longest;
+    }
+}
+```
+
 
 
 
