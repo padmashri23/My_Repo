@@ -39,5 +39,45 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/dfbe1d80-2d58-4465-8c1e-508ee21e6271)
+### 3.Recursion:
+```java
+
+public class Main
+{
+    	public static void printN(int n) {
+    	    if(n==0)
+    	    {
+    	        return;
+    	    }
+    	    printN(n-1);
+    	    	System.out.println(n);
+    	}
+	public static void main(String[] args) {
+	printN(5);
+	}
+}
+```
+
+```java
+public class Main
+{
+    	public static void printN(int n) {
+    	    if(n==0)
+    	    {
+    	        return;
+    	    }
+    	    	System.out.println(n);
+    	    	printN(n-1);
+    	}
+	public static void main(String[] args) {
+	printN(5);
+	}
+}
+
+```
+![image](https://github.com/user-attachments/assets/0ccf8b81-3321-43e0-83c0-1e059e99464b)
+![image](https://github.com/user-attachments/assets/957fe867-8c52-4e0f-b60c-6c3b4a8d22b7)
+
+
 
 
