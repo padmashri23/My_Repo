@@ -92,6 +92,32 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/c2f60469-7169-4fd9-a03a-12b0082bac49)
+### 5.(A) System of Equations:
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n=scanner.nextInt();
+        int m=scanner.nextInt();
+        int count=0;
+        for(int a=0;a<=1000;a++)
+        {
+            for(int b=0;b<=1000;b++)
+            {
+                if(a*a+b==n && a+b*b==m)
+                {
+                    count++;
+                }
+            }
+        }
+        System.out.println(count);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/bb766af5-4bad-4c39-9757-e53a137e901b)
+
 
 
 
