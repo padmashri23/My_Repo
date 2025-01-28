@@ -256,6 +256,31 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/bd1c32e8-0b1c-4473-a622-766ad15cac3e)
+### 13.Smaller and Larger:
+```java
+class Solution {
+    int[] getMoreAndLess(int[] arr, int target) {
+       int lessorequal=0;
+       int greaterorequal=0;
+       for(int num:arr)
+       {
+           if(num>=target)
+           {
+               greaterorequal++;
+           }
+           if(num<=target)
+           {
+               lessorequal++;
+           }
+       }
+        return new int[]{lessorequal,greaterorequal};
+       
+    }
+   
+}
+```
+![image](https://github.com/user-attachments/assets/53c7f2d8-c71d-4f95-8551-f55affba67aa)
+
 
 
 
