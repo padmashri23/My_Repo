@@ -117,7 +117,7 @@ public class Main {
 }
 ```
 ![image](https://github.com/user-attachments/assets/bb766af5-4bad-4c39-9757-e53a137e901b)
-### 6.
+### 6.A.LLPS
 ```java
 import java.util.*;
 public class Main
@@ -147,6 +147,7 @@ public class Main
 	}
 }
 ```
+
 
 
 
