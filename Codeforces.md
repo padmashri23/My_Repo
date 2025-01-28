@@ -117,6 +117,36 @@ public class Main {
 }
 ```
 ![image](https://github.com/user-attachments/assets/bb766af5-4bad-4c39-9757-e53a137e901b)
+### 6.
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    String s =scanner.next();
+	    String result ="";
+	    for(char ch='z';ch>='a';ch--)
+	    {
+	        StringBuilder sb = new StringBuilder();
+	        for(int i=0;i<s.length();i++)
+	        {
+	            if(s.charAt(i)==ch)
+	            {
+	                sb.append(ch);
+	            }
+	        }
+	        if(sb.length()>0)
+	        {
+	            result = sb.toString();
+	            break;
+	        }
+	    }
+		System.out.println(result);
+		scanner.close();
+	}
+}
+```
 
 
 
