@@ -148,6 +148,8 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/1fd1b911-d523-4de3-9757-16a7f418650b)
+![image](https://github.com/user-attachments/assets/e0f6ebb6-8a58-485f-b5a7-19702ccf8b4c)
+
 
 
 
