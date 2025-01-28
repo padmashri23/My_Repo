@@ -237,6 +237,26 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/2081106e-eeac-49ba-a16d-5b90948072dc)
 ![image](https://github.com/user-attachments/assets/3bf14ac0-47e4-42e7-8982-6d4fce46c06d)
+### 12.Palindrome Array:
+```java
+class Solution {
+    public static boolean isPerfect(int[] arr) {
+        int n=arr.length;
+        for(int i=0;i<n/2;i++)
+        {
+            if(arr[i]!=arr[n-i-1])
+          //we should use the not equal to first this code it will return true as soon as it finds the first matching pair of elements, even if the array is not a palindrome. This logic does not 
+           fully check whether the array is a palindrome.
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/bd1c32e8-0b1c-4473-a622-766ad15cac3e)
+
 
 
 
