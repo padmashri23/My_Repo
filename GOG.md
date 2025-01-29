@@ -316,6 +316,36 @@ class Solution {
 ![image](https://github.com/user-attachments/assets/92b9452b-fcaf-4df7-854c-6a2a3cbf48b4)
 ![image](https://github.com/user-attachments/assets/e8e55f8a-393a-41e7-9c8a-5866ac75abcf)
 ![image](https://github.com/user-attachments/assets/3e535a6d-f9e5-4017-b7dd-2f9370c2eb81)
+### 16.Fascinating Number:
+```java
+class Solution {
+    boolean fascinating(long n) {
+        if(n<100) 
+        {
+            return false;
+        }
+        long n1=n*2;
+        long n2=n*3;
+        String concatenated = n+""+n1+n2;
+        if(concatenated.length()!=9)
+        {
+            return false;
+        }
+        HashSet<Character> digits = new HashSet<>();
+        for(char c:concatenated.toCharArray())
+        {
+            if(c=='0'||digits.contains(c))
+            {
+                return false;   
+            }
+            digits.add(c);
+        }
+        return digits.size()==9;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/903e0827-f5b8-43ea-a88b-5845e62961d1)
+
 
 
 
