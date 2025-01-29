@@ -280,6 +280,18 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/53c7f2d8-c71d-4f95-8551-f55affba67aa)
+### 14.Atleast Two greater elements:
+```java
+class Solution {
+    public long[] findElements(long arr[]) {
+        if(arr.length<=2) return new long[0];
+        Arrays.sort(arr);
+        return Arrays.copyOfRange(arr,0,arr.length-2);
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/8212226f-78a0-4842-ac82-0fc29fd36f37)
+
 
 
 
