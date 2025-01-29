@@ -291,6 +291,33 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/8212226f-78a0-4842-ac82-0fc29fd36f37)
+### 15.Find the left over element:
+```java
+class Solution {
+    public static int leftElement(int[] arr) {
+        Arrays.sort(arr); 
+
+        int left = 0, right = arr.length - 1; 
+        boolean removeMax = true;
+
+        while (left < right) { 
+            if (removeMax) {
+                right--; 
+            } else {
+                left++;  
+            }
+            removeMax = !removeMax;
+        }
+        
+        return arr[left];
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/92b9452b-fcaf-4df7-854c-6a2a3cbf48b4)
+
+
+
+
 
 
 
