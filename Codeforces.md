@@ -149,6 +149,37 @@ public class Main
 ```
 ![image](https://github.com/user-attachments/assets/1fd1b911-d523-4de3-9757-16a7f418650b)
 ![image](https://github.com/user-attachments/assets/e0f6ebb6-8a58-485f-b5a7-19702ccf8b4c)
+### 7. (A) Series of Crimes
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    int n=scanner.nextInt();
+	    int m=scanner.nextInt();
+	    scanner.nextLine();
+	    int x=0;
+	    int y=0;
+	    for(int i=0;i<n;i++)
+	    {
+	        String row = scanner.nextLine();
+	        for(int j=0;j<m;j++)
+	        {
+	            if(row.charAt(j)=='*')
+	            {
+	                x^=i+1;
+	                y^=j+1;
+	            }
+	        }
+	    }
+		System.out.println(x+" "+y);
+		scanner.close();
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/2f7d2f93-8b85-4d85-9210-0071efd63289)
+
 
 
 
