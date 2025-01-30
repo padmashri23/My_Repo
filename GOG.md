@@ -345,6 +345,28 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/903e0827-f5b8-43ea-a88b-5845e62961d1)
+### 17.Average of Prefix:
+```java
+class Solution {
+    
+    public ArrayList<Integer> prefixAvg(ArrayList<Integer> arr) {
+       ArrayList<Integer> result = new ArrayList<>();
+       if(arr==null || arr.size()==0)
+       {
+           return result;
+       }//this is the optimal to check whether the array list is null or empty---If the list is empty, there are no elements to compute averages, so return an empty list.
+       long sum=0;
+       for(int i=0;i<arr.size();i++)
+       {
+           sum=sum+arr.get(i);
+           result.add((int)(sum/(i+1)));
+       }
+       return result;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/0659224c-9385-4954-92f4-105ad8e16293)
+
 
 
 
