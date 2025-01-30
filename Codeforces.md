@@ -179,6 +179,36 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/2f7d2f93-8b85-4d85-9210-0071efd63289)
+### 10. (A) Next Round:
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    int n=scanner.nextInt();
+	    int k=scanner.nextInt();
+	    int[] scores = new int[n];
+	    for(int i=0;i<n;i++)
+	    {
+	        scores[i]=scanner.nextInt();
+	    }
+	    int threshhold = scores[k-1];
+	    int count=0;
+	    for(int score:scores)
+	    {
+	        if(score>=threshhold && score>0)
+	        {
+	            count++;
+	        }
+	    }
+		System.out.println(count);
+		scanner.close();
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/3ea5704a-abc3-4cef-9bfd-cf81be9a43e2)
+
 
 
 
