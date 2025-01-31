@@ -208,6 +208,48 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/3ea5704a-abc3-4cef-9bfd-cf81be9a43e2)
+### 11.(A) I_love_\%username\%
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    int n=scanner.nextInt();
+	    int[] scores = new int[n];
+	    for(int i=0;i<n;i++)
+	    {
+	        scores[i]=scanner.nextInt();
+	    }
+	    int maxscore=scores[0];
+	    int minscore=scores[0];
+	    int amazingcount=0;
+	    for(int i=0;i<n;i++)
+	    {
+	        if(i==0)
+	        {
+	            continue;
+	        }
+	        if(scores[i]>maxscore)
+	        {
+	            amazingcount++;
+	            maxscore=scores[i];
+	        }
+	        else if(scores[i]<minscore)
+	        {
+	            amazingcount++;
+	            minscore=scores[i];
+	        }
+	            
+	        }
+		System.out.println(amazingcount);
+		scanner.close();
+	
+}
+}
+```
+![image](https://github.com/user-attachments/assets/0ceb45cb-7b50-4cef-83e2-374accfacb30)
+
 
 
 
