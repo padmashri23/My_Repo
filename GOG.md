@@ -366,7 +366,33 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/0659224c-9385-4954-92f4-105ad8e16293)
+### 18.Compete the skills
+```java
 
+class Solution {
+   
+    static ArrayList<Integer> scores(int arr1[], int arr2[]) {
+       int scoreA=0;
+       int scoreB=0;
+       for(int i=0;i<3;i++)
+       {
+           if(arr1[i]>arr2[i])
+           {
+               scoreA++;
+           }
+           else if(arr1[i]<arr2[i])
+           {
+               scoreB++;
+           }
+       }
+       ArrayList<Integer> result = new ArrayList<>();
+       result.add(scoreA);
+       result.add(scoreB);
+       return result;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/5105bf00-df6c-4747-be89-42ee969df6a8)
 
 
 
