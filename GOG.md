@@ -421,7 +421,11 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/b11653ae-9f35-4d2d-9d41-1134315d0061)
+
 [Binary Search](https://www.geeksforgeeks.org/binary-search/)
+
+![image](https://github.com/user-attachments/assets/61c7ef29-0ece-4efe-b9bb-4e415f661459)
+
 
 
 
