@@ -421,6 +421,7 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/b11653ae-9f35-4d2d-9d41-1134315d0061)
+[Binary Search](https://www.geeksforgeeks.org/binary-search/)
 
 
 
