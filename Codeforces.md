@@ -250,6 +250,35 @@ public class Main
 ```
 ![image](https://github.com/user-attachments/assets/0ceb45cb-7b50-4cef-83e2-374accfacb30)
 ![image](https://github.com/user-attachments/assets/305606db-3389-4a8e-88e6-4f41be20b7f8)
+### 12.(A) Soft Drinking:
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    int n=scanner.nextInt();
+	    int k=scanner.nextInt();
+	    int l=scanner.nextInt();
+	    int c=scanner.nextInt();
+	    int d=scanner.nextInt();
+	    int p=scanner.nextInt();
+	    int nl=scanner.nextInt();
+	    int np=scanner.nextInt();
+	    
+	    int softdrinks=k*l;
+	    int drinksoftoasts=softdrinks/nl;
+	    int limes=c*d;
+	    int salt=p/np;
+	    
+	    int min=Math.min(drinksoftoasts,Math.min(limes,salt));
+	    int res=min/n;
+		System.out.println(res);
+		scanner.close();
+	}
+}
+```
+
 
 
 
