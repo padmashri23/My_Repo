@@ -279,6 +279,51 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/eebcf1e3-1139-4632-b3ae-94dd174b433c)
+### 12.(A) Remove Smallest:
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int t= scanner.nextInt();
+		while(t-->0)
+		{
+			int n = scanner.nextInt();
+			int[] arr = new int[n];
+
+			for(int i=0; i<n; i++)
+			{
+				arr[i]=scanner.nextInt();
+			}
+			Arrays.sort(arr);
+
+			boolean possible= true;
+			for(int i=1; i<n; i++)
+			{
+				if(arr[i]-arr[i-1]>1)
+				{
+					possible = false;
+					break;
+				}
+
+			}
+			if(possible==true)
+			{
+				System.out.println("YES");
+			}
+			else {
+				System.out.println("NO");
+			}
+
+		}
+
+		scanner.close();
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/a830e5fa-22a3-4309-b42f-36efac478b33)
+
 
 
 
