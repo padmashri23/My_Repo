@@ -250,7 +250,7 @@ public class Main
 ```
 ![image](https://github.com/user-attachments/assets/0ceb45cb-7b50-4cef-83e2-374accfacb30)
 ![image](https://github.com/user-attachments/assets/305606db-3389-4a8e-88e6-4f41be20b7f8)
-### 12.(A) Soft Drinking:
+### 13.(A) Soft Drinking:
 ```java
 import java.util.*;
 public class Main
@@ -324,6 +324,33 @@ public class Main
 ```
 ![image](https://github.com/user-attachments/assets/a830e5fa-22a3-4309-b42f-36efac478b33)
 ![image](https://github.com/user-attachments/assets/8b130985-f8a3-46d8-8fad-4e1add273d74)
+### 14. (A) Insomnia cure
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    int k=scanner.nextInt();
+	    int l= scanner.nextInt();
+	    int m=scanner.nextInt();
+	    int n=scanner.nextInt();
+	    int d= scanner.nextInt();
+	    int count=0;
+	    for(int i=1;i<=d;i++)
+	    {
+	        if(i%k==0||i%l==0||i%m==0||i%n==0)
+	        {
+	            count++;
+	        }
+	    }
+		System.out.println(count);
+		scanner.close();
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/9de4de02-aba0-4751-9e95-8d4de2e17991)
+
 
 
 
