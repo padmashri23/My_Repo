@@ -426,6 +426,23 @@ class Solution {
 
 ![image](https://github.com/user-attachments/assets/61c7ef29-0ece-4efe-b9bb-4e415f661459)
 
+### 20.Check Equal Arrays:
+```java
+class Solution {
+    public static boolean checkEqual(int[] a, int[] b) {
+      if(a.length!=b.length)
+      {
+          return false;
+      }
+      Arrays.sort(a);
+      Arrays.sort(b);
+      return Arrays.equals(a,b);
+    }
+}//use hashmap for the optimized O(n) complexity
+```
+![image](https://github.com/user-attachments/assets/ddcb822e-a901-4def-b8ce-fa8db91ef5aa)
+
+
 
 
 
