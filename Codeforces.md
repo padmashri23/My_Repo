@@ -350,6 +350,47 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/9de4de02-aba0-4751-9e95-8d4de2e17991)
+### 15.(A) Lucky Ticket
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    int n=scanner.nextInt();
+	    String ticket=scanner.next();
+	    int sumfirsthalf=0;
+	    int sumsecondhalf=0;
+	    for(int i=0;i<n;i++)
+	    {
+	        char ch = ticket.charAt(i);
+	        if(ch!='4'&& ch!='7')
+	        {
+	         System.out.println("NO");   
+	         return;
+	        }
+	        if(i<n/2)
+	        {
+	          sumfirsthalf=sumfirsthalf+ch-'0';  
+	        }
+	        else
+	        {
+	            sumsecondhalf=sumsecondhalf+ch-'0';
+	        }
+	    }
+	    if(sumfirsthalf==sumsecondhalf)
+	    {
+		System.out.println("YES");
+	    }
+		else
+		{
+		 System.out.println("NO");   
+		}
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/743cc49c-bd72-484b-84a4-ff418d682bb9)
+
 
 
 
