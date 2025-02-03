@@ -442,6 +442,30 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/ddcb822e-a901-4def-b8ce-fa8db91ef5aa)
 
+### 30.Reverse array in groups:
+```java
+class Solution {
+    void reverseInGroups(ArrayList<Long> arr, int k) {
+    int n =arr.size();
+    for(int i=0;i<n;i=i+k)
+    {
+        int left=i;
+        int right=Math.min(i+k-1,n-1);
+    while(left<right)
+    {
+        long temp = arr.get(left);
+        arr.set(left, arr.get(right));
+        arr.set(right, temp);
+        left++;
+        right--;
+    }
+    } 
+}
+}
+```
+![image](https://github.com/user-attachments/assets/8511d2b5-0e9b-4e82-bc75-6ed7c61914f5)
+
+
 
 
 
