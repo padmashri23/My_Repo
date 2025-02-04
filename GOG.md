@@ -484,6 +484,28 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/a4fcef36-715b-4837-b11c-596e0d433441)
 
+### 23.Array Subset:
+```java
+class Solution {
+    public boolean isSubset(int a[], int b[]) {
+       Arrays.sort(a);
+       Arrays.sort(b);
+       int i=0;
+       int j=0;
+       while(i<a.length && j<b.length)
+       {
+           if(a[i]==b[j])
+           {
+               j++;
+           }
+               i++;
+       }
+       return j==b.length;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/0862af15-39e7-4577-b401-09370378e6c7)
+
 
 
 
