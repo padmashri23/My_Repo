@@ -505,6 +505,8 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/0862af15-39e7-4577-b401-09370378e6c7)
+![image](https://github.com/user-attachments/assets/44487b4a-3969-47b4-b39e-af27f2078499)
+### BETTER USE HASHMAP
 
 
 
