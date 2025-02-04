@@ -442,7 +442,7 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/ddcb822e-a901-4def-b8ce-fa8db91ef5aa)
 
-### 30.Reverse array in groups:
+### 21.Reverse array in groups:
 ```java
 class Solution {
     void reverseInGroups(ArrayList<Long> arr, int k) {
@@ -465,6 +465,25 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/8511d2b5-0e9b-4e82-bc75-6ed7c61914f5)
 ![github img](https://github.com/user-attachments/assets/85c34053-d9ee-4d77-83e8-ef04231590ba)
+
+### 22.Array Search:
+```java
+class Solution {
+    static int search(int arr[], int x) {
+      int n=arr.length;
+      for(int i=0;i<n;i++)
+      {
+          if(arr[i]==x)
+          {
+              return i;
+          }
+      }
+      return -1;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/a4fcef36-715b-4837-b11c-596e0d433441)
+
 
 
 
