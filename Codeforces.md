@@ -390,7 +390,7 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/743cc49c-bd72-484b-84a4-ff418d682bb9)
-16.(A) Arrival of the General
+### 16.(A) Arrival of the General:
 ```java
 import java.util.Scanner;
  
