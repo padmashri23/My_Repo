@@ -426,6 +426,39 @@ public class Main {
 }
 ```
 ![image](https://github.com/user-attachments/assets/e96ab0af-c998-4609-9472-7a89edec8451)
+### 17.A. Amusing Joke
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        String guest = scanner.next();
+        String host = scanner.next();
+        String pile = scanner.next();
+        if(canFormNames(guest,host,pile))
+        {
+            System.out.println("YES");
+        }
+        else
+        {
+            System.out.println("NO");
+        }
+        scanner.close();
+    }
+    private static boolean canFormNames(String guest,String host,String pile)
+    {
+        String combined= guest+host;
+        char[] combinedArr = combined.toCharArray(); 
+        char[] pileArr=pile.toCharArray();
+        Arrays.sort(combinedArr);
+        Arrays.sort(pileArr);
+        return Arrays.equals(combinedArr,pileArr);
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/f474ab4e-3f47-4212-894e-1de502503729)
+
 
 
 
