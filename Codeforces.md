@@ -400,7 +400,7 @@ public class Main {
  
         int n = sc.nextInt();
         int maxvalue = 0;
-        int minvalue = 1000;
+        int minvalue = 1000;//The given constraint value is 100
         int maxindex = 0;
         int minindex = 0;
  
@@ -418,7 +418,7 @@ public class Main {
         }
  
         if (maxindex > minindex) {
-            System.out.println((maxindex - 1) + (n - minindex) - 1);
+            System.out.println((maxindex - 1) + (n - minindex) - 1);//Taking the second occurance of the element or the occurance of the element which is nearest to the last position. 
         } else {
             System.out.println((maxindex - 1) + (n - minindex));
         }
