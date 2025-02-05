@@ -390,6 +390,43 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/743cc49c-bd72-484b-84a4-ff418d682bb9)
+16.(A) Arrival of the General
+```java
+import java.util.Scanner;
+ 
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+ 
+        int n = sc.nextInt();
+        int maxvalue = 0;
+        int minvalue = 1000;
+        int maxindex = 0;
+        int minindex = 0;
+ 
+        for (int i = 0; i < n; i++) {
+            int x = sc.nextInt();
+ 
+            if (x > maxvalue) {
+                maxindex = i;
+                maxvalue = x;
+            }
+            if (x <= minvalue) {
+                minindex = i;
+                minvalue = x;
+            }
+        }
+ 
+        if (maxindex > minindex) {
+            System.out.println((maxindex - 1) + (n - minindex) - 1);
+        } else {
+            System.out.println((maxindex - 1) + (n - minindex));
+        }
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/e96ab0af-c998-4609-9472-7a89edec8451)
+
 
 
 
