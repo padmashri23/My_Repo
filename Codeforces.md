@@ -1,7 +1,7 @@
 ### 1.A. Is your horseshoe on the other hoof?:
 ```java
 import java.util.*;
-public class Main
+public class Main 
 {
 	public static void main(String[] args) {
 	    Scanner scanner=new Scanner(System.in);
