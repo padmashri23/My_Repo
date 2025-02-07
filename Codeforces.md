@@ -487,7 +487,8 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/a6cb2cc4-c474-4c71-88bf-d24afb30df78)
 ![image](https://github.com/user-attachments/assets/cb731571-55ba-4526-bee7-f3b4e1bd29e1)
 
-for 
+for     
+
 ![image](https://github.com/user-attachments/assets/f2412b86-8131-4c6d-9461-d27973f37bbc)
 ![image](https://github.com/user-attachments/assets/c5fd6dbd-23de-4126-9f3f-0796ac8ae229)
 
