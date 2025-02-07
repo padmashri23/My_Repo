@@ -458,6 +458,40 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/f474ab4e-3f47-4212-894e-1de502503729)
+### 18.(A) Presents:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n=scanner.nextInt();
+        int[] p = new int[n];
+        int[] result = new int[n];
+        for(int i=0;i<n;i++)
+        {
+            p[i]=scanner.nextInt();
+        }
+        for(int i=0;i<n;i++)
+        {
+            result[p[i]-1]=i+1;
+        }
+        for(int i=0;i<n;i++)
+        {
+            System.out.print(result[i]+" ");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/a6cb2cc4-c474-4c71-88bf-d24afb30df78)
+![image](https://github.com/user-attachments/assets/cb731571-55ba-4526-bee7-f3b4e1bd29e1)
+
+for 
+![image](https://github.com/user-attachments/assets/f2412b86-8131-4c6d-9461-d27973f37bbc)
+![image](https://github.com/user-attachments/assets/c5fd6dbd-23de-4126-9f3f-0796ac8ae229)
+
+
 
 
 
