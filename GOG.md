@@ -508,6 +508,26 @@ class Solution {
 ![image](https://github.com/user-attachments/assets/44487b4a-3969-47b4-b39e-af27f2078499)
 ### BETTER USE HASHMAP
 
+### 24.Rotate Array by One:
+```java
+class Solution {
+    public void rotate(int[] arr) {
+      if(arr==null||arr.length<=1)
+      {
+          return;
+      }
+      int lastelement=arr[arr.length-1];
+      for(int i=arr.length-1;i>0;i--)
+      {
+          arr[i]=arr[i-1];
+      }
+      arr[0]=lastelement;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/1458c2f2-40b5-404e-9129-f86d4dd99820)
+
+
 
 
 
