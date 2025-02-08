@@ -492,6 +492,44 @@ for
 ![image](https://github.com/user-attachments/assets/f2412b86-8131-4c6d-9461-d27973f37bbc)
 ![image](https://github.com/user-attachments/assets/c5fd6dbd-23de-4126-9f3f-0796ac8ae229)
 
+### 19.(A) Epic Game
+```java
+import java.util.*;
+public class Main{
+    public static int gcd(int a,int b)
+    {
+        return (b==0) ? a : gcd(b,a%b);//recursive euclidean algorithm
+    }
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b= scanner.nextInt();
+        int n=scanner.nextInt();
+        while(true)
+        {
+            n-=gcd(a,n);
+            if(n<0)//if simon cannot take enough stones
+            {
+                System.out.println("1");//Antisimon will win
+                break;
+            }
+            n-=gcd(b,n);
+            if(n<0)//if antisimon cannot take enough stones
+            {
+                System.out.println("0");//Simon will win
+                break;
+            }
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/f6628669-5e2f-4275-a773-3add02f5e3f0)
+![image](https://github.com/user-attachments/assets/ac0325b7-8e82-41dc-9ce8-28f10e91ef4a)
+
+
+
 
 
 
