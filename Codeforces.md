@@ -555,6 +555,39 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/13160828-fcac-4794-9621-b2eb8b5f71e3)
+### 22.(A) Nearly Lucky Number:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        String n = scanner.next();
+        int luckycount=0;
+        for(char c:n.toCharArray())
+        {
+            if(c=='4'||c=='7')
+            {
+                luckycount++;
+            }
+        }
+        String countdigit=String.valueOf(luckycount);
+        boolean isnearlyLucky=true;
+        for(char c:countdigit.toCharArray())
+        {
+            if(c!='4'&&c!='7')
+            {
+                isnearlyLucky=false;
+            }
+        }
+        System.out.println(isnearlyLucky?"YES":"NO");
+        scanner.close();
+        
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/24cd615f-76a8-4fe0-bd30-5a11a70f7e19)
+
 
 
 
