@@ -526,6 +526,33 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/1458c2f2-40b5-404e-9129-f86d4dd99820)
+### 25.Min and Max in ArraY:
+```java
+class Solution {
+    public Pair<Integer, Integer> getMinMax(int[] arr) {
+       if(arr== null || arr.length==0)
+       {
+           return new Pair<>(-1,-1);
+       }
+       int min=arr[0];
+       int max=arr[0];
+       for(int num:arr)
+       {
+           if(num<min)
+           {
+               min=num;
+           }
+           if(num>max)
+           {
+               max=num;
+           }
+       }
+       return new Pair<>(min,max);
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/36b7e7e5-6738-4b73-84b0-9be3a1053ce4)
+
 
 
 
