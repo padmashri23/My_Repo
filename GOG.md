@@ -552,6 +552,24 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/36b7e7e5-6738-4b73-84b0-9be3a1053ce4)
+### 26.Min and Max in Array:
+```java
+class Solution {
+    public static int largest(int[] arr) {
+    int max=arr[0];
+    for(int num:arr)
+    {
+        if(num>max)
+        {
+            max = num;
+        }
+    }
+    return max;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/e613b52c-70fe-4c44-af0a-02eb3a2b73c1)
+ 
 
 
 
