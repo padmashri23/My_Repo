@@ -590,6 +590,29 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/b36fc52b-8df7-489b-8d1e-981e7122bc15)
+### 28.At Least K Occurrences:
+```java
+class Solution {
+    public int firstElementKTime(int[] arr, int k) {
+    int n=arr.length;
+    int[] freq = new int[1000001];
+    for(int i=0;i<n;i++)
+    {
+        freq[arr[i]]++;
+        if(freq[arr[i]]>=k)
+        {
+            return arr[i];
+        }
+    }
+    return -1;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/96cc4650-868a-4cf7-a540-1f34ef8b67dd)
+![image](https://github.com/user-attachments/assets/d87eda41-be28-4529-a32c-ca3889863883)
+![image](https://github.com/user-attachments/assets/f174f243-6549-429b-adf8-9ac8960d3991)
+
+
 
  
 
