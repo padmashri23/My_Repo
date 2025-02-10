@@ -569,6 +569,28 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/e613b52c-70fe-4c44-af0a-02eb3a2b73c1)
+### 27.Immediate Smaller Element:
+```java
+class Solution {
+    public void immediateSmaller(int arr[]) {
+        int n=arr.length;
+        for(int i=0;i<n-1;i++)
+        {
+            if(arr[i]>arr[i+1])
+            {
+                arr[i]=arr[i+1];
+            }
+            else
+            {
+                arr[i]=-1;
+            }
+        }
+        arr[n-1]=-1;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/b36fc52b-8df7-489b-8d1e-981e7122bc15)
+
  
 
 
