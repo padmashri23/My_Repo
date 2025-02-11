@@ -587,6 +587,34 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/24cd615f-76a8-4fe0-bd30-5a11a70f7e19)
+### 23. (A) Blackjack:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        if(n<=10 || n>21) //There is no card with a value of more than 10 in a standard deck of 52 cards.
+        {
+            System.out.println(0);
+        }
+        else if(n==20)
+        {
+            System.out.println(15);
+        }
+        else
+        {
+            System.out.println(4);
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/07998590-5169-4d06-91a8-dd69d4ebcdf3)
+![image](https://github.com/user-attachments/assets/9edb1a56-51a2-48fd-8403-df881e27909a)
+
+
 
 
 
