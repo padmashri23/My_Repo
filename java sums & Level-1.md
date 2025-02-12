@@ -215,7 +215,42 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/fc5e5d39-f5b4-4c94-8c9b-65f2534541ee)
-
+### 4.Weekday Recognition:
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int n= scanner.nextInt();
+		if (n==1){
+		System.out.println("Monday");
+	    System.out.println("Week day");}
+	    else if (n==2){
+	    System.out.println("Tuesday");
+	    System.out.println("Week day");}
+	    else if(n==3){
+	    System.out.println("Wednesday");
+	    System.out.println("Week day");}
+	    else if(n==4){
+	    System.out.println("Thursday");
+	    System.out.println("Week day");}
+	    else if(n==5){
+	    System.out.println("Friday");
+	    System.out.println("Week day");}
+	    else if(n==6){
+	    System.out.println("Saturday");
+	    System.out.println("Holiday");}
+	    else if(n==7){
+	    System.out.println("Sunday");
+	    System.out.println("Holiday");}
+	    else{
+	    System.out.println("Invalid input");}
+	    scanner.close();
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/49a6b22b-a1bf-42b9-b553-ecfa2dfe6fe0)
 
 
 
