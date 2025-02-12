@@ -120,6 +120,51 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/435682fe-b91b-48ca-ad97-a9e0e8e19148)
+### 2.Student Grading Program:
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	int n1 = scanner.nextInt();
+		int n2 = scanner.nextInt();
+			int n3 = scanner.nextInt();
+				int n4 = scanner.nextInt();
+					int n5 = scanner.nextInt();
+	int sum=n1+n2+n3+n4+n5;
+	float per = (float) sum/5;
+	System.out.printf("%.2f\n",per);
+	if(per>=95)
+	{
+	    System.out.println("A");
+	}
+	else if(per>=85)
+	{
+	    System.out.println("B");
+	}
+	else if(per>=75)
+	{
+	    System.out.println("C");
+	}
+	else if(per>=65)
+	{
+	    System.out.println("D");
+	}
+	else if(per>=45)
+	{
+	    System.out.println("E");
+	}
+	else
+	{
+	    System.out.println("F");
+	}
+	scanner.close();
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/892bcecd-f18c-44b5-aa6e-f71b90f10821)
+
 
 
 
