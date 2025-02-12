@@ -164,8 +164,57 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/892bcecd-f18c-44b5-aa6e-f71b90f10821)
-
-
+### 3.Month Days Counter:
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int n= scanner.nextInt();
+		if (n==1){
+		System.out.println("First");
+	    System.out.println("31");}
+	    else if (n==2){
+	    System.out.println("First");
+	    System.out.println("28 or 29");}
+	    else if(n==3){
+	    System.out.println("First");
+	    System.out.println("31");}
+	    else if(n==4){
+	    System.out.println("Second");
+	    System.out.println("30");}
+	    else if(n==5){
+	    System.out.println("Second");
+	    System.out.println("31");}
+	    else if(n==6){
+	    System.out.println("Second");
+	    System.out.println("30");}
+	    else if(n==7){
+	    System.out.println("Third");
+	    System.out.println("31");}
+	    else if(n==8){
+	    System.out.println("Third");
+	    System.out.println("31");}
+	    else if(n==9){
+	    System.out.println("Third");
+	    System.out.println("30");}
+	    else if(n==10){
+	    System.out.println("Fourth");
+	    System.out.println("31");}
+	    else if(n==11){
+	    System.out.println("Fourth");
+	    System.out.println("30");}
+	    else if(n==12){
+	    System.out.println("Fourth");
+	    System.out.println("31");}
+	    else{
+	    System.out.println("Invalid");}
+	    scanner.close();
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/fc5e5d39-f5b4-4c94-8c9b-65f2534541ee)
 
 
 
