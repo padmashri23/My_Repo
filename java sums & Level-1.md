@@ -80,7 +80,7 @@ public class Main
 ![image](https://github.com/user-attachments/assets/0ccf8b81-3321-43e0-83c0-1e059e99464b)
 ![image](https://github.com/user-attachments/assets/957fe867-8c52-4e0f-b60c-6c3b4a8d22b7)
 
-<h6 align="center"><u><strong>JAVA LEVEL - 1 </strong></u></h6>
+<h1 align="center"><u><strong>JAVA LEVEL - 1 </strong></u></h1>
 
 
 
