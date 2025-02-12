@@ -16,6 +16,7 @@ class Main {
 }
 ```
 ![image](https://github.com/user-attachments/assets/98de8989-3b73-4380-86f3-50249f553112)
+
 ###2.Using integers Stack implementation:
 ```java
 import java.util.*;
@@ -39,6 +40,7 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/dfbe1d80-2d58-4465-8c1e-508ee21e6271)
+
 ### 3.Recursion:
 ```java
 
@@ -77,6 +79,10 @@ public class Main
 ```
 ![image](https://github.com/user-attachments/assets/0ccf8b81-3321-43e0-83c0-1e059e99464b)
 ![image](https://github.com/user-attachments/assets/957fe867-8c52-4e0f-b60c-6c3b4a8d22b7)
+
+<h6 style="text-align: center; text-decoration: underline; font-weight: bold;">JAVA LEVEL - 1 </h6>
+
+
 
 
 
