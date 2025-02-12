@@ -613,6 +613,29 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/07998590-5169-4d06-91a8-dd69d4ebcdf3)
 ![image](https://github.com/user-attachments/assets/9edb1a56-51a2-48fd-8403-df881e27909a)
+### 24. (A) Chips:
+```java
+import java.util.Scanner; 
+public class ChipsDistribution {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt(); 
+        int m = scanner.nextInt();       
+        int i = 1;
+        while (m >= i) {
+            m -= i;
+            i = (i % n) + 1;
+        }
+        System.out.println(m);
+        scanner.close();  
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/407fdfd9-7b94-4473-8298-977640aa53df)
+![image](https://github.com/user-attachments/assets/573213e6-7e4c-447d-8341-95686743e0e1)
+![image](https://github.com/user-attachments/assets/8b462246-7561-44d0-8ec9-d8adc0adade8)
+
+
 
 
 
