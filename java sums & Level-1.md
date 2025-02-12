@@ -80,7 +80,47 @@ public class Main
 ![image](https://github.com/user-attachments/assets/0ccf8b81-3321-43e0-83c0-1e059e99464b)
 ![image](https://github.com/user-attachments/assets/957fe867-8c52-4e0f-b60c-6c3b4a8d22b7)
 
+
 <h1 align="center"><u><strong>JAVA LEVEL - 1 </strong></u></h1>
+
+### 1.The Grading Gauntlet:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        char grade = scanner.next().charAt(0);
+        if(grade=='A')
+        {
+            System.out.println("Outstanding");
+        }
+        else if(grade=='B')
+        {
+            System.out.println("EXCELLENT");
+        }
+          else if(grade=='C')
+        {
+            System.out.println("GOOD");
+        }
+          else if(grade=='D')
+        {
+            System.out.println("JUST PASS");
+        }
+          else if(grade=='F')
+        {
+            System.out.println("FAIL");
+        }
+        else
+        {
+            System.out.println("Invalid");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/435682fe-b91b-48ca-ad97-a9e0e8e19148)
+
 
 
 
