@@ -310,4 +310,38 @@ public class Main
 }
 ```
 
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	int op = scanner.nextInt();
+	int n1= scanner.nextInt();
+	int n2 = scanner.nextInt();
+	if(op==1)
+	{
+	    int mod = n1%n2;
+	    System.out .println(mod);
+	}
+	else if(op==2)
+	{
+	    int pow = (int)Math.pow(n1,n2);
+	    System.out .println(pow);
+	}
+	else if(op==3)
+	{
+	    int mul= n1*n2;
+	    System.out .println(mul);
+	}
+	else if(op==4)
+	{
+	    int div=n1/n2;
+	    System.out .println(div);
+	}
+	scanner.close();
+	}
+}
+```
+
 
