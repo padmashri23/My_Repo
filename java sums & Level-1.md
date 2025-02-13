@@ -287,4 +287,27 @@ public class Main
 }
 ```
 
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int n1 = scanner.nextInt();
+		int n2 = scanner.nextInt();
+		int prod = n1*n2;
+		int diff= Math.abs(n1 - n2);
+		if(n1==n2)
+		{
+		    System.out.println(prod);
+		}
+		else
+		{
+		     System.out.println(diff);
+		}
+		scanner.close();
+	}
+}
+```
+
 
