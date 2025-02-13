@@ -253,6 +253,38 @@ public class Main
 ![image](https://github.com/user-attachments/assets/49a6b22b-a1bf-42b9-b553-ecfa2dfe6fe0)
 
 
-
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	int steps = scanner.nextInt();
+	int time = scanner.nextInt();
+	float range = (float) steps/time;
+	if (steps<5000)
+	{
+	    System.out.println("0");
+	    System.out.printf("%.2f\n",range);
+	}
+    else if (steps>=5000 && steps<=9999)
+	{
+	    System.out.println("25");
+	    System.out.printf("%.2f\n",range);
+	}
+    else if (steps>=10000 && steps<=14999)
+	{
+	    System.out.println("50");
+	    System.out.printf("%.2f\n",range);
+	}
+	else if (steps>=15000)
+	{
+	    System.out.println("100");
+	    System.out.printf("%.2f\n",range);
+	}
+	scanner.close();
+	}
+}
+```
 
 
