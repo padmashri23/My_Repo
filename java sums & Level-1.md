@@ -251,8 +251,7 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/49a6b22b-a1bf-42b9-b553-ecfa2dfe6fe0)
-
-
+### 5.Steps Calculator:
 ```java
 import java.util.*;
 public class Main
@@ -286,7 +285,7 @@ public class Main
 	}
 }
 ```
-
+### 6.find absolute difference and satisfy the condition:
 ```java
 import java.util.*;
 public class Main
@@ -309,7 +308,7 @@ public class Main
 	}
 }
 ```
-
+### 7.Math Calculator:
 ```java
 import java.util.*;
 public class Main
