@@ -342,5 +342,36 @@ public class Main
 	}
 }
 ```
+### 8.Hello and Name Printer:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        String fname = scanner.next();
+        String lname = scanner.next();
+        System.out.println("Hello!");
+        System.out.println(fname+" "+lname);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/7a517b6e-116b-4389-9999-016f6ce84926)
+### 9.Sum of to numbers:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int sum = num1+num2;
+        System.out.println(sum);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/ed0cbbbf-491b-4407-8544-7c322421d740)
+
 
 
