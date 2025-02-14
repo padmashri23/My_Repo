@@ -418,6 +418,31 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/7f6d1106-e076-464d-821b-ade6327621f1)
+### 12.Arithmetic operations:
+```java
+//Arithmetic operations
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+          Scanner scanner = new Scanner(System.in);
+          int n1=scanner.nextInt();
+          int n2=scanner.nextInt();
+          int sum=n1+n2;
+          int sub=Math.abs(n1-n2);
+          int mul=n1*n2;
+          int div=n1/n2;
+          int mod=n1%n2;
+          System.out.println(sum);
+          System.out.println(sub);
+          System.out.println(mul); 
+          System.out.println(div);
+          System.out.println(mod);
+          scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/3f34b02a-f1c6-4432-b081-9763ced8e0d0)
+
 
 
 
