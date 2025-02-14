@@ -372,6 +372,21 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/ed0cbbbf-491b-4407-8544-7c322421d740)
+### 10.Divide two number:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int div = num1/num2;
+        System.out.println(div);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/a924ccc2-c754-40cb-bbbd-f9f54ca9db8f)
 
 
 
