@@ -387,6 +387,38 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/a924ccc2-c754-40cb-bbbd-f9f54ca9db8f)
+### 11.find last digit and print the pattern: Still not found the defined question.
+```java
+//find the last digit and the last digit is divided by 2 or 5 print the pattern:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int ld = n%10;
+        if(ld%2==0)
+        {
+            System.out.println("*");
+             System.out.println("**");
+        }
+        else if(ld%5==0)
+        {
+            System.out.println("*");
+             System.out.println("**");
+             System.out.println("***");
+             System.out.println("****");
+        }
+        else
+        {
+            System.out.println("Cannot be divisible by 2 and 5");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/7f6d1106-e076-464d-821b-ade6327621f1)
+
 
 
 
