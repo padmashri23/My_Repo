@@ -442,6 +442,86 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/3f34b02a-f1c6-4432-b081-9763ced8e0d0)
+### 13.leap year or not:
+```java
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int n= scanner.nextInt();
+		if (n==1){
+		System.out.println("First");
+	    System.out.println("31");}
+	    else if (n==2){
+	    int n1=scanner.nextInt();
+        if(n1%100==0)
+        {
+            if(n1%400==0)
+            {
+                System.out.println("It is a leap year!");
+                System.out.println("29 days");
+            }
+            else
+            {
+                System.out.println("It is not a leap year!");
+                System.out.println("28 days");
+            }
+        }
+        else
+        {
+            if(n1%4==0)
+            {
+               System.out.println("It is a leap year!");
+                System.out.println("29 days"); 
+            }
+            else
+            {
+                
+                System.out.println("It is not a leap year!");
+                System.out.println("28 days");
+            }
+        }
+	    System.out.println("First");
+	 }
+	    else if(n==3){
+	    System.out.println("First");
+	    System.out.println("31");}
+	    else if(n==4){
+	    System.out.println("Second");
+	    System.out.println("30");}
+	    else if(n==5){
+	    System.out.println("Second");
+	    System.out.println("31");}
+	    else if(n==6){
+	    System.out.println("Second");
+	    System.out.println("30");}
+	    else if(n==7){
+	    System.out.println("Third");
+	    System.out.println("31");}
+	    else if(n==8){
+	    System.out.println("Third");
+	    System.out.println("31");}
+	    else if(n==9){
+	    System.out.println("Third");
+	    System.out.println("30");}
+	    else if(n==10){
+	    System.out.println("Fourth");
+	    System.out.println("31");}
+	    else if(n==11){
+	    System.out.println("Fourth");
+	    System.out.println("30");}
+	    else if(n==12){
+	    System.out.println("Fourth");
+	    System.out.println("31");}
+	    else{
+	    System.out.println("Invalid");}
+	    scanner.close();
+	}
+}
+```
+![image](https://github.com/user-attachments/assets/c9c4c21f-d607-4b8c-baa3-b6b12c9ae4b9)
+
 
 
 
