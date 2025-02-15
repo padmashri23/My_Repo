@@ -521,7 +521,109 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/c9c4c21f-d607-4b8c-baa3-b6b12c9ae4b9)
+### 14.Month Number and Days Calculator:
+```java
 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        if(n==1)
+        {
+            System.out.println("January");
+            System.out.println("31 Days");
+        }
+        else if(n==2)
+        {
+            int year=scanner.nextInt();
+            if(year%100==0)
+            {
+                if(year%400==0)
+                {
+                    System.out.println("February");
+                    System.out.println("Leap year - 29 Days");
+                }
+                else
+                {
+                    System.out.println("February");
+                System.out.println("Not a Leap year - 28 Days");
+                }
+            }
+            else
+            {
+                 if(year%4==0)
+                {
+                    System.out.println("February");
+                    System.out.println("Leap year - 29 Days");
+                }
+                else
+                {
+                    System.out.println("February");
+                System.out.println("Not a Leap year - 28 Days");
+            }
+        }
+    }
+    else if(n==3)
+    {
+        System.out.println("March");
+            System.out.println("31 Days"); 
+    }
+    else if(n==4)
+    {
+        System.out.println("April");
+            System.out.println("30 Days"); 
+    }
+    else if(n==5)
+    {
+        System.out.println("May");
+            System.out.println("31 Days"); 
+    }
+    else if(n==6)
+    {
+        System.out.println("June");
+            System.out.println("30 Days"); 
+    }else if(n==7)
+    {
+        System.out.println("July");
+            System.out.println("31 Days"); 
+    }
+    else if(n==8)
+    {
+        System.out.println("August");
+            System.out.println("31 Days"); 
+    }
+     else if(n==9)
+    {
+        System.out.println("September");
+            System.out.println("30 Days"); 
+    }
+     else if(n==10)
+    {
+        System.out.println("October");
+            System.out.println("31 Days"); 
+    }
+     else if(n==11)
+    {
+        System.out.println("November");
+            System.out.println("30 Days"); 
+    }
+     else if(n==12)
+    {
+        System.out.println("December");
+            System.out.println("31 Days"); 
+    }
+    else
+    
+    {
+        System.out.println("Invalid month");
+            
+    }
+    scanner.close();
+}
+}
+```
+![image](https://github.com/user-attachments/assets/d967a645-d030-4bfe-beda-87a6eccab5b2)
 
 
 
