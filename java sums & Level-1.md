@@ -724,6 +724,43 @@ public class Main {
 }
 ```
 ![image](https://github.com/user-attachments/assets/bd73a618-67dd-4ce2-8fdc-9701ab7b6a28)
-
+### 19.Employee Gross Salry Calculation:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        float bs = scanner.nextFloat();
+        float salary,hra,da;
+        if(bs<=10000)
+        {
+            hra=0.20f*bs;
+            da=0.80f*bs;
+        }
+        else if(bs>=10001 && bs<=20000)
+        {
+            hra=0.25f*bs;
+            da=0.90f*bs;
+        }
+        else
+        {
+            hra=0.3f*bs;
+            da=0.95f*bs;
+        }
+        salary=hra+da+bs;
+        if(salary==Math.floor(salary))
+        {
+            System.out.printf("%.0f\n",salary);
+        }
+        else
+        {
+            System.out.printf("%.2f\n",salary);
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/127c11b5-64e0-49ca-a9c9-1698bf3f7dae)
 
 
