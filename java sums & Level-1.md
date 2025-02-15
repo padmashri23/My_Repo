@@ -762,5 +762,37 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/127c11b5-64e0-49ca-a9c9-1698bf3f7dae)
+### 20.Direction Finder:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        if(a>=0 && a<=89)
+        {
+            System.out.println("East");
+        }
+        else if(a>=90 && a<=179)
+        {
+           System.out.println("North"); 
+        }
+        else if(a>=180 && a<=269)
+        {
+            System.out.println("West");
+        }
+        else if(a>=270 && a<=360)
+        {
+            System.out.println("South");
+        }
+        else
+        {
+            System.out.println("Invalid");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/923e5912-4342-439e-9882-70b68747fdcb)
 
 
