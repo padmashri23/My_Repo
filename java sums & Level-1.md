@@ -652,7 +652,59 @@ public class Main {
 }
 ```
 ![image](https://github.com/user-attachments/assets/0401ce61-9a64-41a9-8c6f-65d9eb136434)
-
+### 16.The Ticket Price Calculator:
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        if(n>=0 && n<=12)
+        {
+            System.out.println("10");
+        }
+        else if(n>=13 && n<=17)
+        {
+            System.out.println("15");
+        }
+        else if(n>=18 && n<=60)
+        {
+            System.out.println("20");
+        }
+        else if(n>=61)
+        {
+            System.out.println("12");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/e2b3f9b3-af60-4496-be21-da60eebf6719)
+### 17.The Chocolate Countdown:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int chocolates = scanner.nextInt();
+        int chocconperday=scanner.nextInt();
+        int days = scanner.nextInt();
+        int actual_days = chocolates/chocconperday;
+        if(actual_days>=days)
+        {
+            System.out.println("1");
+        }
+        else
+        {
+              System.out.println("0");
+                System.out.println(actual_days);
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/1a38ec3f-96a3-4d8f-8c49-7b44a85f7044)
 
 
 
