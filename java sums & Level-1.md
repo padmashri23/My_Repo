@@ -624,6 +624,34 @@ public class Main {
 }
 ```
 ![image](https://github.com/user-attachments/assets/d967a645-d030-4bfe-beda-87a6eccab5b2)
+### 15.Positive or Negative:
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        if(n>0)
+        {
+            int cube=n*n*n;
+            System.out.println("P");
+            System.out.println(cube);
+        }
+        else if(n==0)
+        {
+            System.out.println("0");
+        }
+        else
+        {
+            int sq=n*n;
+            System.out.println("N");
+            System.out.println(sq);
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/0401ce61-9a64-41a9-8c6f-65d9eb136434)
 
 
 
