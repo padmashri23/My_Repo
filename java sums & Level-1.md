@@ -705,7 +705,25 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/1a38ec3f-96a3-4d8f-8c49-7b44a85f7044)
-
+### 18.The Stationery Shopper:
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n1=scanner.nextInt();
+        int n2=scanner.nextInt();
+        int n3=scanner.nextInt();
+        int pen=n1*8;
+        int note=n2*25;
+        int pencil=n3*4;
+        int sum=pen+note+pencil;
+        System.out.println(sum);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/bd73a618-67dd-4ce2-8fdc-9701ab7b6a28)
 
 
 
