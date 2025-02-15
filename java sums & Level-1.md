@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1804aa56-23e3-4db6-8e34-890bd0d34776)### 1.Implement stack using Stack class:
+### 1.Implement stack using Stack class:
 ```java
 import java.util.Stack;
 class Main {
@@ -830,5 +830,38 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/9e10822e-18f5-4be7-ad9b-27e1a2198772)
+### 22.Trading Application:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        float in = scanner.nextFloat();
+        float pp = scanner.nextFloat();
+        float c = scanner.nextFloat();
+        float diff = Math.abs(pp-c);
+        float cal  = ((diff)*in)/100;
+        if(c>pp)
+        {
+            System.out.println("Profit");
+            System.out.printf("%.2f\n",cal);
+        }
+        else if(c<pp)
+        {
+            System.out.println("Loss");
+            System.out.printf("%.2f\n",cal);
+        }
+        else
+        {
+            System.out.println("No change");
+        }
+        
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/16ac1ca2-45df-4d4a-9018-e6e13f59b070)
+
 
 
