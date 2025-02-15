@@ -1,4 +1,4 @@
-### 1.Implement stack using Stack class:
+![image](https://github.com/user-attachments/assets/1804aa56-23e3-4db6-8e34-890bd0d34776)### 1.Implement stack using Stack class:
 ```java
 import java.util.Stack;
 class Main {
@@ -794,5 +794,41 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/923e5912-4342-439e-9882-70b68747fdcb)
+### 21.Weather Prediction:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        if(a<0)
+        {
+            System.out.println("Freezing weather");
+        }
+        else if(a>=1 && a<=8)
+        {
+           System.out.println("Very Cold weather"); 
+        }
+        else if(a>=9 && a<=19)
+        {
+            System.out.println("Cold weather");
+        }
+        else if(a>=20 && a<=29)
+        {
+            System.out.println("Normal temperature");
+        }
+        else if(a>=30 && a<=39)
+        {
+            System.out.println("Hot");
+        }
+        else
+        {
+            System.out.println("Very Hot");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/9e10822e-18f5-4be7-ad9b-27e1a2198772)
 
 
