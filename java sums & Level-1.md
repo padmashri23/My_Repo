@@ -862,6 +862,39 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/16ac1ca2-45df-4d4a-9018-e6e13f59b070)
+### 23.Scientific Measurement:
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+       float in = scanner.nextFloat();
+       if(in<0)
+       {
+           System.out.println("Negative");
+       }
+       else if(in>=1 && in<=10)
+       {
+           System.out.println("Low positive");
+       }
+       else if(in>=11 && in<=50)
+       {
+           System.out.println("Moderate positive");
+       }
+       else if(in>50)
+       {
+           System.out.println("High positive");
+       }
+       else
+       {
+           System.out.println("Neutral");
+       }
+       scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/fb0d3276-69b9-4c93-973e-0d47dcbb1e5b)
+
 
 
 
