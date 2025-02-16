@@ -1094,8 +1094,30 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/0272feab-b45b-4daf-adbc-2d725efd2e87)
+### 30.Power of 2:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int power;
+        if((n>0) && (n & (n-1))==0)
+        {
+            power = (int)(Math.log(n)/Math.log(2));
+            System.out.println(power);
+        }
+        else
+        {
+         System.out.println("NOT");   
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/d63e1523-f588-48ab-ac6e-3654ae002297)
 
- 
 
 
 
