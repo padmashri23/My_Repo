@@ -947,6 +947,31 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/d52f71e3-fa2f-46f0-8c77-3cf22451260a)
+### 25.Number System:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int decimal = scanner.nextInt();
+        if(decimal<=0)
+        {
+            System.out.println("Error:Please enter a positive integer");
+        }
+        else
+        {
+            String hex = Integer.toHexString(decimal);
+            String oct = Integer.toOctalString(decimal);
+            System.out.println(hex);
+            System.out.println(oct);
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/7973ec8e-4411-4edd-94c1-ab995505cbf9)
+
 
 
 
