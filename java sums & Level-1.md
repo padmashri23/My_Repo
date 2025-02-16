@@ -1064,6 +1064,37 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/3c5e65c9-1e1a-4f74-8c62-208b971f966b)
+### 29.Temperature Conversion:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        float temp = scanner.nextFloat();
+        char deg = scanner.next().charAt(0);
+        float fah=(9.0f/5.0f*temp)+32.0f;
+        float cel=(temp-32.0f)*5.0f/9.0f;
+        String f = "F";
+        String c = "C";
+        if(deg=='C')
+        {
+            System.out.printf("%.1f%s",fah,f);
+        }
+        else if(deg=='F')
+        {
+            System.out.printf("%.1f%s",cel,c);
+        }
+        else
+        {
+             System.out.println("Invalid input");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/0272feab-b45b-4daf-adbc-2d725efd2e87)
+
  
 
 
