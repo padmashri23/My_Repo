@@ -1023,6 +1023,48 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/7d185620-73d6-4a2d-a66f-ecb8b200ce67)
+### 28.subject score calculation:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n1 = scanner.nextInt();
+        int n2 = scanner.nextInt();
+        int n3 = scanner.nextInt();
+        int n4 = scanner.nextInt();
+        int n5 = scanner.nextInt();
+        int sum = n1+n2+n3+n4+n5;
+        float avg = (float) sum/5;
+        String grade;
+        if(avg>=81)
+        {
+            grade="A";
+        }
+        else if(avg>=71)
+        {
+            grade="B";
+        }
+        else if(avg>=66)
+        {
+            grade="C";
+        }
+        else if(avg>=61)
+        {
+            grade="D";
+        }
+        else
+        {
+            grade="F";
+        }
+        System.out.printf("%.2f %s\n",avg,grade);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/3c5e65c9-1e1a-4f74-8c62-208b971f966b)
+
 
 
 
