@@ -998,6 +998,33 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/6993e867-6708-4b34-80a8-f4e1c66404d0)
+### 27.The product Calculator:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String args[])
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n1 = scanner.nextInt();
+        int n2 = scanner.nextInt();
+        int prod=n1*n2;
+        int ans = prod /2;
+        int ans2 = prod/3;
+        if(prod%2==0)
+        {
+           System.out.println(ans);
+        }
+        else
+        {
+           System.out.println(ans2);
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/7d185620-73d6-4a2d-a66f-ecb8b200ce67)
+
+
 
 
 
