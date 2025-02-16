@@ -971,6 +971,33 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/7973ec8e-4411-4edd-94c1-ab995505cbf9)
+### 26.Agents X, Y, and Z have involved:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+        int z = scanner.nextInt();
+        if(x>y && x>z)
+        {
+            System.out.println("Agent X has the highest priority with "+x+" successes");
+        }
+        else if(y>x && y>z)
+        {
+             System.out.println("Agent Y has the highest priority with "+y+" successes");
+        }
+        else
+        {
+             System.out.println("Agent Z has the highest priority with "+z+" successes");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/6993e867-6708-4b34-80a8-f4e1c66404d0)
 
 
 
