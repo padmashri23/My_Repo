@@ -894,7 +894,59 @@ public class Main {
 }
 ```
 ![image](https://github.com/user-attachments/assets/fb0d3276-69b9-4c93-973e-0d47dcbb1e5b)
-
+### 24.Bonus Calculator:
+```java
+//Bonus Calculator
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        char gen = scanner.next().charAt(0);
+        if(gen!='M'&& gen!='F')
+        {
+            System.out.println("Invalid Input");
+            return;
+        }
+        float sal = scanner.nextFloat();
+        float bonus,final_salary;
+        if(gen == 'M')
+        {
+            if(sal<10000)
+            {
+                bonus=sal*0.07f;
+                final_salary=bonus+sal;
+            }
+            else
+            {
+                bonus=sal*0.05f;
+                final_salary=bonus+sal;
+            }
+             System.out.printf("%.2f\n",bonus);
+             System.out.printf("%.2f\n",final_salary);
+        }
+        else 
+        {
+            if(sal<10000)
+            {
+                bonus=sal*0.12f;
+                final_salary=bonus+sal;
+        }
+        else
+            {
+                bonus=sal*0.10f;
+                final_salary=bonus+sal;
+            }
+             System.out.printf("%.2f\n",bonus);
+            System.out.printf("%.2f\n",final_salary);
+    }
+    
+   
+    scanner.close();
+    
+}
+}
+```
+![image](https://github.com/user-attachments/assets/d52f71e3-fa2f-46f0-8c77-3cf22451260a)
 
 
 
