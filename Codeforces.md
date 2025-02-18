@@ -634,7 +634,34 @@ public class ChipsDistribution {
 ![image](https://github.com/user-attachments/assets/407fdfd9-7b94-4473-8298-977640aa53df)
 ![image](https://github.com/user-attachments/assets/573213e6-7e4c-447d-8341-95686743e0e1)
 ![image](https://github.com/user-attachments/assets/8b462246-7561-44d0-8ec9-d8adc0adade8)
-### 25. 
+### 26.(A) Way Too Long Words:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.nextLine();
+        for(int i=0;i<n;i++)
+        {
+            String word = scanner.nextLine();
+            if(word.length()>10)
+            {
+                System.out.println(word.charAt(0)+String.valueOf(word.length()-2)+word.charAt(word.length()-1));
+                
+            }
+            else
+            {
+                System.out.println(word);
+            }
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/ece83ad4-e5ee-4606-9eaa-3c22caee2ad6)
+
 
 
 
