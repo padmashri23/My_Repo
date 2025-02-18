@@ -661,7 +661,26 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/ece83ad4-e5ee-4606-9eaa-3c22caee2ad6)
-
+### 27. (A) Ultra-Fast Mathematician:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        String num1 = scanner.nextLine();
+        String num2 = scanner.nextLine();
+        StringBuilder result = new StringBuilder();
+        for(int i =0;i<num1.length();i++)
+        {
+            result.append(num1.charAt(i)==num2.charAt(i)?'0':'1');
+        }
+        System.out.println(result);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/f943ca66-39de-467e-9ddb-d475c040e1c9)
 
 
 
