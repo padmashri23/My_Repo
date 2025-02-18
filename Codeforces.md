@@ -670,7 +670,7 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
         String num1 = scanner.nextLine();
         String num2 = scanner.nextLine();
-        StringBuilder result = new StringBuilder();
+        StringBuilder result = new StringBuilder();//using it since it is mutable
         for(int i =0;i<num1.length();i++)
         {
             result.append(num1.charAt(i)==num2.charAt(i)?'0':'1');
