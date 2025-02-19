@@ -681,6 +681,40 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/f943ca66-39de-467e-9ddb-d475c040e1c9)
+### 28. A. Word:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        int uppercount=0;
+        int lowercount=0;
+        for(char c:s.toCharArray())
+        {
+            if(Character.isUpperCase(c))
+            {
+                uppercount++;
+            }
+            else
+            {
+                lowercount++;
+            }
+        }
+        if(uppercount>lowercount)
+        {
+            System.out.println(s.toUpperCase());
+        }
+        else
+        {
+            System.out.println(s.toLowerCase());
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/e160bbf0-4b4c-456c-9ff7-e0f952d7b190)
 
 
 
