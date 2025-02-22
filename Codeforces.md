@@ -21,7 +21,7 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/931d69d0-4a36-49ba-ae84-c62e4d29ac45)
-### 2.Boy or Girl:
+### 2.Boy or Girl :
 ```java
 import java.util.*;
 public class Main
