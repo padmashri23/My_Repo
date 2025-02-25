@@ -1,6 +1,8 @@
 ### OOPS CONCEPT:
+
+### ENCAPSULATION
 ```JavaScript
-//procedural implementation:
+//procedural implementation:-- variables on one side and functions on the other side 
 let baseSalary = 30_000;  
 let overtime = 10;
 let rate = 20;
@@ -23,3 +25,8 @@ let employee = {
 console.log(employee.getWage()); 
 ```
 ![image](https://github.com/user-attachments/assets/d55f31b1-b8af-4a59-aa27-f2ee9e65737b)
+
+![image](https://github.com/user-attachments/assets/ed3a1b9b-24fc-4bf9-a3a5-2710e1edddfa)
+
+![image](https://github.com/user-attachments/assets/8fdf981d-fcc6-4fdd-b309-d65893ca268d)
+
