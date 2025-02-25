@@ -30,3 +30,8 @@ console.log(employee.getWage());
 
 ![image](https://github.com/user-attachments/assets/8fdf981d-fcc6-4fdd-b309-d65893ca268d)
 
+![image](https://github.com/user-attachments/assets/5554fcf4-808c-445a-9234-1a5319e73b4c)
+
+
+
+
