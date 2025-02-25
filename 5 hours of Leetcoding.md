@@ -101,10 +101,17 @@ The final if condition and System.out.println(...) take constant time O(1).
 Overall Time Complexity:
 O(n) + O(n) + O(1) = O(n)
 Since O(n) dominates, the overall time complexity of the program is O(n).
-Best & Worst Case Analysis:
-Best Case (O(1)): If 2 is found at the very beginning.
 
+Best & Worst Case Analysis:
+
+Best Case (O(1)): If 2 is found at the very beginning.
 Worst Case (O(n)): If 2 is not found or appears at the end.
+
+![image](https://github.com/user-attachments/assets/da5930e8-cea9-468d-9f5d-292f59374497)
+
+![image](https://github.com/user-attachments/assets/f9787136-3c40-4c1c-86bf-a791924cf9c0)
+
+
 
 
 
