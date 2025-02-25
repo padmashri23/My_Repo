@@ -103,7 +103,9 @@ O(n) + O(n) + O(1) = O(n)
 Since O(n) dominates, the overall time complexity of the program is O(n).
 Best & Worst Case Analysis:
 Best Case (O(1)): If 2 is found at the very beginning.
+
 Worst Case (O(n)): If 2 is not found or appears at the end.
+
 
 
 
