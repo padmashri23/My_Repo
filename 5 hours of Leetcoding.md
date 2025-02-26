@@ -112,7 +112,7 @@ Worst Case (O(n)): If 2 is not found or appears at the end.
 ![image](https://github.com/user-attachments/assets/f9787136-3c40-4c1c-86bf-a791924cf9c0)
 
 ### ARRAYS:
-### 217.Contains Duplicate:
+### 1)217.Contains Duplicate:
 ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
@@ -155,7 +155,7 @@ The time complexity is O(n).
 
 ![image](https://github.com/user-attachments/assets/04c97b0f-5237-41b5-8b7b-8d3ad014b13b)
 
-### 268.Missing Number:
+### 2)268.Missing Number:
 ```java
 class Solution {
     public int missingNumber(int[] nums) {
@@ -177,6 +177,32 @@ The time complexity of this code is O(n).
 ![image](https://github.com/user-attachments/assets/42ddf671-bfbb-4d07-91fe-b517b8a4f64c)
 
 ![image](https://github.com/user-attachments/assets/b50be9f3-acaa-48d8-b9f3-85f73824541e)
+
+### 3)448. Find All Numbers Disappeared in an Array:
+```java
+class Solution {
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+       HashSet<Integer> set = new HashSet<>();
+       List<Integer> result = new ArrayList<>();
+       int n= nums.length;
+       for(int i = 1;i<=n;i++)
+       {
+        set.add(i);
+       }
+       for(int num:nums)
+       {
+        set.remove(num);
+       }
+       result.addAll(set);
+       return result;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/5f2ddd7a-25ab-4ad1-9f39-0488ca80498a)
+
+The time complexity of this sum is O(n).
+
+
 
 
 
