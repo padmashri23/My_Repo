@@ -155,6 +155,31 @@ The time complexity is O(n).
 
 ![image](https://github.com/user-attachments/assets/04c97b0f-5237-41b5-8b7b-8d3ad014b13b)
 
+### 268.Missing Number:
+```java
+class Solution {
+    public int missingNumber(int[] nums) {
+        int n = nums.length;
+        int sumofnaturalnumbers=(n*(n+1))/2;
+        int actualsum=0;
+        for(int num:nums)
+        {
+            actualsum=actualsum+num;
+        }
+        int missingvalue = sumofnaturalnumbers-actualsum;
+        return missingvalue;
+    }
+}
+```
+
+The time complexity of this code is O(n).
+
+![image](https://github.com/user-attachments/assets/42ddf671-bfbb-4d07-91fe-b517b8a4f64c)
+
+![image](https://github.com/user-attachments/assets/b50be9f3-acaa-48d8-b9f3-85f73824541e)
+
+
+
 
 
 
