@@ -112,6 +112,49 @@ Worst Case (O(n)): If 2 is not found or appears at the end.
 ![image](https://github.com/user-attachments/assets/f9787136-3c40-4c1c-86bf-a791924cf9c0)
 
 ### ARRAYS:
+### 217.Contains Duplicate:
+```java
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        boolean containsDuplicate = false;
+        for(int i=0;i<nums.length - 1;i++)
+        {
+            for(int j=i+1;j<nums.length;j++)
+            {
+                if(nums[i]==nums[j])
+                {
+                    containsDuplicate = true;
+                    break;
+                }
+            }
+        }
+        return containsDuplicate;
+    }
+}
+```
+not so optimized the time complexity is O(n^2) no so efficient: 70/76 testcase passed.
+
+but we can solve using HashSet 
+```java
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        HashSet<Integer> seen = new HashSet<>();
+        for(int num:nums)
+        {
+            if(seen.contains(num))
+            {
+                return true;
+            }
+            seen.add(num);
+        }
+        return false;
+    }
+}
+```
+The time complexity is O(n).
+
+![image](https://github.com/user-attachments/assets/04c97b0f-5237-41b5-8b7b-8d3ad014b13b)
+
 
 
 
