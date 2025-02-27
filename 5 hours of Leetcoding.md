@@ -225,7 +225,31 @@ class Solution {
 The Time Complexity of the above code is O(n^2) not so efficient.
 
 The Optimized Approach:
+```java
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer,Integer> result = new HashMap<>();
+        for(int i =0;i<nums.length;i++)
+        {
+            int complement = target - nums[i];
+        
+        if(result.containsKey(complement))
+        {
+            return new int[]{result.get(complement),i};
+        }
+        result.put(nums[i],i);
+        }
+        return new int[]{};
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/a239b3b7-b7a3-41c4-8c42-144f95f8f35b)
+![image](https://github.com/user-attachments/assets/0eb1c94d-d6d5-4a49-bda7-2717f1fa2c34)
+![image](https://github.com/user-attachments/assets/fc429f44-d326-4939-8c79-acf0454854e4)
+![image](https://github.com/user-attachments/assets/1d6368cf-3ab3-49cd-85d0-6000aca6ff1a)
+![image](https://github.com/user-attachments/assets/7248faaf-5ce0-4f09-895c-c554b30e2a0f)
 
+The time complexity of the above code is O(n).
 
 HashMap Concept:
 ```java
