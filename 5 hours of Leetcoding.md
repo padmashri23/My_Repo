@@ -227,6 +227,43 @@ The Time Complexity of the above code is O(n^2) not so efficient.
 The Optimized Approach:
 
 
+HashMap Concept:
+```java
+//HashMaP Implementation
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        HashMap<String,Integer> empId = new HashMap<>();
+        empId.put("John",1234);
+        empId.put("Carl",5678);
+        empId.put("Jerry",9101);//doesn't guarantee a certain order cares key-value pairing
+        System.out.println(empId);
+        System.out.println(empId.get("Carl"));
+        System.out.println(empId.containsKey("Jerry"));//Say only true or false
+        System.out.println(empId.containsKey("George"));//doesn't exist
+        System.out.println(empId.containsValue(5678));//gets only the value
+        System.out.println(empId.containsValue(5));//doesn't exist
+        empId.put("John",7777);
+        System.out.println(empId);//override the current value
+        empId.replace("John",2310);//value replace
+        System.out.println(empId);
+        empId.replace("Ria",2310);//didnt change the mapping key doesn't exist 
+        System.out.println(empId);
+        empId.putIfAbsent("John",222);
+        System.out.println(empId);
+        empId.putIfAbsent("Steve",222);
+        System.out.println(empId);
+        empId.remove("John");
+        System.out.println(empId);
+        
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/ae7505bd-c102-42bf-b26b-e0f62fa60340)
+
+
+
 
 
 
