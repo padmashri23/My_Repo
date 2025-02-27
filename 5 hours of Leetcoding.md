@@ -284,7 +284,7 @@ public class Main{
     }
 }
 ```
-![image](https://github.com/user-attachments/assets/ae7505bd-c102-42bf-b26b-e0f62fa60340)
+![image](https://github.com/user-attachments/assets/ae7505bd-c102-42bf-b26b-e0f62fa60340) 
 
 
 
