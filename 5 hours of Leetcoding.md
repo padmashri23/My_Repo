@@ -286,6 +286,37 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/ae7505bd-c102-42bf-b26b-e0f62fa60340) 
 
+### 5)1365. How Many Numbers Are Smaller Than the Current Number:
+
+Counting Sort Concept - O(n)
+
+Selection Sort,Bubble Sort,Insertion Sort has the worst case time complexity of O(n^2)
+
+Merge Sort,Quick Sort has the average case time complexity of O(n* log n)
+
+Counting sort helpful where you have limited range of elements.-- very very fast
+
+Eg: English alphabets has only 26 letters, subject marks of students is between 0 - 100
+
+![image](https://github.com/user-attachments/assets/ee51abb1-b3f7-4fa2-8eac-f03db70565b1)
+
+Refer the note for iterations.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
 
 
 
