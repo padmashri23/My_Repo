@@ -302,6 +302,9 @@ Eg: English alphabets has only 26 letters, subject marks of students is between 
 
 Refer the note for iterations.
 
+Approach for the given Problem Statement:
+
+![image](https://github.com/user-attachments/assets/37656c2c-dcb9-44d5-b882-5d82de6c4095)
 
 
 
