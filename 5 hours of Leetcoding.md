@@ -339,6 +339,33 @@ Time Complexity   	O(n)
 
 Space Complexity	O(n)
 
+### 6)14. Longest Common Prefix:
+```java
+class Solution {
+    public String longestCommonPrefix(String[] str) {
+        StringBuilder result = new StringBuilder();
+        Arrays.sort(str);
+        char[] f = str[0].toCharArray();
+        char[] l = str[str.length-1].toCharArray();
+        for(int i = 0;i<f.length;i++)
+        {
+            if(f[i]!=l[i])
+            break;
+            {
+                result.append(f[i]);
+            }
+        }
+        return result.toString();
+    }
+}
+```
+Time Complexity   	O(n log n) because using of Arrays.sort()
+
+Space Complexity	O(1)
+
+![image](https://github.com/user-attachments/assets/4bc3a0dd-95a9-43e9-8ff1-3c223f271271)
+
+
 
 
 
