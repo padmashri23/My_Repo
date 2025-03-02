@@ -308,7 +308,7 @@ Approach for the given Problem Statement:
 
 Refer the note for iterations:
 
-It took me about two days to understand these iterations and logic.
+It took me about two business days to understand these iterations and logic.
 
 ```java
 class Solution {
@@ -334,6 +334,10 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/853d5a8e-f14a-49b9-b838-1d02da941380)
+
+Time Complexity   	O(n)
+
+Space Complexity	O(n)
 
 
 
