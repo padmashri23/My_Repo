@@ -306,6 +306,37 @@ Approach for the given Problem Statement:
 
 ![image](https://github.com/user-attachments/assets/37656c2c-dcb9-44d5-b882-5d82de6c4095)
 
+Refer the note for iterations:
+
+It took me about two days to understand these iterations and logic.
+
+```java
+class Solution {
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        int[] b = new int[105];
+        for (int num : nums) {
+            b[num]++;
+        }
+        for (int i = 1; i < b.length; i++) {
+            b[i] = b[i] + b[i - 1];
+        }
+        int[] result = new int[nums.length];
+        for (int i = 0; i < result.length; i++) {
+            if (nums[i] == 0) {
+                result[i] = 0;
+            } else {
+                result[i] = b[nums[i] - 1];
+            }
+
+        }
+        return result;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/853d5a8e-f14a-49b9-b838-1d02da941380)
+
+
+
 
 
 
