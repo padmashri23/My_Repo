@@ -1,4 +1,4 @@
-### OOPS CONCEPT:
+### OOPS CONCEPT:  
 
 ### ENCAPSULATION
 ```JavaScript
