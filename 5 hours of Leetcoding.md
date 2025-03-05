@@ -415,6 +415,13 @@ class Solution {
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/5712ac81-20f6-4fa2-8b56-0d8c1b32dd3d)
+
+Refer to note for the problem understanding
+
+Time Complexity  : O(n)
+
+Space Complexity : O(1)  
 
 
 
