@@ -387,6 +387,8 @@ class Solution {
 ![image](https://github.com/user-attachments/assets/854d0cc0-4303-4a70-a4d9-e27593836170)
 ![image](https://github.com/user-attachments/assets/0b5338d4-d9e2-4d58-b7e0-8a0e4a1afce4)
 
+Refer to note for the problem understanding
+
 Time Complexity  : O(n)
 
 Space Complexity : O(1)
