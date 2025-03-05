@@ -391,7 +391,30 @@ Refer to note for the problem understanding
 
 Time Complexity  : O(n)
 
-Space Complexity : O(1)
+Space Complexity : O(1)  
+
+### 8)121. Best Time to Buy and Sell Stock:
+
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        int minprice = Integer.MAX_VALUE;
+        int maxprofit = 0;
+        for(int i=0;i<prices.length;i++)
+        {
+            if(prices[i]<minprice)
+            {
+                minprice = prices[i];
+            }
+            else if(prices[i]-minprice > maxprofit)
+            {
+                maxprofit = prices[i]-minprice;
+            }
+        }
+        return maxprofit;
+    }
+}
+```
 
 
 
