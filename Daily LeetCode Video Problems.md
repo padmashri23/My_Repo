@@ -20,5 +20,5 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/8acf876d-37a9-45c3-b7ef-00a9f34b8195)
-![image](https://github.com/user-attachments/assets/8baba236-cb08-4aee-ba17-a9166336bbda)
+![image](https://github.com/user-attachments/assets/8baba236-cb08-4aee-ba17-a9166336bbda)  
 
