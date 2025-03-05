@@ -165,7 +165,7 @@ class Solution {
         for(int num:nums)
         {
             actualsum=actualsum+num;
-        }
+        } 
         int missingvalue = sumofnaturalnumbers-actualsum;
         return missingvalue;
     }
