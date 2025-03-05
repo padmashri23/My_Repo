@@ -1,4 +1,5 @@
 ### 1.TWO SUM:
+//Note this is not an optimal approach:
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
