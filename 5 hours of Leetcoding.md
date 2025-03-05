@@ -423,6 +423,16 @@ Time Complexity  : O(n)
 
 Space Complexity : O(1)  
 
+### 9)238. Product of Array Except Self:
+
+![image](https://github.com/user-attachments/assets/fc8feb6f-63ad-4a2b-ace5-f7d46f2f4a18)
+![image](https://github.com/user-attachments/assets/257d6e42-e62d-4213-a24b-ff69d13bf4de)
+![image](https://github.com/user-attachments/assets/266c1e9d-f1eb-4482-a951-dc1c88ad9fc6)
+![image](https://github.com/user-attachments/assets/ed53bef0-34d3-40d3-b94e-5eba70f01ba3)
+
+
+
+
 
 
 
