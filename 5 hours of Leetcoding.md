@@ -292,7 +292,7 @@ Counting Sort Concept - O(n)
 
 Selection Sort,Bubble Sort,Insertion Sort has the worst case time complexity of O(n^2)
 
-Merge Sort,Quick Sort has the average case time complexity of O(n* log n)
+Merge Sort,Quick Sort has the average case time complexity of O(n* log n) 
 
 Counting sort helpful where you have limited range of elements.-- very very fast
 
