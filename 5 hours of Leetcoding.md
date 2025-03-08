@@ -460,6 +460,29 @@ Time Complexity  : O(n)
 
 Space Complexity : O(1) 
 
+### 10)53. Maximum Subarray:
+```java
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int max_so_far = nums[0];
+        int curr_max = nums[0];
+        for(int i = 1;i<nums.length;i++)
+        {
+            curr_max = Math.max(nums[i],nums[i]+curr_max);
+            max_so_far = Math.max(curr_max,max_so_far);
+        }
+        return max_so_far;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/43f59031-675f-43db-8830-89e1fbefafc6)
+
+Refer to note for the problem understanding and for the iterations.
+
+Time Complexity  : O(n)
+
+Space Complexity : O(1) 
+
 
 
 
