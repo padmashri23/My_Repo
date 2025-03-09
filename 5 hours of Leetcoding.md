@@ -32,7 +32,7 @@ console.log(employee.getWage());
 
 ![image](https://github.com/user-attachments/assets/5554fcf4-808c-445a-9234-1a5319e73b4c)
 
-```java
+```java 
 import java.util.*;
 public class Main{
     public static void main(String[] args)
