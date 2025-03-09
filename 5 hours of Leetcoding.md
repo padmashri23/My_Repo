@@ -481,7 +481,43 @@ Refer to note for the problem understanding and for the iterations.
 
 Time Complexity  : O(n)
 
-Space Complexity : O(1) 
+Space Complexity : O(1)
+
+### 11)152. Maximum Product Subarray:
+```java
+class Solution {
+    public int maxProduct(int[] nums) {
+        int n = nums.length;
+        int leftprod = 1;
+        int rightprod = 1;
+        int ans = nums[0];
+        for (int i = 0; i < n; i++) {
+            if (leftprod == 0) {
+                leftprod = 1;
+            }
+
+            if (rightprod == 0) {
+                rightprod = 1;
+            }
+
+            leftprod = leftprod * nums[i];
+            rightprod = rightprod * nums[n - 1 - i];
+            ans = Math.max(ans, Math.max(leftprod, rightprod));
+        }
+        return ans;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/8635bd8b-9143-4d3c-9c2e-fea1f25d20a4)
+![image](https://github.com/user-attachments/assets/997e35d5-b8c8-4619-b18f-0cccfae323dd)
+![image](https://github.com/user-attachments/assets/0228f594-bd67-4f19-812a-3adb97b9860a)
+
+Refer to note for the problem understanding and for the iterations.
+
+Time Complexity  : O(n)
+
+Space Complexity : O(1)
+
 
    
 
