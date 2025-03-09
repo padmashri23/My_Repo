@@ -514,7 +514,7 @@ class Solution {
 
 Refer to note for the problem understanding and for the iterations.
 
-Time Complexity  : O(n) //only do one iteration throughout the array.
+Time Complexity  : O(n) //only did one iteration throughout the array.
 
 Space Complexity : O(1)
 
