@@ -1,6 +1,6 @@
 ### OOPS CONCEPT:  
 
-### ENCAPSULATION 
+### ENCAPSULATION  
 ```JavaScript
 //procedural implementation:-- variables on one side and functions on the other side 
 let baseSalary = 30_000;  
