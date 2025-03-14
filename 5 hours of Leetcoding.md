@@ -518,7 +518,7 @@ Time Complexity  : O(n) //only did one iteration throughout the array.
 
 Space Complexity : O(1)
 
-### 12)
+### 12) 153. Find Minimum in Rotated Sorted Array:
 ```java
 class Solution {
     public int findMin(int[] nums) {
@@ -540,6 +540,11 @@ class Solution {
     }
 }
 ```
+Refer to note for the problem understanding and for the iterations.
+
+Time Complexity  : O(log n) 
+
+Space Complexity : O(1)
 
 
    
