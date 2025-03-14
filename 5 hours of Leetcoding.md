@@ -546,6 +546,9 @@ Time Complexity  : O(log n)
 
 Space Complexity : O(1)
 
+![image](https://github.com/user-attachments/assets/b32e8b95-7c65-42d2-963c-ca2582c29d8a)
+
+
 
    
 
