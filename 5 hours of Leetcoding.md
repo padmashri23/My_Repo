@@ -548,6 +548,21 @@ Space Complexity : O(1)
 
 ![image](https://github.com/user-attachments/assets/b32e8b95-7c65-42d2-963c-ca2582c29d8a)
 
+### 13) 33. Search in Rotated Sorted Array:
+```java
+class Solution {
+    public int search(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == target) {
+                return i;
+            }
+        }
+        return -1;
+    }
+}
+```
+Time complexity : O(n) but we optimize this to O(log n). 
+
 
 
    
