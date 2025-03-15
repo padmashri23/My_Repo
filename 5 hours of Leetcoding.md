@@ -561,7 +561,7 @@ class Solution {
     }
 }
 ```
-Time complexity : O(n) but we optimize this to O(log n). 
+Time complexity : O(n) but we should optimize this to O(log n). 
 
 
 
