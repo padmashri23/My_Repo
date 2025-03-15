@@ -542,7 +542,7 @@ class Solution {
 ```
 Refer to note for the problem understanding and for the iterations.
 
-Time Complexity  : O(log n) 
+Time Complexity  : O(log n) //which is faster than O(n).
 
 Space Complexity : O(1)
 
