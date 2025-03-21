@@ -563,6 +563,53 @@ class Solution {
 ```
 Time complexity : O(n) but we should optimize this to O(log n). 
 
+```java
+class Solution {
+    public int search(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
+        while(left<=right)
+        {
+            int mid = left + (right - left)/2;
+            if(nums[mid]==target)
+            {
+                return mid;
+            }
+            if(nums[left]<=nums[mid])
+            {
+                if(target>=nums[left] && target < nums[mid])
+                {
+                    right = mid - 1;
+                }
+                else
+                {
+                    left = mid + 1;
+                }
+            }
+            else
+            {
+                if(target>nums[mid] && target <= nums[right])
+                {
+                    left = mid + 1;
+                }
+                else
+                {
+                    right = mid -1;
+                }
+            }
+        }
+        return -1;
+    }
+}
+```
+Refer to note for the problem understanding and for the iterations.
+
+Time Complexity  : O(log n) //which is faster than O(n).
+
+Space Complexity : O(1)
+
+But still feels like Memorizing the code even after doing the iterations manually - Need Practice.
+
 
 
    
