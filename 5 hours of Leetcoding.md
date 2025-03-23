@@ -610,6 +610,55 @@ Space Complexity : O(1)
 
 But still feels like Memorizing the code even after doing the iterations manually - Need Practice.
 
+![image](https://github.com/user-attachments/assets/a4aece8f-e4c3-4fc3-aebd-7d4cd28d78bd)
+
+### 14)15. 3Sum:
+```java
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        if(nums == null || nums.length<3)
+        {
+            return new ArrayList<>();
+        }
+        Arrays.sort(nums);
+        Set<List<Integer>> result = new HashSet<>();
+        for(int i = 0;i<nums.length-2;i++)
+        {
+         int left = i+1;
+         int right = nums.length - 1;
+         while(left<right)
+         {
+            int sum = nums[i]+nums[left]+nums[right];
+            if(sum==0)
+            {
+                result.add(Arrays.asList(nums[i],nums[left],nums[right]));
+                left++;
+                right--;
+            }
+            else if(sum<0)
+            {
+                left++;
+            }
+            else
+            {
+                right--;
+            }
+         }
+        }
+        return new ArrayList<>(result);
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/147bc985-e83f-4974-bf77-95d42b954bdf)
+
+Refer to note for the problem understanding and for the iterations.
+
+Time Complexity  : O(n²)
+
+Space Complexity : O(n²) due to the HashSet and output list.
+
+
+
 
 
    
