@@ -6,7 +6,7 @@
 let baseSalary = 30_000;       
 let overtime = 10;
 let rate = 20;
-function getWage(baseSalary, overtime, rate) { //three parameters
+function getWage(baseSalary, overtime, rate) { //three parameters  
     return baseSalary + (overtime * rate);
 }
 console.log(getWage(baseSalary, overtime, rate));
