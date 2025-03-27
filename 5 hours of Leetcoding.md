@@ -223,7 +223,7 @@ class Solution {
 }
 ```
 The Time Complexity of the above code is O(n^2) not so efficient.
-
+   
 The Optimized Approach:
 ```java
 class Solution {
