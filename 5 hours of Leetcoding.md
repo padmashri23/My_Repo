@@ -657,6 +657,13 @@ Time Complexity  : O(n²)
 
 Space Complexity : O(n²) due to the HashSet and output list.
 
+### 15)11. Container With Most Water:
+
+Refer this video: [Video](https://youtu.be/w7ftYsZtIbs?si=lfRT6yHGizmGGQLg)
+
+![image](https://github.com/user-attachments/assets/c5b1a43f-55dd-443a-8f2e-a13c2937a4ed)
+
+
 
 
 
