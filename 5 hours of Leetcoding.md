@@ -665,6 +665,36 @@ Refer this video: [Video](https://youtu.be/w7ftYsZtIbs?si=lfRT6yHGizmGGQLg)
 
 ![image](https://github.com/user-attachments/assets/bc486bd7-9dfe-48f7-86ee-bb160037669b)
 
+```java
+class Solution {
+    public int maxArea(int[] height) {
+        int left =0;
+        int right = height.length - 1;
+        int maxarea = 0;
+        int area;
+        while(left<right)
+        {
+          area=Math.min(height[left],height[right])*(right-left);
+          maxarea=Math.max(area,maxarea);
+          if(height[left]<height[right])
+          {
+            left++;
+          }   
+          else
+          {
+            right--;
+          }
+        }
+        return maxarea;
+    }
+}
+```
+Refer to note for the problem understanding and for the iterations.
+
+Time Complexity  : O(n)
+
+Space Complexity : O(1) 
+
 
 
 
