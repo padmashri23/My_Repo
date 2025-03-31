@@ -35,4 +35,48 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/c2f32cf8-01a5-4817-bdfc-2c85709e4fcf)
 ![image](https://github.com/user-attachments/assets/b7ce3170-a299-40a0-852d-40fac77f9dc8)
 
+### 2)Smallest Prime Number
+```java
+import java.util.*;
+public class Main{
+    public static boolean isPrime(int num)
+    {
+        if(num<2)
+        {
+            return false;
+        }
+        for(int i =2;i*i <= num;i++)
+        {
+            if(num%i==0)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int userInput = scanner.nextInt();
+        int count = 0;
+        int num = userInput+1;
+        while(count<5)
+        {
+            if(isPrime(num))
+            {
+                System.out.println(num);
+                count++;;
+            }
+            num++;
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/c523e7e2-c02a-46e2-b132-a53fb4ba0621)
+
+![image](https://github.com/user-attachments/assets/c815eee9-2fbe-47bd-a52d-0282acdce3ad)
+
+
+
 
