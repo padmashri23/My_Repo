@@ -77,6 +77,53 @@ public class Main{
 
 ![image](https://github.com/user-attachments/assets/c815eee9-2fbe-47bd-a52d-0282acdce3ad)
 
+### 3)Prime or Composite Number:
+```java
+import java.util.*;
+public class Main{
+  public static boolean isPrime(int num)
+  {
+    if(num<2)
+    {
+      return false;
+    }
+    for(int i = 2;i*i<=num;i++)
+    {
+       if(num%i == 0)
+       {
+         return false;
+       }
+    }
+    return true;
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int num = scanner.nextInt();
+    if(num == 1 || num == 0)
+    {
+      System.out.println(num+" is neither a prime nor a composite number");
+    }
+    else if(num<0)
+    {
+      System.out.println(num+" is a Invalid Input");
+    }
+    else if(isPrime(num))
+    {
+      System.out.println(num+" is a prime number");
+    }
+    else
+    {
+      System.out.println(num+" is a composite number");
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/43ef04cd-fde9-4d01-98ea-bc78af205a56)
+![image](https://github.com/user-attachments/assets/64a7a569-77c9-4f8b-9f2b-14739bdfbe52)
+
+
 
 
 
