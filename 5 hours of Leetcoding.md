@@ -695,6 +695,39 @@ Time Complexity  : O(n)
 
 Space Complexity : O(1) 
 
+### 16)509. Fibonacci Number:
+```java
+class Solution {
+    public int fib(int n) {
+        if (n == 0) {
+            return 0;
+        }
+        if (n == 1) {
+            return 1;
+        }
+        int a, b, c;
+        a = 0;
+        b = 1;
+        c = 0;
+        for (int i = 2; i <= n; i++) {
+            c = a + b;
+            a = b;
+            b = c;
+            
+        }
+        return c;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/481cc26d-6937-441e-8e16-b2714324e565)
+
+Refer to note for the problem understanding and for the iterations.
+
+Time Complexity  : O(n)
+
+Space Complexity : O(1)
+
+
 
 
 
