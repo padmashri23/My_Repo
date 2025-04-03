@@ -310,3 +310,34 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/4f5d2f9e-f330-49d1-afc0-87465a7f0c3a)
 ![image](https://github.com/user-attachments/assets/59303acd-b2ae-4ab0-a3d2-16c1587ab2bb)
+
+### 10)The Perfect Number Detective:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args){
+  Scanner scanner = new Scanner(System.in);
+  int n = scanner.nextInt();
+  int sum = 0;
+  for(int i = 1;i < n;i++)
+  {
+    if(n%i==0)
+    {
+      sum = sum + i; 
+    }
+  }
+  if(sum == n)
+  {
+    int nw = sum/2;
+    System.out.println(nw);
+  }
+  else  
+  {
+    System.out.println(n);
+  }
+  scanner.close();
+}
+}
+```
+![image](https://github.com/user-attachments/assets/c93c7ee7-94dd-4ea2-a63c-ba42978d2d6f)
+![image](https://github.com/user-attachments/assets/f061e8f4-076c-40e1-8d13-97d8016aae2e)
