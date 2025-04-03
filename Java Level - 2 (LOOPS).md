@@ -184,5 +184,36 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/a2e07280-5c61-428c-bcff-2dfbceeec903)
 ![image](https://github.com/user-attachments/assets/59cda454-2cb1-478e-8789-45e7da41d1a7)
 
+### 6)Divisor Sum and Equality Checker:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sum = 0;
+    for(int i = 1;i<n;i++)
+    {
+      if(n%i==0){
+      System.out.print(i+" ");
+      sum = sum + i;
+      }
+      
+    }
+     System.out.println("\n"+sum);
+     if(sum == n)
+     {
+        System.out.println(n+" is an equal number");
+     }
+     else
+     {
+        System.out.println(n+" is not an equal number");
+     }
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/4ed008cc-cef8-4245-88e9-6d920af91d78)
+![image](https://github.com/user-attachments/assets/5f5f75f3-c1ec-4a3b-924d-b22fa9f1f125)
 
 
