@@ -216,4 +216,35 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/4ed008cc-cef8-4245-88e9-6d920af91d78)
 ![image](https://github.com/user-attachments/assets/5f5f75f3-c1ec-4a3b-924d-b22fa9f1f125)
 
+### 7)Abundant Number:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sum = 0;
+    for(int i = 1 ;i<n;i++)
+    {
+      if(n%i==0)
+      {
+        sum = sum+i;
+      }
+    }
+    if(sum>n)
+    {
+      System.out.println(n+" is an Abundant number");
+    }
+    else
+    {
+       System.out.println(n+" is not an Abundant number");
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/c62bfa28-26ee-41f2-b117-d20bc80c5c38)
+![image](https://github.com/user-attachments/assets/fe9e808f-9dd2-4a19-9e08-0733e6262c05)
+
 
