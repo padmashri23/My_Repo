@@ -247,4 +247,29 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/c62bfa28-26ee-41f2-b117-d20bc80c5c38)
 ![image](https://github.com/user-attachments/assets/fe9e808f-9dd2-4a19-9e08-0733e6262c05)
 
-
+### 8)Perfect Cubes:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    if(n<0 || n == 0)
+    {
+      System.out.println("Invalid");
+    }
+    else
+    {
+    for(int i = n;i<=n+2;i++)
+    {
+      int c = i*i*i;
+      System.out.println(c);
+    }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/fdfdb8e3-d477-4f23-912b-948f1e9bf404)
+![image](https://github.com/user-attachments/assets/15afb4c0-2c5b-4428-a26e-c6a7412f2da6)
