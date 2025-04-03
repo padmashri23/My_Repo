@@ -362,3 +362,44 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/37b25bfb-e49b-46a8-971a-0fd7e365a381)
 ![image](https://github.com/user-attachments/assets/2cb496e2-4e15-4c66-9cfa-a2f629711517)
+
+### 12)Odd or Even numbers series:
+```java
+//Odd or even number series
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    if(n<=0)
+    {
+      System.out.println("Not a Positive integer");
+    }
+    else if(n%2==0)
+    {
+      for(int i = 1;i<=n;i++)
+      {
+        if(i%2==0)
+        {
+        System.out.print(i+" ");
+        }
+        }
+    }
+    else 
+    {
+     for(int i = 1;i<=n;i++)
+      {
+        if(i%2!=0)
+        {
+        System.out.print(i+" ");
+        }
+      } 
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/8e9c7137-6a05-4ad2-a3ca-1e209a03dfde)
+![image](https://github.com/user-attachments/assets/32db1c63-e3f1-4c44-9637-3f7e243bfc95)
+
