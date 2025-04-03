@@ -341,3 +341,24 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/c93c7ee7-94dd-4ea2-a63c-ba42978d2d6f)
 ![image](https://github.com/user-attachments/assets/f061e8f4-076c-40e1-8d13-97d8016aae2e)
+
+### 11)Handshake Simulation Program:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sum = 0;
+    for(int i = n-1;i>=1;i--)
+    {
+      sum =sum+i;
+    }
+    System.out.println(sum);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/37b25bfb-e49b-46a8-971a-0fd7e365a381)
+![image](https://github.com/user-attachments/assets/2cb496e2-4e15-4c66-9cfa-a2f629711517)
