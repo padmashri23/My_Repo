@@ -273,3 +273,40 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/fdfdb8e3-d477-4f23-912b-948f1e9bf404)
 ![image](https://github.com/user-attachments/assets/15afb4c0-2c5b-4428-a26e-c6a7412f2da6)
+
+### 9)Squares of Even Numbers & odd number Series:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    if(n%2==0)
+    {
+      for(int i = 1 ; i <= n ;i++)
+      {
+        if(i%2==0)
+        {
+          int sq = i*i;
+          System.out.print(sq+" ");
+        }
+      }
+    }
+    else
+    {
+      for(int i = 1;i<=n;i++)
+      {
+        if(i%2!=0)
+        {
+          int c = i*i;
+          System.out.print(c+" ");
+        }
+      }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/4f5d2f9e-f330-49d1-afc0-87465a7f0c3a)
+![image](https://github.com/user-attachments/assets/59303acd-b2ae-4ab0-a3d2-16c1587ab2bb)
