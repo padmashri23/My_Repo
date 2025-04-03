@@ -155,6 +155,34 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/95deec1a-fe26-48f5-a106-03e6c472488d)
 ![image](https://github.com/user-attachments/assets/ce44f9bd-d26f-4184-813f-69def9f55d7f)
 
+### 5)Sum of Squares of N Natural Numbers:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sum = 0;
+    if(n<0)
+    {
+      System.out.println("Invalid Input");
+    }
+    else
+    {
+    for(int i = 1;i<=n;i++)
+    {
+      int sq = i*i;
+      sum = sum+sq;
+    }
+    System.out.println(sum);
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/a2e07280-5c61-428c-bcff-2dfbceeec903)
+![image](https://github.com/user-attachments/assets/59cda454-2cb1-478e-8789-45e7da41d1a7)
 
 
 
