@@ -403,3 +403,38 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/8e9c7137-6a05-4ad2-a3ca-1e209a03dfde)
 ![image](https://github.com/user-attachments/assets/32db1c63-e3f1-4c44-9637-3f7e243bfc95)
 
+### 13)The Odd Factorial Quest:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int prod=1;
+    if(n<1)
+    {
+      System.out.println("Invalid");
+    }
+    else if(n%2==0)
+    {
+      System.out.println("Please enter a valid odd number");
+    }
+    else
+    {
+      for(int i = 1;i<=n;i++)
+      {
+        if(i%2!=0)
+        {
+          prod = prod*i;
+        }
+      }
+       System.out.println(prod);
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/695521ca-cefc-41ee-b5ad-6a1ab9c5a698)
+![image](https://github.com/user-attachments/assets/360e3f84-3047-4e53-8e1e-ee4c4aba0e54)
+
