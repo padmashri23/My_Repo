@@ -1,6 +1,6 @@
 <h1 align="center"><u><strong>JAVA LEVEL - 2 </strong></u></h1>
 
-### FOR EVERY PROBLEM'S ITERATIONS REFER TO THE NOTE   
+### FOR EVERY PROBLEM'S ITERATIONS REFER TO THE NOTE     
 
 ### 1)Fibonacci series:
 ```java
