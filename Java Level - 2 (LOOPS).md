@@ -438,3 +438,40 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/695521ca-cefc-41ee-b5ad-6a1ab9c5a698)
 ![image](https://github.com/user-attachments/assets/360e3f84-3047-4e53-8e1e-ee4c4aba0e54)
 
+### 14)Fibonacci Even Number Generator
+```java
+import java.util.*;
+public class main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int a,b,c;
+    a = 0;
+    b = 1;
+    c = 0;
+    if(n<=0)
+    {
+      System.out.println("Invalid");
+    }
+    else
+    {
+    for(int i = 0;i<n;i++)
+    {
+      while(c<=n)
+      {
+      if(c%2==0  ){
+      System.out.print(c+" ");
+      }
+        a = b;
+        b = c;
+        c = a+b;
+      }
+    }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/12509cba-4396-4f60-92cb-c7f3459dffc4)
+
