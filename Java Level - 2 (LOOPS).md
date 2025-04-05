@@ -553,3 +553,32 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/34ee0070-d18d-4c56-b2de-d72c52c27808)
 
+### 17)Sum of Even Numbers:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int num = scanner.nextInt();
+    int sum = 0;
+    if(num<=0)
+    {
+      System.out.println(num+" is an Invalid number.");
+    }
+    else{
+    for(int i = 1;i<=num;i++)
+    {
+      if(i%2==0)
+      {
+        sum = sum + i;
+      }
+    }
+     System.out.println(sum);
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/3ec5c943-18f1-4d89-b57d-eb313f7b0821)
+
