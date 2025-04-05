@@ -619,3 +619,62 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/b19a76da-a68c-44f2-bca1-925836452358)
 
+### 19)Counted the number of leap and non-leap years
+```java
+import java.util.*;
+public class Main{
+  public static boolean isLeapYear(int n) {
+       if(n%100 == 0)
+      {
+        if(n%400 == 0)
+        {
+          return true;
+        }
+        else{
+          return false;
+        }
+      }
+      else{
+        if(n%4==0)
+        {
+          return true;
+        }
+        else{
+          return false;
+        }
+      }  
+    }
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int leapcount = 0;
+    int nonleapcount = 0;
+    for(int i = n+1;i<=n+10;i++)
+    {
+      if(isLeapYear(i))
+      {
+        leapcount++;
+      }
+      else
+      {
+        nonleapcount++;
+      }
+    }
+    if(isLeapYear(n))
+    {
+      System.out.println(n+" is a Leap Year.");
+    }
+    else
+    {
+      System.out.println(n+" is not a Leap Year.");
+    }
+    System.out.println("Leap Years:"+leapcount);
+    System.out.println("Non-Leap Years:"+nonleapcount);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/c4429e42-9fde-427a-97da-77d69dd1fd15)
+
+
