@@ -475,3 +475,59 @@ public class main{
 ```
 ![image](https://github.com/user-attachments/assets/12509cba-4396-4f60-92cb-c7f3459dffc4)
 
+### 15)Check Second Even Number
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n1 = scanner.nextInt();
+    int n2 = scanner.nextInt();
+    int count = 0;
+    if(n1%2==0 && n2%2==0)
+    {
+     for(int i = n1;i<=n2;i++)
+     {
+       if(i%2==0)
+       {
+         count++;
+         if(count == 2)
+         {
+           System.out.println(i);
+           break;
+         }
+       }
+     }
+    }
+    else
+    {
+     System.out.println(n1+" and "+n2+" are not Even."); 
+    }
+    scanner.close();
+  }
+}
+```
+``java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n1 = scanner.nextInt();
+    int n2 = scanner.nextInt();
+    int next;
+    if(n1%2==0 && n2%2==0)
+    {
+      next = n1+2;
+      System.out.println(next);
+    }
+    else{
+      System.out.println(n1+" and "+n2+" are not Even.");
+    }
+    scanner.close();
+  }
+}
+``
+![image](https://github.com/user-attachments/assets/b00e1696-4dd4-4597-b94c-cf06a945566d)
+
