@@ -582,3 +582,40 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/3ec5c943-18f1-4d89-b57d-eb313f7b0821)
 
+### 18)Prime Number in range:
+```java
+import java.util.*;
+public class Main{
+  public static boolean isPrime(int num)
+  {
+    if(num<2)
+    {
+      return false;
+    }
+    for(int i = 2;i*i<=num;i++)
+    {
+      if(num%i==0)
+      {
+        return false;
+      }
+    }
+    return true;
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n1 = scanner.nextInt();
+    int n2 = scanner.nextInt();
+    for(int i = n1;i<=n2;i++)
+    {
+      if(isPrime(i))
+      {
+        System.out.print(i+" ");
+      }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/b19a76da-a68c-44f2-bca1-925836452358)
+
