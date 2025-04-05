@@ -508,7 +508,7 @@ public class Main{
   }
 }
 ```
-``java
+```java
 import java.util.*;
 public class Main{
   public static void main(String[] args)
@@ -528,6 +528,28 @@ public class Main{
     scanner.close();
   }
 }
-``
+```
 ![image](https://github.com/user-attachments/assets/b00e1696-4dd4-4597-b94c-cf06a945566d)
+
+### 16)Sum of First and Last digit:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int num = scanner.nextInt();
+    int firstdigit = num;
+    int lastdigit = num%10;
+    while(firstdigit>9)
+    {
+      firstdigit = firstdigit/10;
+    }
+    int sum = firstdigit+lastdigit;
+    System.out.println(sum);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/34ee0070-d18d-4c56-b2de-d72c52c27808)
 
