@@ -704,5 +704,33 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/6859f80b-f13d-4ffe-8224-8a3251f6730e)
 ![image](https://github.com/user-attachments/assets/8561c581-4279-4a5c-b4ad-209174da7da9)
 
+### 21)Sum of the digits:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    long n = scanner.nextLong();
+    long sum = 0;
+    n = Math.abs(n);
+    if(n==0)
+    {
+      sum = 0;
+    }
+    while(n>0)
+    {
+      sum = sum+n%10;
+      n = n/10;
+      
+    }
+    System.out.println(sum);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/c767ccd0-3a21-4f91-b3eb-587a134d92a4)
+![image](https://github.com/user-attachments/assets/386c14bb-151d-4ce5-8cd3-515dfa0151f8)
+![image](https://github.com/user-attachments/assets/49f40ba2-1266-4b42-bc42-68c4c1ed5b35)
 
 
