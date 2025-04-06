@@ -764,4 +764,31 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/21834d6d-e348-4a10-8ed6-c617a759bf24)
 
+### 23.Product of N digits:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int prod = 1;
+    while(n>0)
+    {
+      prod = prod * (n%10);
+      n = n/10;
+    }
+    if(prod==0)
+    {
+      System.out.println("Invalid Input.");
+    }
+    else{
+    System.out.println(prod);
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/ac63e9c0-5963-4248-a9f4-af9563b96ac5)
+
+
 
