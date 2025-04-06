@@ -677,4 +677,32 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/c4429e42-9fde-427a-97da-77d69dd1fd15)
 
+### 20)Digits Count:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    long n = scanner.nextLong();
+    int count = 0;
+    n = Math.abs(n);
+    if(n==0)
+    {
+      count = 1;
+    }
+    while(n>0)
+    {
+      n = n/10;
+      count++;
+    }
+    System.out.println(count);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/6859f80b-f13d-4ffe-8224-8a3251f6730e)
+![image](https://github.com/user-attachments/assets/8561c581-4279-4a5c-b4ad-209174da7da9)
+
+
 
