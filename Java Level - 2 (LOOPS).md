@@ -733,4 +733,35 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/386c14bb-151d-4ce5-8cd3-515dfa0151f8)
 ![image](https://github.com/user-attachments/assets/49f40ba2-1266-4b42-bc42-68c4c1ed5b35)
 
+### 22)Digit Sum Calculator
+```java
+//Digit Sum Calculator:
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int odd = 0;
+    int even = 0;
+    while(n>0)
+    {
+      int digit = n%10;
+      if(digit%2==0)
+      {
+        even = even+digit;
+      }
+      else{
+        odd = odd+ digit; 
+      }
+      n = n/10;
+    }
+    System.out.println(even);
+    System.out.println(odd);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/21834d6d-e348-4a10-8ed6-c617a759bf24)
+
 
