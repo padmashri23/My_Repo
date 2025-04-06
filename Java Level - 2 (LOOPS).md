@@ -852,5 +852,37 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/916f291d-e4d2-49b1-ae83-34394d595995)
 ![image](https://github.com/user-attachments/assets/b469b8f2-1290-4c2d-b255-14ed3c579f65)
 
+### 27.Digit Incrementer
+```java
+//Digit Incrementer
+import java.util.*;
+public class Main{
+  public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
+    int original = scanner.nextInt();
+    int number = original;
+    String result = "";
+    while(number>0)
+    {
+      int digit = number%10;
+      digit = (digit+1)%10;
+      result = digit+result;
+      number = number/10;
+    }
+    result = result.replaceFirst("^0+","");
+    if(result.equals(""))
+    {
+      result = "0";
+      System.out.println(result);
+    }
+    else{
+      System.out.println(result);
+    }
+    scanner.close();
+}
+}
+```
+![image](https://github.com/user-attachments/assets/be664929-ac3b-4d7c-8df4-ea2cfa6baf85)
+
 
 
