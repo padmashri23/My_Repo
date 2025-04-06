@@ -790,5 +790,37 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/ac63e9c0-5963-4248-a9f4-af9563b96ac5)
 
+### 24.LCM Finder
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n1 = scanner.nextInt();
+    int n2 = scanner.nextInt();
+    if(n1<0 || n2<0)
+    {
+      System.out.println("Negative Input");
+    }
+    else{
+    int gcd = findGCD(n1,n2);
+    int lcm = (n1 * n2)/gcd;
+    System.out.println(lcm);
+    }
+    scanner.close();
+  }
+  public static int findGCD(int a,int b)
+  {
+    if(b==0)
+    {
+      return a;
+    }
+    return findGCD(b,a%b);
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/7091df7e-0a8f-408a-97bb-6cb4811379e8)
+
 
 
