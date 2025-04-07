@@ -884,5 +884,35 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/be664929-ac3b-4d7c-8df4-ea2cfa6baf85)
 
+### 28.Palindrome Check:
+```java
+//Palindrome Check
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int a;
+    int sum = 0;
+    int original = n;
+    while(n>0)
+    {
+      a = n%10;
+      sum =sum*10+a;
+      n = n/10;
+    }
+    if(sum == original)
+    {
+      System.out.println(original+" is a Palindrome.");
+    }
+    else{
+      System.out.println(original+" is Not a Palindrome.");
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/c15e30ba-212a-4eab-bff5-a28e107c89da)
 
 
