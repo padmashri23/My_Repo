@@ -915,4 +915,36 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/c15e30ba-212a-4eab-bff5-a28e107c89da)
 
+### 29) Reverse the Digits:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    float n = scanner.nextFloat();
+    if(n<0)
+    {
+      System.out.println((int)n+" is not a Positive Number.");
+    }
+    else{
+    int intpart = (int)n;
+    int sum = 0;
+    int a;
+    while(intpart>0)
+    {
+      a = intpart%10;
+      sum = sum * 10 + a;
+      intpart = intpart/10;
+    }
+    System.out.println(sum);
+    }
+    
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/fbbdeb8b-2610-42ec-a583-87d35a4113e2)
+
+
 
