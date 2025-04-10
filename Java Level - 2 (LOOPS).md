@@ -946,5 +946,38 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/fbbdeb8b-2610-42ec-a583-87d35a4113e2)
 
+### 29) Strong Number:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int original = n;
+    int sum = 0;
+    while(n!=0)
+    {
+      int factorial = 1;
+      int digit = n%10;
+      for(int i = 1;i<= digit;i++)
+      {
+        factorial = factorial * i;
+      }
+      sum = sum + factorial;
+      n = n/10;
+    }
+    if(sum == original)
+    {
+      System.out.println(original+" is a Strong Number.");
+    }
+    else {
+      System.out.println(original+" is Not a Strong Number.");
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/f33fab9b-bb44-4784-8338-3979726dad9d)
 
 
