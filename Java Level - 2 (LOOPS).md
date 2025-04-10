@@ -1,4 +1,4 @@
-<h1 align="center"><u><strong>JAVA LEVEL - 2 </strong></u></h1>
+![image](https://github.com/user-attachments/assets/349faa10-1d73-430b-8eda-1939553398b2)<h1 align="center"><u><strong>JAVA LEVEL - 2 </strong></u></h1>
 
 ### FOR EVERY PROBLEM'S ITERATIONS REFER TO THE NOTE     
 
@@ -980,4 +980,39 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/f33fab9b-bb44-4784-8338-3979726dad9d)
 
+### 30)Perfect Square:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    float n = scanner.nextFloat();
+    if(n<0)
+    {
+      System.out.println((int)n+" is Invalid Number.");
+    }
+    else {
+      int intpart = (int)n;
+      boolean found = false;
+      for(int i = 0;i<=intpart;i++)
+      {
+        if(i*i == intpart){
+        found = true;
+        break;
+        }
+      }
+      if(found)
+      {
+        System.out.println(intpart+" is a Perfect Square.");
+      }
+      else {
+        System.out.println(intpart+" is not a Perfect Square.");
+      }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/761abe01-d7aa-4f5b-bad4-0b8231102056)
 
