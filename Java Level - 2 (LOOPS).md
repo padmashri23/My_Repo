@@ -1040,4 +1040,38 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/8a51a1a3-6997-4d07-96e7-554a04a6f670)
 
+### 32)Automorphic number:
+```java
+//Automorphic number:
+import java.util.*;
+public class Main{
+  public static boolean isAutomorphic(int N)
+  {
+    int sq = N*N;
+    while(N>0)
+    {
+      if(N%10!=sq%10)
+      {
+        return false;
+      }
+      N = N/10;
+      sq = sq/10;
+    }
+    return true;
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    if(isAutomorphic(n))
+    {
+      System.out.println(n+" is an Automorphic Number.");
+    }
+    else {
+       System.out.println(n+" is not an Automorphic Number.");
+    }
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/e1756aea-f342-4fe9-8084-fcbdc63f89d3)
 
