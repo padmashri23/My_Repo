@@ -1016,3 +1016,28 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/761abe01-d7aa-4f5b-bad4-0b8231102056)
 
+### 31)Sum of the Middle Digits:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sum = 0;
+    int a;
+    a = a/10;
+    for(int i = a;a>9;i++) 
+    {
+      int b = a%10;
+      sum = sum + b;
+      a = a/10;
+    }
+    System.out.println(sum);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/8a51a1a3-6997-4d07-96e7-554a04a6f670)
+
+
