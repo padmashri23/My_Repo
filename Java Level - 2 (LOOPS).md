@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/349faa10-1d73-430b-8eda-1939553398b2)<h1 align="center"><u><strong>JAVA LEVEL - 2 </strong></u></h1>
+<h1 align="center"><u><strong>JAVA LEVEL - 2 </strong></u></h1>
 
 ### FOR EVERY PROBLEM'S ITERATIONS REFER TO THE NOTE     
 
