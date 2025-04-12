@@ -1075,3 +1075,24 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/e1756aea-f342-4fe9-8084-fcbdc63f89d3)
 
+### 33)Exploring the Growth Series:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n1 = scanner.nextInt();
+    int n2 = scanner.nextInt();
+    int term = n2;
+    for(int i = 1;i<=n1;i++)
+    {
+      System.out.print(term+" ");
+      term = term*2;
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/e3e4c649-cdd3-44cd-9f9d-b7cf4184f7d5)
+
