@@ -1096,7 +1096,7 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/e3e4c649-cdd3-44cd-9f9d-b7cf4184f7d5)
 
-### 34)The Plaindromic Sum:
+### 34)The Palindromic Sum:
 ```java
 import java.util.*;
 public class Main{
