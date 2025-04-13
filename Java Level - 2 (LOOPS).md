@@ -1167,7 +1167,7 @@ public class Main{
     Scanner scanner = new Scanner(System.in);
     int n = scanner.nextInt();
     int count = 0;
-    int num = n + 1;
+    int num = n + 1; //This is much important because we are finding the next palindrome only from the give number.
     while(count < 1)
     {
       if(isPalindrome(num))
@@ -1185,6 +1185,46 @@ public class Main{
 
 ### 36)Finding Consecutive Palindromic Numbers:
 ```java
+import java.util.*;
+public class Main{
+  public static boolean isPalindrome(int N)
+  {
+    int original = N;
+    int sum = 0;
+    int a;
+    while(N!=0)
+    {
+      a = N%10;
+      sum = sum*10+a;
+      N = N/10;
+    }
+    if(sum == original)
+    {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int count = 0;
+    while(count< 5)
+    {
+      if(isPalindrome(n))
+      {
+        System.out.print(n+" ");
+        count++;
+      }
+      n++;
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/01d548fb-51f8-4acd-8dbf-810bc572b0ed)
 
 
 
