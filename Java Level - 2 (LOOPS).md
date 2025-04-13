@@ -1026,7 +1026,7 @@ public class Main{
     int n = scanner.nextInt();
     int sum = 0;
     int a;
-    a = a/10;
+    a = n/10;
     for(int i = a;a>9;i++) 
     {
       int b = a%10;
