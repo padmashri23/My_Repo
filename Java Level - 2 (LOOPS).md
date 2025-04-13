@@ -1226,6 +1226,46 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/01d548fb-51f8-4acd-8dbf-810bc572b0ed)
 
+### 37)Detecting Narcissistic Numbers:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sum = 0;
+    int count = 0;
+    int a;
+    int pow;
+    int original = n;
+    int real = n;
+    while(n!=0)
+    {
+      n=n/10;
+      count++;
+    }
+    while(original!=0)
+    {
+      a = original%10;
+      pow = (int)Math.pow(a,count);
+      sum = sum + pow;
+      original = original / 10;
+    }
+    if(sum == real)
+    {
+      System.out.println(real+" is a narcissistic number");
+    }
+    else {
+      System.out.println(real+" is not a narcissistic number");
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/12f7b05a-4eda-4a40-a617-9c338d5ebb16)
+
+
 
 
 
