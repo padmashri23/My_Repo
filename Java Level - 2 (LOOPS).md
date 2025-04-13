@@ -1096,3 +1096,45 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/e3e4c649-cdd3-44cd-9f9d-b7cf4184f7d5)
 
+### 34)The Plaindromic Sum:
+```java
+import java.util.*;
+public class Main{
+  public static boolean isPalindrome(int N)
+  {
+    int sum = 0;
+    int original =  N;
+    while(N!=0)
+    {
+      int a= N%10;
+      sum = sum*10+a;
+      N = N/10;
+    }
+    if(sum == original)
+    {
+      return true;
+    }
+    else {
+        return false;
+    }
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int add = 0;
+    for(int i = 1;i<=n;i++)
+    {
+      if(isPalindrome(i))
+      {
+        add = add+i; 
+      }
+    }
+    System.out.println(add);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/aa20e0b3-1c07-49fb-b307-8fb5fc600f16)
+
+
