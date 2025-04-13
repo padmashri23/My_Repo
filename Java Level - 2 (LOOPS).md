@@ -1265,6 +1265,33 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/12f7b05a-4eda-4a40-a617-9c338d5ebb16)
 
+### 38)Swap the Digits:
+```java
+//SWAP THE DIGITS:
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    String result = Integer.toString(n);
+    if(result.length()<=1)
+    {
+      System.out.println(n);
+    }
+    else {
+      char first = result.charAt(0);
+      char last = result.charAt(result.length() - 1);
+      String middle = result.substring(1,result.length() - 1);
+      String swapped = last + middle + first;
+      System.out.println(swapped);
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/4c86f6da-9862-4819-9d61-8f3a627ba5e9)
+
 
 
 
