@@ -1137,4 +1137,58 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/aa20e0b3-1c07-49fb-b307-8fb5fc600f16)
 
+### 35)Finding the Next Palindrome:
+```java
+//MOST IMPORTANT
+//FINDING THE NEXT PALINDROME
+import java.util.*;
+public class Main{
+  public static boolean isPalindrome(int N)
+  {
+    int original = N;
+    int sum = 0;
+    int a;
+    while(N!=0)
+    {
+      a = N%10;
+      sum = sum*10+a;
+      N = N/10;
+    }
+    if(sum == original)
+    {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int count = 0;
+    int num = n + 1;
+    while(count < 1)
+    {
+      if(isPalindrome(num))
+      {
+         System.out.print(num);
+         count++;
+      }
+      num++;
+    }   
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/3485de2b-2ddb-4631-80ed-79b8e0178044)
+
+### 36)Finding Consecutive Palindromic Numbers:
+```java
+
+
+
+
+
+
 
