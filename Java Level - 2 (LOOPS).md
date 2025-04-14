@@ -1414,6 +1414,36 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/631457cb-0e26-4b84-8be1-45cd9c1d89e5)
 
+### 43)Printing Pattern in Reverse Order:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    if(n<=0)
+    {
+      System.out.println("Invalid Input");
+    }
+    else {
+      for(int i = 0;i<n;i++)
+      {
+        for(int j = 1;j<=n-i;j++)
+        {
+          System.out.print(j+" ");
+        }
+        System.out.print("\n");
+      }
+      scanner.close();
+    }
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/d21bbe0d-775a-445c-873b-3d4f4df12350)
+
+
+
 
 
 
