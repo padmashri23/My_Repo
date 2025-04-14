@@ -1474,7 +1474,38 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/92a7f893-a173-4f63-b731-780c488d6393)
 
-
+### 45)Alphabetical Pattern
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    
+    if(n<=0 || n>26)
+    {
+      System.out.println("Invalid");
+    }
+    else {
+      char ch = 'A';
+    for(int i = 0;i<n;i++)
+    {
+      for(int j = 0;j<i+1;j++)
+      {
+        System.out.print((char)('A'+j));
+        
+      }
+      
+      System.out.print("\n");
+      
+    }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/613c3458-2d4a-4a58-a873-9eaec71c3695)
 
 
 
