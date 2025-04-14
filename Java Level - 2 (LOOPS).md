@@ -1507,6 +1507,54 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/613c3458-2d4a-4a58-a873-9eaec71c3695)
 
+### 46)Ugly Number
+```java
+import java.util.*;
+public class Main{
+  public static boolean isUgly(int num)
+  {
+    if(num<1)
+    {
+      return false;
+    }
+    while(num%2==0)
+    {
+      num = num/2;
+    }
+    while(num%3==0)
+    {
+      num = num/3;
+    }
+    while(num%5==0)
+    {
+      num = num/5;
+    }
+    if(num == 1)
+    {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    if(isUgly(n))
+    {
+      System.out.println("Ugly number");
+    }
+    else {
+       System.out.println("Not an Ugly number");
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/f3339229-d4e4-4730-9242-0e3e419cd87c)
+![image](https://github.com/user-attachments/assets/8dae4ca8-6e57-4f6d-a291-f771df7cde8f)
+![image](https://github.com/user-attachments/assets/0b02725d-82b8-4b50-9963-8993d4ce5c94)
 
 
 
