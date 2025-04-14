@@ -1442,6 +1442,38 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/d21bbe0d-775a-445c-873b-3d4f4df12350)
 
+### 44)Floyd's Triangle
+```java
+//Floyd's Triangle
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    if(n<=0)
+    {
+      System.out.println("Invalid");
+    }
+    else {
+      int sum = 1;
+      for(int i = 0;i<n;i++)
+      {
+        for(int j = 0;j<i+1;j++)
+        {
+          System.out.print(sum+" ");
+          sum++;
+        }
+        System.out.print("\n");
+        
+      }
+      scanner.close();
+    }
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/92a7f893-a173-4f63-b731-780c488d6393)
+
 
 
 
