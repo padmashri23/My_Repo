@@ -1382,6 +1382,37 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/049410fd-3d92-4017-a4c0-b6d8f8b60e65)
 
+### 42)Pattern printing with multiples of 5:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    
+    if(n<=0)
+    {
+      System.out.println("Invalid");
+    }
+    else {
+    
+    for(int i = 0;i<n;i++)
+    {
+      for(int j = 1;j<=i+1;j++)
+      {
+        System.out.print(j*5+" ");
+
+      }
+      System.out.print("\n");
+      
+    }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/631457cb-0e26-4b84-8be1-45cd9c1d89e5)
 
 
 
