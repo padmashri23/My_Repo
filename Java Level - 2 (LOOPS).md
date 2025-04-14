@@ -1320,6 +1320,72 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/307a2f32-7f4c-4a83-9bb9-e692cb15e565)
 
+### 40)Pyramid Pattern:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sum = 1;
+    if(n<=0)
+    {
+      System.out.println("Invalid");
+    }
+    else {
+    for(int i = 0;i<n;i++)
+    {
+      for(int j = 0;j<i+1;j++)
+      {
+        System.out.print(sum+" ");
+        sum++;
+      }
+      System.out.print("\n");
+    }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/6b52741d-230a-49c9-b176-323c8643b322)
+
+### 41)Alphabet Triangle Generator:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    
+    if(n<=0)
+    {
+      System.out.println("Invalid");
+    }
+    else {
+      char ch = 'A';
+    for(int i = 0;i<n;i++)
+    {
+      for(int j = 0;j<i+1;j++)
+      {
+        System.out.print(ch);
+        
+      }
+      System.out.print("\n");
+      ch++;
+    }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/049410fd-3d92-4017-a4c0-b6d8f8b60e65)
+
+
+
+
+
 
 
 
