@@ -1292,6 +1292,34 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/4c86f6da-9862-4819-9d61-8f3a627ba5e9)
 
+### 39)Square Pattern:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    if(n<=0)
+    {
+      System.out.println(n+" is Invalid input.");
+    }
+    else {
+    for(int i = 0;i<n;i++)
+    {
+      for(int j = 0;j<n;j++)
+      {
+        System.out.print("# ");
+      }
+      System.out.print("\n");
+    }
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/307a2f32-7f4c-4a83-9bb9-e692cb15e565)
+
 
 
 
