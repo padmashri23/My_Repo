@@ -1615,6 +1615,44 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/2e30b47e-6ede-4ab9-954e-9049282b8644)
 
+### 49)Sum of all Prime Factors:
+```java
+import java.util.*;
+public class Main{
+  public static boolean isPrime(int num)
+  {
+    if(num<2)
+    {
+      return false;
+    }
+    for(int i = 2;i*i<=num;i++)
+    {
+      if(num%i==0)
+      {
+        return false;
+      }
+    }
+    return true;
+  }
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sum = 0;
+    for(int i = 2;i<=n;i++)
+    {
+      while(n%i==0 && isPrime(i))
+      {
+        sum = sum+i;
+        n = n/i;
+      }
+    }
+    System.out.println(sum);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/6137b2fb-99e0-4fad-91ae-18fc383da591)
 
 
 
