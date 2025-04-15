@@ -1585,6 +1585,36 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/07c3daf5-fe1d-4bad-8e4e-a1300ff42aaa)
 
+### 48) Harmonic Series:
+```java
+//Harmonic Series
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    float n = scanner.nextFloat();
+    if(n<=0)
+    {
+      System.out.println("Invalid Input");
+    }
+    else {
+      float sum = 0;
+      float b = 1.0f;
+      for(int i = 1;i<=n;i++)
+      {
+        float a = 1.0f/b;
+        sum = sum + a;
+        b++;
+      }
+      System.out.printf("%.2f\n",sum);
+    }
+      scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/2e30b47e-6ede-4ab9-954e-9049282b8644)
+
 
 
 
