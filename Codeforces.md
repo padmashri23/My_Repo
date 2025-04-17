@@ -4,7 +4,7 @@ import java.util.*;
 public class Main 
 {
 	public static void main(String[] args) {
-	    Scanner scanner=new Scanner(System.in);   
+	    Scanner scanner=new Scanner(System.in);      
 	    int s1=scanner.nextInt();
 	    int s2=scanner.nextInt();
 	    int s3=scanner.nextInt();    
