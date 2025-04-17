@@ -67,7 +67,7 @@ public class Main
 }
 ```
 ![image](https://github.com/user-attachments/assets/19030ae8-2940-41be-91a6-2368713eba29)
-### 4.A-Perfect Permutations:
+### 4.A-Perfect Permutations:     
 ```java
 import java.util.*;
 public class Main
