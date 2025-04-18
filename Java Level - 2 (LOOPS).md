@@ -1654,6 +1654,49 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/6137b2fb-99e0-4fad-91ae-18fc383da591)
 
+### 50)Java Level - 2 1st attempt question:
+```java
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sum = 0;
+    int add = 0;
+    for(int i = 1;i<=n;i++)
+    {
+      if(n%i==0)
+      {
+        sum = sum + i;
+      }
+    }
+    int last = sum%10;
+    if(last == 0)
+    {
+    while(sum!=0)
+    {
+      int a = sum%10;
+      add = add*10+a;
+      sum = sum/10;
+    }  
+    System.out.println("0"+add);
+    }
+    else {
+    while(sum!=0)
+    {
+      int a = sum%10;
+      add = add*10+a;
+      sum = sum/10;
+    }
+    System.out.println(add);
+    }
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/9f8d2ab2-b3ec-4032-bd59-8c40c71ceda9)
+![image](https://github.com/user-attachments/assets/15205365-7413-48b9-898b-bd19074c3188)
 
 
 
