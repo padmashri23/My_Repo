@@ -5,7 +5,7 @@
 ```C
 #include<stdio.h>
 #include<string.h>
-#define MAX_SIZE 1000
+#define MAX_SIZE 1000  
 int main()
 {
     char text[MAX_SIZE];
