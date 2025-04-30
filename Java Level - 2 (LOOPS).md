@@ -65,7 +65,7 @@ public class Main{
             if(isPrime(num))
             {
                 System.out.println(num);
-                count++;;
+                count++;
             }
             num++;
         }
