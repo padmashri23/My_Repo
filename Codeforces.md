@@ -8,7 +8,7 @@ public class Main
 	    int s1=scanner.nextInt();
 	    int s2=scanner.nextInt();
 	    int s3=scanner.nextInt();    
-	    int s4=scanner.nextInt();
+	    int s4=scanner.nextInt();   
 	    Set<Integer> uniquecolours = new HashSet<>();
 	    uniquecolours.add(s1);
 	    uniquecolours.add(s2);
