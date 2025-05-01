@@ -1507,7 +1507,7 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/613c3458-2d4a-4a58-a873-9eaec71c3695)
 
-### 46)Ugly Number
+### 46)Ugly Number or Hamming Number
 ```java
 import java.util.*;
 public class Main{
