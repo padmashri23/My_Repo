@@ -1267,13 +1267,14 @@ public class Main{
 
 ### 38)Swap the Digits:
 ```java
-//SWAP THE DIGITS:
+//Swap the digits:
 import java.util.*;
 public class Main{
   public static void main(String[] args)
   {
     Scanner scanner = new Scanner(System.in);
     int n = scanner.nextInt();
+    n = Math.abs(n);
     String result = Integer.toString(n);
     if(result.length()<=1)
     {
