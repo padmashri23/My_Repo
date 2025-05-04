@@ -1699,6 +1699,34 @@ public class Main{
 ![image](https://github.com/user-attachments/assets/9f8d2ab2-b3ec-4032-bd59-8c40c71ceda9)
 ![image](https://github.com/user-attachments/assets/15205365-7413-48b9-898b-bd19074c3188)
 
+### 51)Digit Summation:
+```java
+//Digit Summation
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int a;
+    int sum = 0;
+    while(n!=0 || sum>9)
+    {
+      if(n==0)
+      {
+        n = sum;
+        sum = 0;
+      }
+      a = n%10;
+      sum = sum+a;
+      n = n/10;
+    }
+    System.out.println(sum);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/ac2225b5-041a-4d72-acf8-87a1b5cf5886)
 
 
 
