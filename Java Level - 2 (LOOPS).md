@@ -1728,6 +1728,31 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/ac2225b5-041a-4d72-acf8-87a1b5cf5886)
 
+### 52)Sum N Odd Natural Numbers:
+```java
+//Sum N Odd Natural Numbers:
+import java.util.*;
+public class Main{
+  public static void main(String[] args)
+  {
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    int sq = n*2;
+    int sum = 0;
+    for(int i = 1;i<=sq;i++)
+    {
+      if(i%2!=0)
+      {
+        System.out.print(i+" ");
+        sum = sum+i;
+      }
+    }
+    System.out.println("\n"+sum);
+    scanner.close();
+  }
+}
+```
+![image](https://github.com/user-attachments/assets/a044afbc-25bd-4afe-ba43-8f0110137f9b)
 
 
 
