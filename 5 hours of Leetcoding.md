@@ -811,6 +811,16 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/d0f29dcf-dd01-470d-86ce-a305b7d94e42)
 
+### 21)50. Pow(x, n):
+```java
+class Solution {
+    public double myPow(double x, int n) {
+        double result = (double)Math.pow(x,n);
+        return result;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/0451e3d3-a980-438b-9c3f-d382e6687331)
 
 
 
