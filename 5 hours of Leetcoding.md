@@ -822,6 +822,16 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/0451e3d3-a980-438b-9c3f-d382e6687331)
 
+### 22)69. Sqrt(x):
+```java
+class Solution {
+    public int mySqrt(int x) {
+       int ans = (int)Math.sqrt(x);
+       return ans; 
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/f84c854e-0467-4964-831b-31bb6fba564b)
 
 
 
