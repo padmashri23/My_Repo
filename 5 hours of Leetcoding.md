@@ -753,6 +753,34 @@ class Solution {
 ![image](https://github.com/user-attachments/assets/ec9cf43a-b65d-4e52-9981-a833270b9bfb)
 ![image](https://github.com/user-attachments/assets/ef9c8c53-69fa-426f-87cb-eca1ed76c60b)
 
+### 18)9. Palindrome Number:
+```java
+class Solution {
+    public boolean isPalindrome(int x) {
+        int sum = 0;
+        int a ;
+        int original = x;
+        if(x<0)
+        {
+           return false;
+        }
+        while(x!=0)
+        {
+            a = x%10;
+            sum = sum * 10 + a;
+            x = x/10;
+        }
+        if( sum == original)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/c8b8e9bc-d3fe-4eec-bc7d-55f021ad43fe)
 
 
 
