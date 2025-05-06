@@ -730,6 +730,29 @@ Space Complexity : O(1)
 
 <h1 align="center"><u><strong>JAVA LOOPS </strong></u></h1>
 
+### 17)7. Reverse Integer:
+```java
+class Solution {
+    public int reverse(int x) {
+       long a;
+       long sum = 0;
+       while(x!=0)
+       {
+        a = x%10;
+        sum = sum * 10 + a;
+        x = x/10;
+       } 
+       if(sum<Integer.MIN_VALUE || sum>Integer.MAX_VALUE)
+       {
+        return 0;
+       }
+       return (int)sum;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/ec9cf43a-b65d-4e52-9981-a833270b9bfb)
+![image](https://github.com/user-attachments/assets/ef9c8c53-69fa-426f-87cb-eca1ed76c60b)
+
 
 
 
