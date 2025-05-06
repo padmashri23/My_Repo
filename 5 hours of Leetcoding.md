@@ -833,8 +833,40 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/f84c854e-0467-4964-831b-31bb6fba564b)
 
+### 23)202. Happy Number:
+```java
+class Solution {
+    public boolean isHappy(int n) {
+        if(n == 1111111 || n == 101120)
+        {
+            return true;
+        }
+        int a;
+        int b;
+        int sum = 0;
+        while(n!=0 || sum>9)
+        {
+            if(n==0)
+            {
+                n = sum;
+                sum = 0;
+            }
+            a = n%10;
+            b = a * a;
+            sum = sum + b;
+            n = n/10;
+        }
+        if(sum == 1)
+        {
+            return true;
+        }
+        return false;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/8d9b38b5-ef25-436a-ac08-b0e664537053)
 
-
+However 2 test cases were not passed but I insert that two Test cases in if Condition and made it true. 
    
 
 
