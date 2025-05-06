@@ -797,6 +797,20 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/888c19fb-8233-4264-8e35-29c4d064bf6f)
 
+### 20)43. Multiply Strings:
+```java
+import java.math.*;
+class Solution {
+    public String multiply(String num1, String num2) {
+        BigInteger a = new BigInteger(num1);
+        BigInteger b = new BigInteger(num2);
+        BigInteger result = a.multiply(b);
+        return result.toString();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/d0f29dcf-dd01-470d-86ce-a305b7d94e42)
+
 
 
 
