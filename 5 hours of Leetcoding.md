@@ -782,6 +782,20 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/c8b8e9bc-d3fe-4eec-bc7d-55f021ad43fe)
 
+### 19)29. Divide Two Integers
+```java
+class Solution {
+    public int divide(int dividend, int divisor) {
+        if(dividend == Integer.MIN_VALUE && divisor == -1)
+        {
+            return Integer.MAX_VALUE;//Due to the given Constraints
+        }
+        int ans = dividend/divisor;
+        return ans;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/888c19fb-8233-4264-8e35-29c4d064bf6f)
 
 
 
