@@ -907,7 +907,28 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/30cf2358-4bf1-4798-9d60-2dec1b3fd330)
 
-
+### 26)3492. Maximum Containers on a Ship:
+```java
+class Solution {
+    public int maxContainers(int n, int w, int maxWeight) {
+        int sq = n*n;
+        int add = 0;
+        for(int i = 1;i<=sq;i++)
+        {
+           add = add + w;
+        }
+        if(add<maxWeight)
+        {
+            return sq;
+        }
+        else{
+            int div = maxWeight/w;
+            return div;
+        }
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/4c87e8a1-235e-4c46-84fd-fe7cec6216bf)
 
 
 
