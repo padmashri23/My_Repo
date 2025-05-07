@@ -970,6 +970,33 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/445d6af5-46a4-4bda-ba77-a57b90bce00e)
 
+### 29)2427. Number of Common Factors
+```java
+class Solution {
+    public int commonFactors(int a, int b) {
+        int max;
+        int count = 0;
+        if(a>b)
+        {
+            max = a;
+        }
+        else {
+            max = b;
+        }
+        for(int i = 1;i<=max;i++)
+        {
+            if(a%i==0 && b%i==0)
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/46829a46-5270-44e0-b85f-42edb9e55f60)
+
+
 
 
 
