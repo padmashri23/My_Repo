@@ -996,8 +996,26 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/46829a46-5270-44e0-b85f-42edb9e55f60)
 
-
-
+### 30)2520. Count the Digits That Divide a Number:
+```java
+class Solution {
+    public int countDigits(int n) {
+        int a;
+        int original = n;
+        int count = 0;
+        while(n!=0)
+        {
+          a = n%10;
+          if(original%a==0){
+          count++;
+          }
+          n = n/10;
+        }
+        return count;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/d67514b8-1bbf-4f89-8caf-5464ccf0a7ec)
 
 
 
