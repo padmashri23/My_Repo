@@ -1104,7 +1104,7 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/d6153e4e-9658-4a1b-be2e-1d8ccf2e0ea0)
 
-
+Can't Understand the Logic.(especially inside for loop)
 
 
 
