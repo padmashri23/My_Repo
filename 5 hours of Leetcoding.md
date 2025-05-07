@@ -1039,6 +1039,38 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/859d8449-a8a0-4be1-b46f-c2ba3c38fb30)
 
+### 32)728. Self Dividing Numbers:
+```java
+class Solution {
+    public static boolean isSelf(int n)
+    {
+        int a;
+        int original = n;
+        while(n!=0)
+        {
+            a = n%10;
+            if(a==0 || original%a!=0)
+            {
+                return false;
+            }
+            n = n/10;
+        }
+        return true;
+    }
+    public List<Integer> selfDividingNumbers(int left, int right) {
+        List<Integer> ans = new ArrayList<>();
+        for(int i = left;i<=right;i++)
+        {
+            if(isSelf(i))
+            {
+                ans.add(i);
+            }
+        }
+        return ans;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/ba9ab59e-b263-4093-8eca-a09b89a0369c)
 
 
 
