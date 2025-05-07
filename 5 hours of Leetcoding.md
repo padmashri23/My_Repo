@@ -948,6 +948,29 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/7a7ea3be-7d0a-4c8c-8273-df6248a89a91)
 
+### 28)2481. Minimum Cuts to Divide a Circle:
+```java
+class Solution {
+    public int numberOfCuts(int n) {
+        if(n==1)
+        {
+            return 0;
+        }
+        int ans;
+        if(n%2==0)
+        {
+            ans = n/2;
+        }
+        else {
+            ans = n;
+        }
+        return ans;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/445d6af5-46a4-4bda-ba77-a57b90bce00e)
+
+
 
 
 
