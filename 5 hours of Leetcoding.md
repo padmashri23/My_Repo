@@ -1072,6 +1072,37 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/ba9ab59e-b263-4093-8eca-a09b89a0369c)
 
+### 33)1925. Count Square Sum Triples:
+```java
+class Solution {
+    public static boolean istriple(int a,int b,int c)
+    {
+        if((a*a)+(b*b)==(c*c))
+        {
+            return true;
+        }
+        return false;
+    }
+    public int countTriples(int n) {
+       int count = 0;
+       for(int a = 1;a<=n;a++)
+       {
+         for(int b = 1;b<=n;b++)
+         {
+            for(int c = 1;c<=n;c++)
+            {
+                if(istriple(a,b,c))
+                {
+                    count++;
+                }
+            }
+         }
+       }
+       return count;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/d6153e4e-9658-4a1b-be2e-1d8ccf2e0ea0)
 
 
 
