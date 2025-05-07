@@ -1017,6 +1017,28 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/d67514b8-1bbf-4f89-8caf-5464ccf0a7ec)
 
+### 31)1281. Subtract the Product and Sum of Digits of an Integer:
+```java
+class Solution {
+    public int subtractProductAndSum(int n) {
+       int a;
+       int prod = 1;
+       int sum = 0;
+       int sub;
+       while(n!=0)
+       {
+         a = n%10;
+         prod = prod * a;
+         sum = sum + a;
+         n = n/10;
+       }   
+       sub = prod - sum;
+       return sub;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/859d8449-a8a0-4be1-b46f-c2ba3c38fb30)
+
 
 
 
