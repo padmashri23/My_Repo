@@ -868,6 +868,22 @@ class Solution {
 
 However 2 test cases were not passed but I insert that two Test cases in if Condition and made it true. 
    
+### 24)342. Power of Four:
+```java
+class Solution {
+    public boolean isPowerOfFour(int n) {
+        for(int i = 0;i<100;i++)
+        {
+            if((long)Math.pow(4,i) == n)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/b23d341f-791c-4295-a779-3db71e26392c)
 
 
 
