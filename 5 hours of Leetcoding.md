@@ -885,6 +885,27 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/b23d341f-791c-4295-a779-3db71e26392c)
 
+### 25)3516. Find Closest Person:
+```java
+class Solution {
+    public int findClosest(int x, int y, int z) {
+        int a = Math.abs(z-x);
+        int b = Math.abs(z-y);
+        if(a<b)
+        {
+            return 1;
+        }
+        else if(b<a)
+        {
+            return 2;
+        }
+        else {
+            return 0;
+        }
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/30cf2358-4bf1-4798-9d60-2dec1b3fd330)
 
 
 
