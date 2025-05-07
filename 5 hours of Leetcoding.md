@@ -930,6 +930,23 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/4c87e8a1-235e-4c46-84fd-fe7cec6216bf)
 
+### 27)2413. Smallest Even Multiple:
+```java
+class Solution {
+    public int smallestEvenMultiple(int n) {
+        int ans;
+        if(n%2!=0)
+        {
+            ans = n * 2;
+        }
+        else {
+            ans = n;
+        }
+        return ans;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/7a7ea3be-7d0a-4c8c-8273-df6248a89a91)
 
 
 
