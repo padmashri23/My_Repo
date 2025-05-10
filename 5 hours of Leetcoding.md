@@ -1174,6 +1174,35 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/1bb1f4ab-9687-4ab7-aaee-a2c771b4afab)
 
+### 37)263. Ugly Number:
+```java
+class Solution {
+    public boolean isUgly(int n) {
+        if(n<1)
+        {
+           return false;
+        }
+        while(n%2 == 0)
+        {
+            n = n/2;
+        }
+        while(n%3==0)
+        {
+            n = n/3;
+        }
+        while(n%5==0)
+        {
+            n =n/5;
+        }
+        if(n==1)
+        {
+            return true;
+        }
+        return false;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/35fb8e26-b55e-436e-bc92-ac6a0378716d)
 
 
 
