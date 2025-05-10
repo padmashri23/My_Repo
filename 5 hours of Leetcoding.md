@@ -1106,6 +1106,33 @@ class Solution {
 
 Can't Understand the Logic.(especially inside for loop)
 
+### 34)70. Climbing Stairs:
+```java
+class Solution {
+    public int climbStairs(int n) {
+        if(n == 1)
+        {
+            return 1;
+        }
+        if(n == 2)
+        {
+            return 2;
+        }
+        int a,b,c;
+        a = 1;
+        b = 2;
+        c = 0;
+        for(int i = 3;i<=n;i++)
+        {
+            c = a + b;
+            a = b;
+            b = c;
+        }
+        return b;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/4440b2f2-a809-45db-865e-fd37c19d2331)
 
 
 
