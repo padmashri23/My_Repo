@@ -1264,6 +1264,20 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/3cd7a68c-7297-489f-899d-e9b9137ebfce)
 
+### 41)1025. Divisor Game:
+```java
+class Solution {
+    public boolean divisorGame(int n) {
+        int x = n - 1;
+        if(x%2!=0)
+        {
+            return true;
+        }
+        return false;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/1e1ab8be-d31e-4351-ad42-c586516284e7)
 
 
 
