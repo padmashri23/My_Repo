@@ -1134,6 +1134,22 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/4440b2f2-a809-45db-865e-fd37c19d2331)
 
+### 35)231. Power of Two:
+```java
+class Solution {
+    public boolean isPowerOfTwo(int n) {
+        for(int i = 0;i<31;i++)
+        {
+            if(((int)Math.pow(2,i))==n)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/cb537247-85a5-49f5-b9a0-c55e106172e3)
 
 
 
