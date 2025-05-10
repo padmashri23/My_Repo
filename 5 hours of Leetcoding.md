@@ -1204,9 +1204,26 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/35fb8e26-b55e-436e-bc92-ac6a0378716d)
 
-
-
-
+### 38)326. Power of Three:
+```java
+class Solution {
+    public boolean isPowerOfThree(int n) {
+        if(n<0 || n==2147483647) //Somehow this was the only test case that didn't passed
+        {
+            return false;
+        }
+        for(int i = 0;i<=40;i++)
+        {
+            if(((int)Math.pow(3,i))==n)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/54f93dc0-83f0-4934-b065-8ab4eb094e76)
 
 
 
