@@ -1151,6 +1151,28 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/cb537247-85a5-49f5-b9a0-c55e106172e3)
 
+### 36)258. Add Digits:
+```java
+class Solution {
+    public int addDigits(int n) {
+        int a;
+        int sum = 0;
+        while(n!=0 || sum>9)
+        {
+            if(n==0)
+            {
+                n = sum;
+                sum = 0;
+            }
+            a = n%10;
+            sum = sum + a;
+            n = n/10;
+        }
+        return sum;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/1bb1f4ab-9687-4ab7-aaee-a2c771b4afab)
 
 
 
