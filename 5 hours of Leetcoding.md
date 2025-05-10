@@ -1264,27 +1264,6 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/3cd7a68c-7297-489f-899d-e9b9137ebfce)
 
-### 41)509. Fibonacci Number:
-```java
-class Solution {
-    public int fib(int n) {
-        if (n == 1) {
-            return 1;
-        }
-        int a, b, c;
-        a = 0;
-        b = 1;
-        c = 0;
-        for (int i = 2; i <= n; i++) {
-            c = a + b;
-            a = b;
-            b = c;
-        }
-        return c;
-    }
-}
-```
-![image](https://github.com/user-attachments/assets/97e0692b-2172-43a7-a879-686f6d807d3f)
 
 
 
