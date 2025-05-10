@@ -1225,6 +1225,20 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/54f93dc0-83f0-4934-b065-8ab4eb094e76)
 
+### 39)367. Valid Perfect Square:
+```java
+class Solution {
+    public boolean isPerfectSquare(int num) {
+        double result = Math.sqrt(num);
+        if(result==(int)result)
+        {
+            return true;
+        }
+        return false;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/c846d213-77dc-4599-a9a2-fae721bd8856)
 
 
 
