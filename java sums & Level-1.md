@@ -5,7 +5,7 @@ class Main {
     public static void main(String[] args) {
         Stack<String> animals=new Stack<>();
         animals.push("Cat");
-        animals.push("horse");
+        animals.push("horse");   
         animals.push("elephant");
         animals.push("dog");
         System.out.println("Stack: "+animals);
