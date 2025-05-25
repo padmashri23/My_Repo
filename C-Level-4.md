@@ -18,7 +18,7 @@ int main()
     return 0;
 }
 ```
-![image](https://github.com/user-attachments/assets/3126bf2a-130c-47b6-a6ab-6297fcdf1c1e)
+![image](https://github.com/user-attachments/assets/3126bf2a-130c-47b6-a6ab-6297fcdf1c1e)   
 ### 2.Program to copy string using strcpy() function:
 ```C
 #include<stdio.h>
