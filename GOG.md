@@ -634,6 +634,24 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/f531639a-989d-4b72-9cd8-123f6ff93139)
 
+### 30)Vowel or Not:
+```java
+class Solution {
+    String isVowel(char c) {
+    if(c == 'a' || c=='e' || c=='i' || c=='o' || c=='u' ||
+    c == 'A' || c=='E' || c=='I' || c=='O' || c=='U')
+        {
+            return "YES";
+        }
+        else{
+            return "NO";
+        }
+        
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/79119bf2-7255-4031-a7eb-06654692dd43)
+
 
  
 
