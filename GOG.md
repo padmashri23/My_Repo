@@ -612,6 +612,27 @@ class Solution {
 ![image](https://github.com/user-attachments/assets/d87eda41-be28-4529-a32c-ca3889863883)
 ![image](https://github.com/user-attachments/assets/f174f243-6549-429b-adf8-9ac8960d3991)
 
+### 29.Java Switch Case statement:
+```java
+import java.util.*;
+class Solution {
+    static double switchCase(int choice, List<Double> arr) {
+        if(choice == 1)
+        {
+            double R = arr.get(0);
+            double ans = Math.PI*R*R;
+            return ans;
+        }
+        else {
+            double L = arr.get(0);
+            double B = arr.get(1);
+            double ans = L*B;
+            return ans;
+        }
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/f531639a-989d-4b72-9cd8-123f6ff93139)
 
 
  
