@@ -225,7 +225,7 @@ int main()
     char str[MAX_SIZE];
     printf("Enter the string:");
     fgets(str,MAX_SIZE,stdin);
-    str[strcspn(str,"\n")]='\0';
+    str[strcspn(str,"\n")]='\0';        
     vowel=0;
     consonant=0;
     len=strlen(str);
