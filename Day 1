@@ -4,7 +4,7 @@
 my_value=[35,84,3,4,7,6]
 MinValue=my_value[0]
 for i in my_value:
-    if i<MinValue:
+    if i<MinValue:     
         MinValue=i
 print('Lowest Value:',MinValue)
 
