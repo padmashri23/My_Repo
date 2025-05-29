@@ -137,7 +137,7 @@ int main()
     {
         if((str[i]>='a' && str[i]<='z')||(str[i]>='A' && str[i]<='Z'))
         {
-            alphabets++;
+            alphabets++;       
         }
         else if (str[i]>='0' && str[i]<='9')
         {
