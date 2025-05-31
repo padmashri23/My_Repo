@@ -652,6 +652,26 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/79119bf2-7255-4031-a7eb-06654692dd43)
 
+### 31)Pattern Printing:
+```java
+// User function Template for Java
+class Solution {
+    static void printPattern(int N) {
+        // code here
+        for(int i = 1;i<=N;i++)
+        {
+            for(int j = 1;j<=i;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.print(" ");
+        }
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/03025a32-08cd-4f9f-a526-6c767a11a143)
+
+
 
  
 
