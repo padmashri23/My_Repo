@@ -671,6 +671,28 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/03025a32-08cd-4f9f-a526-6c767a11a143)
 
+### 33)Sum 1 to n Divisors:
+```java
+class Solution {
+    public static long sumOfDivisors(long n) { 
+    int totalsum  = 0;
+    for(int i = 1;i<=n;i++)
+    {
+        int sum = 0;
+        for(int j = 1;j<=i;j++)
+        {
+            if(i%j==0)
+            {
+                sum = sum + j;
+            }
+        }
+        totalsum = totalsum + sum;
+    }
+    return totalsum;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/9b1459a6-a6ec-48e1-8ff2-40be79e6d633)
 
 
  
