@@ -694,6 +694,28 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/9b1459a6-a6ec-48e1-8ff2-40be79e6d633)
 
+### 34)Count Digits:
+```java
+
+class Solution {
+    static int evenlyDivides(int n) {
+        int count = 0;
+        int a;
+        int og = n;
+        while(n!=0)
+        {
+            a = n % 10;
+            if(a!=0 && og%a==0)
+            {
+                count++;
+            }
+            n = n/10;
+        }
+        return count;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/93f80783-3fcc-47a1-b125-38b3a147a4b0)
 
  
 
