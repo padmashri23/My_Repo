@@ -741,6 +741,23 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/67719fe4-db37-47c6-a75e-e04e71c1dca0)
 
+### 36)Count Squares:
+```java
+import java.util.*;
+class Solution {
+    static int countSquares(int n) {
+        int count = 0;
+        for(int i = 1;i*i<n;i++)
+        {
+          count++;
+        }
+        return count;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/f8b9ccda-22dd-49e4-91b3-83c1886af3c9)
+![image](https://github.com/user-attachments/assets/f74555d1-9bf7-46ba-9186-3e49a4398b7a)
+
  
 
 
