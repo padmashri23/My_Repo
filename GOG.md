@@ -717,6 +717,30 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/93f80783-3fcc-47a1-b125-38b3a147a4b0)
 
+### 35)Find nth root of m:
+```java
+
+import java.math.*;
+class Solution {
+    public int nthRoot(int n, int m) {
+        double pow;
+        for(int i = 1;i<=m;i++)
+        {
+          pow =  Math.pow(i,n);
+          if(pow==m)
+          {
+              return i;
+          }
+          else if(pow>m) {
+              break;
+          }
+        }
+        return -1;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/67719fe4-db37-47c6-a75e-e04e71c1dca0)
+
  
 
 
