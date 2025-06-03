@@ -758,7 +758,34 @@ class Solution {
 ![image](https://github.com/user-attachments/assets/f8b9ccda-22dd-49e4-91b3-83c1886af3c9)
 ![image](https://github.com/user-attachments/assets/f74555d1-9bf7-46ba-9186-3e49a4398b7a)
 
- 
+ ### 37)Replace all 0's with 5:
+```java
+class Solution {
+    int convertfive(int num) {
+        if(num == 0)
+        {
+            return 5;
+        }
+        int a;
+        int result = 0;
+        int place = 1;
+        while(num!=0)
+        {
+            a = num%10;
+            if(a==0)
+            {
+               a=5;
+            }
+            result = result+a*place;
+            place = place * 10;
+            num = num/10;
+        }
+        return result;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/f773b2b6-6678-4116-b431-756ee0640374)
+
 
 
 
