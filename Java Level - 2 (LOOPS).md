@@ -98,7 +98,7 @@ public class Main{
   }
   public static void main(String[] args)
   {
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);   
     int num = scanner.nextInt();
     if(num == 1 || num == 0)
     {
