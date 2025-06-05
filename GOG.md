@@ -796,6 +796,17 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/625c7d23-845c-4a91-b91b-7888cc8103c1)
 
+### 39)Precise Format - Java:
+```java
+class Solution {
+    static ArrayList<Float> divisionWithPrecision(float a, float b) {
+        float ans1 = a/b;
+        float ans2 = Float.parseFloat(String.format("%.3f",ans1));
+        return new ArrayList<>(Arrays.asList(ans1,ans2));
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/bce67073-e3a5-4b7f-a022-5f7370a63360)
 
 
 
