@@ -808,8 +808,31 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/bce67073-e3a5-4b7f-a022-5f7370a63360)
 
-
-
+### 40)Divisibility by 8:
+```java
+class Solution {
+    int DivisibleByEight(String s) {
+         int len = s.length();
+         String lastthree;
+         if(len<3)
+         {
+             lastthree = s;
+         }
+         else{
+             lastthree = s.substring(len - 3);
+         }
+         int number = Integer.parseInt(lastthree);
+         if(number%8==0)
+         {
+             return 1;
+         }
+         else {
+             return -1;
+         }
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/d66a1716-c124-4b2e-93e1-070e71244d79)
 
 
 
