@@ -786,6 +786,15 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/f773b2b6-6678-4116-b431-756ee0640374)
 
+### 38)Count ways to N'th Stair(Order does not matter):
+```java
+class Solution {
+    public int nthStair(int n) {
+        return (n / 2) + 1;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/625c7d23-845c-4a91-b91b-7888cc8103c1)
 
 
 
