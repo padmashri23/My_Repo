@@ -834,6 +834,20 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/d66a1716-c124-4b2e-93e1-070e71244d79)
 
+### 41)Remainder on dividing by 11:
+```java
+// User function Template for Java
+import java.util.*;
+import java.math.*;
+class Solution {
+    static int xmod11(String x) {
+        BigInteger bigint = new BigInteger(x);
+        BigInteger mod = bigint.mod(BigInteger.valueOf(11));
+        return mod.intValue();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/783b2df3-c99f-4f09-ad12-23d6105dc10d)
 
 
 
