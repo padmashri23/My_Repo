@@ -11,7 +11,7 @@ int main()
     char text[MAX_SIZE];
     int length;   
     printf("Enter the string:");
-    fgets(text,MAX_SIZE,stdin);
+    fgets(text,MAX_SIZE,stdin);   
     text[strcspn(text,"\n")]='\0';
     length=strlen(text);
     printf("The length of the string is '%s' = %d\n",text,length);
