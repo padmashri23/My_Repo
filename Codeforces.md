@@ -196,7 +196,7 @@ public class Main
 	    int threshhold = scores[k-1];
 	    int count=0;
 	    for(int score:scores)
-	    {
+	    {     
 	        if(score>=threshhold && score>0)
 	        {
 	            count++;
