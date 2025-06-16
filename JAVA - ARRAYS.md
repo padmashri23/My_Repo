@@ -97,3 +97,31 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/0fee0254-bf3a-4f0a-ad90-18a8dacad768)
 
+### 4.Find the sum of all array elements:
+```java
+//Java program to find the sum of all array elements:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        int sum = 0;
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        for(int i = 0;i<n;i++)
+        {
+            sum = sum + arr[i];
+        }
+        System.out.print("The sum is:"+sum);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/f3cdcc7b-2a65-42c2-a0f5-2ef1336f75fe)
+
