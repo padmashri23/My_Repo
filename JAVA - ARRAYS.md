@@ -162,4 +162,39 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/5daf9852-0858-4719-9040-7baf9bbbf59d)
 
+### 6.Program to count even and odd elements in an array:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int even = 0;
+        int odd = 0;
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]%2==0)
+            {
+                even++;
+            }
+            else{
+                odd++;
+            }
+        }
+        System.out.println("The no of even elements:"+even);
+        System.out.println("The no of odd elements"+odd);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/917c78a0-b986-4f83-9cd4-c71e27d57dda)
+
 
