@@ -290,3 +290,28 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/53713b6f-64cb-4034-ba05-c3a6d5417be4)
 
+### 10.Print the square of the elements in an array:
+```java
+//Print the square of the elements in an array
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        for(int i = 0;i<n;i++)
+        {
+            int sq = arr[i]*arr[i];
+            System.out.print(sq+" ");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/49ead057-a10e-43b6-82d7-14fc200504c0)
+
