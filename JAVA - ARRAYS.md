@@ -197,4 +197,31 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/917c78a0-b986-4f83-9cd4-c71e27d57dda)
 
+### 7.Reverse of the array:
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        System.out.print("The reverse of the array is:");
+        for(int i = n - 1;i>=0;i--)
+        {
+            System.out.print(arr[i]+" ");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/9652495c-46e1-4e55-9483-1c13e400e3cc)
+
+
 
