@@ -260,3 +260,33 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/1754b5d3-b8cd-4d36-b3d4-084f6051f988)
 
+### 9.Number of occurrences of an number:
+```java
+ //Number of occurrences of a number
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int oc = scanner.nextInt();
+        int count = 0;
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i] == oc)
+            {
+                count++;
+            }
+        }
+        System.out.println(count);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/53713b6f-64cb-4034-ba05-c3a6d5417be4)
+
