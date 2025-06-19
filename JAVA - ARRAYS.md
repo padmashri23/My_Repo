@@ -223,5 +223,40 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/9652495c-46e1-4e55-9483-1c13e400e3cc)
 
-
+### 8.Program to search element in an array:
+```java
+//program to search element in an array:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int search = scanner.nextInt();
+        boolean found = false;
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]==search)
+            {
+                found = true;
+                break;
+            }
+        }
+        if(found)
+        {
+            System.out.println(search+" is found");
+        }
+        else {
+            System.out.println(search+" is not found");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/1754b5d3-b8cd-4d36-b3d4-084f6051f988)
 
