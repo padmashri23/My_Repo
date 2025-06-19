@@ -90,7 +90,7 @@ public class Main{
             zcount++;
         }
         }
-        System.out.print("\n"+"The zero elements count are:"+zcount);
+        System.out.print("\n"+"The zero elements count are:"+zcount);   
         scanner.close();
     }
 }
