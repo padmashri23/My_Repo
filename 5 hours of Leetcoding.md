@@ -1279,6 +1279,16 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/1e1ab8be-d31e-4351-ad42-c586516284e7)
 
+### 42)292. Nim Game:
+```java
+class Solution {
+    public boolean canWinNim(int n) {
+        return (n%4!=0);
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/49a4de04-efcc-4d28-90de-010bfe35350a)
+
 
 
 
