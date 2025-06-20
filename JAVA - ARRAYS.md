@@ -315,3 +315,38 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/49ead057-a10e-43b6-82d7-14fc200504c0)
 
+### 11.Program to count duplicate elements in array:
+```java
+//program to count duplicate elements in array:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int count = 0;
+        for(int i = 0;i<n;i++)
+        {
+            for(int j = i + 1;j<n;j++)
+            {
+                if(arr[i] == arr[j])
+                {
+                    count++;
+                    break;
+                }
+            }
+        }
+        System.out.println("The duplicate count are:"+count);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/ad0cbc78-06fc-4f34-a3c1-f1321ed02537)
+
