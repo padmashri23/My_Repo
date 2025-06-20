@@ -350,3 +350,40 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/ad0cbc78-06fc-4f34-a3c1-f1321ed02537)
 
+### 12.Difference between maximum and minimum element of an array:
+```java
+//Difference between maximum and minimum element of an array:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int max = arr[0];
+        int min = arr[0];
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]>max)
+            {
+                max = arr[i];
+            }
+            if(arr[i]<min)
+            {
+                min = arr[i];
+            }
+        }
+        System.out.println(max);
+        System.out.println(min);
+        int diff = max - min;
+        System.out.println(diff);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/3249167c-7676-4d1b-97ed-a761fbd3a3d4)
+
