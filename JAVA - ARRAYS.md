@@ -186,7 +186,7 @@ public class Main{
                 even++;
             }
             else{
-                odd++;
+                odd++;  
             }
         }
         System.out.println("The no of even elements:"+even);
