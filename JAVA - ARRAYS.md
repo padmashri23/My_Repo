@@ -387,3 +387,37 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/3249167c-7676-4d1b-97ed-a761fbd3a3d4)
 
+### 13).Program to copy array elements to another array:
+```java
+//Program to copy array elements to another array:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] src = new int[n];
+        int[] dest = new int[n];
+        for(int i = 0;i<n;i++)
+        {
+            src[i] = scanner.nextInt();
+        }
+        for(int i = 0 ;i<n;i++)
+        {
+            dest[i] = src[i];
+        }
+        System.out.print("The source elements are:");
+        for(int i = 0;i<n;i++)
+        {
+            System.out.print(src[i]+" ");
+        }
+        System.out.print("\n"+"The copied elements are:");
+        for(int i = 0;i<n;i++)
+        {
+            System.out.print(dest[i]+" ");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/53169fef-2854-4743-9799-93454a0afe19)
