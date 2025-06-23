@@ -18,7 +18,7 @@ public class Main{
   }
 }
 ```
-![image](https://github.com/user-attachments/assets/bd149ee7-ad72-4edd-af71-d239263ea238)
+![image](https://github.com/user-attachments/assets/bd149ee7-ad72-4edd-af71-d239263ea238)       
 
 ### 2.Getting the input - reading it and printing it:
 ```java
