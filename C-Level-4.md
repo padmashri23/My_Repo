@@ -125,7 +125,7 @@ int main()
 #include<stdio.h>
 #include<string.h>
 #define MAX_SIZE 1000
-int main()
+int main()    
 {
     char str[MAX_SIZE];
     int alphabets,digits,others,i;
