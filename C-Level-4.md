@@ -9,7 +9,7 @@
 int main()
 {
     char text[MAX_SIZE];
-    int length;   
+    int length;        
     printf("Enter the string:");
     fgets(text,MAX_SIZE,stdin);   
     text[strcspn(text,"\n")]='\0';
@@ -325,7 +325,7 @@ int main()
     {
         printf("Palindrome");
     }
-    else
+    else    
     {
         printf("Not palindrome");
     }
