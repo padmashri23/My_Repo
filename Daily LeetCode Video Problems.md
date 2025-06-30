@@ -2,7 +2,7 @@
 //Note this is not an optimal approach:
 ```java
 class Solution {
-    public int[] twoSum(int[] nums, int target) {  
+    public int[] twoSum(int[] nums, int target) {      
         int ans[]=new int[2];   
         for(int i=0;i<nums.length;i++)
         {
