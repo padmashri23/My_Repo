@@ -421,3 +421,53 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/53169fef-2854-4743-9799-93454a0afe19)
+
+### 14)Insert an element into an array at a specified position:
+```java
+//Insert an element into an array at a specified position
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        System.out.print("Enter the elements of the array:");
+        int[] arr = new int[n];
+        for(int i = 0 ;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        System.out.print("Enter the element to be inserted:");
+        int num = scanner.nextInt();
+        System.out.print("Enter the element inserted position:");
+        int pos = scanner.nextInt();
+        int[] temp = new int[n + 1];
+        int position = pos - 1;
+        for(int i = 0;i<=n;i++)
+        {
+            if(i<position)
+            {
+                temp[i] = arr[i];
+            }
+            if(i>position)
+            {
+                temp[i] = arr[i - 1];
+            }
+            if(i == position)
+            {
+                temp[i] = num;
+            }
+        }
+        System.out.print("The element "+num+" is inserted in the position "+pos+":");
+        for(int i = 0;i<=n;i++)
+        {
+            System.out.print(temp[i]+" ");
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/b3228edb-250e-41a2-b4f5-e18597a7f7a7)
+
+
