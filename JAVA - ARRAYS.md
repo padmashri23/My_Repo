@@ -504,4 +504,30 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/a10ce7b3-5dd9-434a-9dae-a9f4df75b48e)
 
+### 16)Removing even number from an array:
+```java
+//Removing even number from an array:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]%2!=0)
+            {
+                System.out.print(arr[i]+" ");
+            }
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/121d381e-b8d9-434d-9a84-b175104cca93)
 
