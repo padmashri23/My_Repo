@@ -470,4 +470,38 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/b3228edb-250e-41a2-b4f5-e18597a7f7a7)
 
+### 15)Program to find sum of negative and positive integers:
+```java
+//Program to find sum of negative and positive integers:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int pos = 0;
+        int neg = 0;
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]>0)
+            {
+                pos = pos + arr[i];
+            }
+            else{
+                neg = neg + arr[i];
+            }
+        }
+        System.out.println(pos);
+        System.out.println(neg);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/a10ce7b3-5dd9-434a-9dae-a9f4df75b48e)
+
 
