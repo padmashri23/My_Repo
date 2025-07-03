@@ -10,7 +10,7 @@ class Solution {
                 left++;
             }
             else
-            {
+            {    
                 right--;
             }
         }
