@@ -1306,6 +1306,22 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/26735d84-0fb6-42da-bc52-6f36958fee20)
 
+### 44)1480. Running Sum of 1d Array:
+```java
+class Solution {
+    public int[] runningSum(int[] nums) {
+      int n = nums.length;
+      int[] sum = new int[n];
+      sum[0] = nums[0];
+      for(int i = 1;i<n;i++)
+      {
+        sum[i] = sum[i - 1]+nums[i];
+      }  
+      return sum;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/22824742-5792-4517-b387-8607ed41aa56)
 
 
 
