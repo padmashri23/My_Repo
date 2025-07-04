@@ -1289,6 +1289,22 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/49a4de04-efcc-4d28-90de-010bfe35350a)
 
+### 43)977. Squares of a Sorted Array:
+```java
+class Solution {
+    public int[] sortedSquares(int[] nums) {
+        int n = nums.length;
+        int[] result = new int[n];
+        for(int i = 0;i<n;i++)
+        {
+            result[i] = nums[i] * nums[i];
+        }
+        Arrays.sort(result);
+        return result;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/26735d84-0fb6-42da-bc52-6f36958fee20)
 
 
 
