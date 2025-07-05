@@ -531,3 +531,41 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/121d381e-b8d9-434d-9a84-b175104cca93)
 
+### 17)Print the unique elements in an array:
+```java
+//Print the unique elements in an array:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        System.out.print("The unique elements are:");
+        for(int i = 0;i<n;i++)
+        {
+            int count = 1;
+            for(int j = 0;j<n;j++)
+            {
+                if(arr[i] == arr[j])
+                {
+                    count++;
+                }
+            }
+            if(count == 2)
+            {
+                System.out.print(arr[i]+" ");
+            }
+        }
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/3f6f4df4-a32a-4499-a6e1-e7812b6d3dc7)
+
