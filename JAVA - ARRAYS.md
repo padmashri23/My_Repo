@@ -567,7 +567,49 @@ public class Main{
     }
 }
 ```
+```java
+//print the unique elements if no unique elements found print accordingly:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        System.out.print("The unique elements are:");
+        boolean unique = false;
+        for(int i = 0;i<n;i++)
+        {
+            int count = 0;
+            for(int j = 0;j<n;j++)
+            {
+                if(arr[i] == arr[j])
+                {
+                    count++;
+                }
+            }
+            if(count == 1)
+            {
+                System.out.print(arr[i]+" ");
+                unique = true;
+            }
+        }
+        if(!unique)
+        {
+            System.out.print("0");
+        }
+        scanner.close();
+    }
+}
+```
 ![image](https://github.com/user-attachments/assets/3f6f4df4-a32a-4499-a6e1-e7812b6d3dc7)
+![image](https://github.com/user-attachments/assets/b0f9e605-ae4a-4339-ae39-6d2e1f8bcf15)
 
 ### 18)Sum the array after removing duplicate elements:
 ```java
