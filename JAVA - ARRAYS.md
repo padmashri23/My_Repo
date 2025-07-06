@@ -569,3 +569,43 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/3f6f4df4-a32a-4499-a6e1-e7812b6d3dc7)
 
+### 18)Sum the array after removing duplicate elements:
+```java
+//Sum the array after removing duplicate elements
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int sum = 0;
+        for(int i = 0;i<n;i++)
+        {
+            boolean isDuplicate = false;
+            for(int j = i + 1;j<n;j++)
+            {
+                if(arr[i] == arr[j])
+                {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+            if(!isDuplicate)
+            {
+                sum = sum + arr[i];
+            }
+        }
+        System.out.print("The sum after removing duplicates are:"+sum);
+        scanner.close();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/fd01c03a-161f-4037-9d3d-07608cbabb74)
+
