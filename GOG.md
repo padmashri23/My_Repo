@@ -868,10 +868,22 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/b3d159bc-e642-4185-9779-b15f955b34c1)
 
-
-
-
-
+### 43)Check if array is sorted:
+```java
+class Solution {
+    public boolean arraySortedOrNot(int[] arr) {
+        for(int i = 0;i<arr.length - 1;i++)
+        {
+            if(arr[i]>arr[i + 1])
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/4e7bbed8-e052-4db0-bca9-c143d7f971eb)
 
 
 
