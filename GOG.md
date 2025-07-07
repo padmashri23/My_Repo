@@ -849,6 +849,24 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/783b2df3-c99f-4f09-ad12-23d6105dc10d)
 
+### 42)Number of occurrence:
+```java
+class Solution {
+    int countFreq(int[] arr, int target) {
+        // code here
+        int count = 0;
+        for(int i = 0;i<arr.length;i++)
+        {
+            if(arr[i] == target)
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/b3d159bc-e642-4185-9779-b15f955b34c1)
 
 
 
