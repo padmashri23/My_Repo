@@ -883,6 +883,22 @@ class Solution {
     }
 }
 ```
+```java
+class Solution {
+    public boolean arraySortedOrNot(int[] arr) {
+        int[] copy = Arrays.copyOf(arr,arr.length);
+        Arrays.sort(copy);
+        for(int i = 0;i<arr.length;i++)
+        {
+            if(arr[i] != copy[i])
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
 ![image](https://github.com/user-attachments/assets/4e7bbed8-e052-4db0-bca9-c143d7f971eb)
 
 
