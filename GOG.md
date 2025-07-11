@@ -901,10 +901,20 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/4e7bbed8-e052-4db0-bca9-c143d7f971eb)
 
-
-
-
-
+### 44)Multiply Array:
+```java
+class Solution {
+    public static int product(int arr[], int n) {
+        int prod = 1;
+        for(int i = 0;i<n;i++)
+        {
+            prod = prod * arr[i];
+        }
+        return prod;
+    }
+}
+```
+<img width="423" height="556" alt="image" src="https://github.com/user-attachments/assets/8a848c94-8bca-4edc-bed1-db0db01af697" />
 
 
 
