@@ -651,3 +651,32 @@ public class Main{
 ```
 ![image](https://github.com/user-attachments/assets/fd01c03a-161f-4037-9d3d-07608cbabb74)
 
+### 19)Middle numbers of the given array:
+```java
+//Find the middle numbers of the given array:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the array size:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        if(n%2==0)
+        {
+            System.out.print("The middle numbers are:"+arr[n/2 - 1]+" "+arr[n/2]);
+        }
+        else{
+            System.out.print("The middle number is:"+arr[n/2]);
+        }
+        scanner.close();
+    }
+}
+```
+<img width="617" height="233" alt="image" src="https://github.com/user-attachments/assets/148b3e74-652d-4daf-b374-4dc81176e653" />
+
