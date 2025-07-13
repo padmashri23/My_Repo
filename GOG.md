@@ -916,6 +916,30 @@ class Solution {
 ```
 <img width="423" height="556" alt="image" src="https://github.com/user-attachments/assets/8a848c94-8bca-4edc-bed1-db0db01af697" />
 
+### 45)Second Largest
+```java
+class Solution {
+    public int getSecondLargest(int[] arr) {
+        int n = arr.length;
+        int max = arr[0];
+        int second = -1;
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]>max)
+            {
+                second = max;
+                max = arr[i];
+            }
+            else if(arr[i]>second && arr[i]<max)
+            {
+                second = arr[i];
+            }
+        }
+        return (second==-1)?-1:second;
+    }
+}
+```
+<img width="915" height="527" alt="image" src="https://github.com/user-attachments/assets/b848b651-870d-46c5-b27d-4f45199f7b35" />
 
 
 
