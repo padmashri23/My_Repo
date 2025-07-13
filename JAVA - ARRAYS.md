@@ -680,3 +680,47 @@ public class Main{
 ```
 <img width="617" height="233" alt="image" src="https://github.com/user-attachments/assets/148b3e74-652d-4daf-b374-4dc81176e653" />
 
+### 20)Print the second largest in an array:
+```java
+//Second largest element in an array
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+       int max = arr[0];
+       int second = -1;
+       for(int i = 0;i<n;i++)
+       {
+           if(arr[i]>max)
+           {
+               second = max;
+               max = arr[i];
+           }
+           else if(arr[i]>second && arr[i]<max)
+           {
+               second = arr[i];
+           }
+       }
+       if(second == -1){
+           System.out.println("There is no second largest");
+       }
+       else{
+           System.out.print("The second largest element is:"+second);
+       }
+       scanner.close();
+    }
+}
+```
+<img width="484" height="140" alt="image" src="https://github.com/user-attachments/assets/518a50b0-fcc0-4a6c-90ab-1f1507e78fb5" />
+<img width="534" height="145" alt="image" src="https://github.com/user-attachments/assets/4a526119-045b-40b5-a684-968810a648f3" />
+<img width="553" height="205" alt="image" src="https://github.com/user-attachments/assets/894479b1-6441-445a-9ee5-e9b2526c15cc" />
+
