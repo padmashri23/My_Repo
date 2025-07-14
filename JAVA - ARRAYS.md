@@ -724,3 +724,32 @@ public class Main{
 <img width="534" height="145" alt="image" src="https://github.com/user-attachments/assets/4a526119-045b-40b5-a684-968810a648f3" />
 <img width="553" height="205" alt="image" src="https://github.com/user-attachments/assets/894479b1-6441-445a-9ee5-e9b2526c15cc" />
 
+### 21)Print the average of the array:
+```java
+//Print the average of the array
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+         System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int sum = 0;
+        for(int i = 0;i<n;i++)
+        {
+            sum = sum + arr[i];
+        }
+        double avg = (double)sum/n;
+        System.out.printf("The average is:"+avg);
+        scanner.close();
+    }
+}
+```
+<img width="485" height="210" alt="image" src="https://github.com/user-attachments/assets/90a622b5-5803-4662-9971-3a67fdc58b9e" />
+
