@@ -753,3 +753,35 @@ public class Main{
 ```
 <img width="485" height="210" alt="image" src="https://github.com/user-attachments/assets/90a622b5-5803-4662-9971-3a67fdc58b9e" />
 
+### 22)Count of array elements divisible by specific number:
+```java
+//Count of array elements divisible by specific number
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the number of elements:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        System.out.print("Enter the specific number:");
+        int k = scanner.nextInt();
+        int count = 0;
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]%k == 0)
+            {
+                count++;
+            }
+        }
+        System.out.print("The count is:"+count);
+        scanner.close();
+    }
+}
+```
+<img width="612" height="206" alt="image" src="https://github.com/user-attachments/assets/b975a291-62ba-4712-94ba-49559c4e3e59" />
