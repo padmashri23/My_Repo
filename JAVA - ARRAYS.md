@@ -785,3 +785,43 @@ public class Main{
 }
 ```
 <img width="612" height="206" alt="image" src="https://github.com/user-attachments/assets/b975a291-62ba-4712-94ba-49559c4e3e59" />
+
+### 23)Frequency of a number:
+```java
+//Frequency of a number
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        boolean[] counted = new boolean[n];
+        for(int i = 0;i<n;i++)
+        {
+            if(counted[i])
+            {
+                continue;
+            }
+            int count = 1;
+            for(int j = i + 1;j<n;j++)
+            {
+                if(arr[i] == arr[j])
+                {
+                    count++;
+                    counted[j] = true;
+                }
+            }
+            System.out.println("The frequency of "+arr[i]+" is "+count);
+        }
+        scanner.close();
+    }
+}
+```
+<img width="530" height="187" alt="image" src="https://github.com/user-attachments/assets/ba7fb1d2-e249-4db9-ab31-7c4499499d8b" />
