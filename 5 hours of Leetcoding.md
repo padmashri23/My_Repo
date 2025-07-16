@@ -1323,6 +1323,26 @@ class Solution {
 ```
 ![image](https://github.com/user-attachments/assets/22824742-5792-4517-b387-8607ed41aa56)
 
+### 45)27. Remove Element:
+```java
+class Solution {
+    public int removeElement(int[] nums, int val) {
+        int count = 0;
+        int n = nums.length;
+        int index = 0;
+        for(int i = 0;i<n;i++)
+        {   
+            if(nums[i] != val)
+            {
+                nums[index] = nums[i];
+                index++;
+            }   
+        }
+       return index;
+    }
+}
+```
+<img width="832" height="517" alt="image" src="https://github.com/user-attachments/assets/9190aad0-a9ca-4759-bcc7-6c49f2f9dd33" />
 
 
  
