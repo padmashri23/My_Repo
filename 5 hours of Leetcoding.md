@@ -1344,8 +1344,32 @@ class Solution {
 ```
 <img width="832" height="517" alt="image" src="https://github.com/user-attachments/assets/9190aad0-a9ca-4759-bcc7-6c49f2f9dd33" />
 
-
- 
+### 46)136. Single Number:
+```java
+class Solution {
+    public int singleNumber(int[] nums) {
+     int n = nums.length;
+     for(int i = 0;i<n;i++)
+     {
+        int count = 0;
+        for(int j = 0;j<n;j++)
+        {
+            if(nums[i]==nums[j])
+            {
+                count++;
+            }   
+        }
+         if(count == 1)
+            {
+              return nums[i];
+             
+            }
+     }
+     return -1;   
+    }
+}
+```
+<img width="355" height="452" alt="image" src="https://github.com/user-attachments/assets/77419fa0-7a6c-4d38-8164-5a22f07c66da" />
 
 
 
