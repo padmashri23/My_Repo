@@ -1371,6 +1371,32 @@ class Solution {
 ```
 <img width="355" height="452" alt="image" src="https://github.com/user-attachments/assets/77419fa0-7a6c-4d38-8164-5a22f07c66da" />
 
+### 47)169. Majority Element:
+```java
+class Solution {
+    public int majorityElement(int[] nums) {
+        int n = nums.length;
+        int more = n/2;
+        for(int i = 0;i<n;i++)
+        {
+            int count = 0;
+            for(int j = 0;j<n;j++)
+            {
+                if(nums[i] == nums[j])
+                {
+                    count++;
+                }
+            }
+            if(count > more)
+            {
+                return nums[i];
+            }
+        }
+        return 0;
+    }
+}
+```
+<img width="440" height="283" alt="image" src="https://github.com/user-attachments/assets/46bc8218-ea0b-4413-813e-a190cf2895cc" />
 
 
 
