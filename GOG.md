@@ -941,6 +941,24 @@ class Solution {
 ```
 <img width="915" height="527" alt="image" src="https://github.com/user-attachments/assets/b848b651-870d-46c5-b27d-4f45199f7b35" />
 
+### 46)Find the Frequency:
+```java
+class Solution {
+    int findFrequency(int arr[], int x) {
+        int count = 0;
+        for(int i = 0;i<arr.length;i++)
+        {
+            if(arr[i] == x)
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+}
+```
+<img width="587" height="315" alt="image" src="https://github.com/user-attachments/assets/813b082e-9901-4af9-a828-cd9e595fa947" />
+
 
 
 
