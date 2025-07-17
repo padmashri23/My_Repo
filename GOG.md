@@ -1006,6 +1006,22 @@ class Solution {
 ```
 <img width="887" height="494" alt="image" src="https://github.com/user-attachments/assets/eb2b6d6d-73ee-4fbd-8316-d85426361f05" />
 
+### 49)Java Arrays | Set 1:
+```java
+class Solution {
+    public String average(int arr[]) {
+        long n = arr.length;
+        long sum = 0;
+        for(int i = 0;i<n;i++)
+        {
+            sum = sum + arr[i]; 
+        }
+        double avg = (double)sum/n;
+        return String.format("%.2f",avg);
+    }
+}
+```
+<img width="887" height="281" alt="image" src="https://github.com/user-attachments/assets/69c6449a-9d24-4c67-84cf-bd40b752b991" />
 
 
 
