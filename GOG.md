@@ -959,6 +959,33 @@ class Solution {
 ```
 <img width="587" height="315" alt="image" src="https://github.com/user-attachments/assets/813b082e-9901-4af9-a828-cd9e595fa947" />
 
+### 47)Index of an Extra Element:
+```java
+class Solution {
+    public int findExtra(int a[], int b[]) {
+       int index = 0;
+       int n1 = a.length;
+       int n2 = b.length;
+       for(int i = 0;i<n1;i++)
+       {
+           boolean found = false;
+           for(int j = 0;j<n2;j++)
+           {
+               if(a[i] == b[j])
+               {
+                   found = true;
+                   break;
+               }
+           }
+           if(!found){
+           index = i;
+           }
+       }
+       return index;
+    }
+}
+```
+<img width="834" height="416" alt="image" src="https://github.com/user-attachments/assets/a6a485f7-50c0-42b2-a55c-3a94b0bf7ce0" />
 
 
 
