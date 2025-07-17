@@ -987,6 +987,24 @@ class Solution {
 ```
 <img width="834" height="416" alt="image" src="https://github.com/user-attachments/assets/a6a485f7-50c0-42b2-a55c-3a94b0bf7ce0" />
 
+### 48)Bitonic Point:
+```java
+class Solution {
+    public int findMaximum(int[] arr) {
+        int max = arr[0];
+        int n = arr.length;
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]>max)
+            {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+}
+```
+<img width="887" height="494" alt="image" src="https://github.com/user-attachments/assets/eb2b6d6d-73ee-4fbd-8316-d85426361f05" />
 
 
 
