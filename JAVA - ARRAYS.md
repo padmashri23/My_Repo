@@ -825,3 +825,33 @@ public class Main{
 }
 ```
 <img width="530" height="187" alt="image" src="https://github.com/user-attachments/assets/ba7fb1d2-e249-4db9-ab31-7c4499499d8b" />
+
+### 24)Find the missing element:
+```java
+//find the missing number:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the array size:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n - 1];
+        System.out.print("Enter the elements:");
+        for(int i = 0;i<n - 1;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int sum = 0;
+        int total = n *(n + 1)/2;
+        for(int i = 0;i<n - 1;i++)
+        {
+            sum = sum + arr[i];
+        }
+        int missing = total - sum;
+        System.out.print("The missing element is:"+missing);
+        scanner.close();
+    }
+}
+```
+<img width="531" height="256" alt="image" src="https://github.com/user-attachments/assets/653eb0e0-f3e8-4f39-9d40-1e5bc5bf0499" />
