@@ -1042,7 +1042,25 @@ class Solution {
 ```
 <img width="756" height="442" alt="image" src="https://github.com/user-attachments/assets/cd7dc906-728b-4590-964f-86b4cde417c9" />
 
-
+### 51)Reverse an Array:
+```java
+class Solution {
+    public void reverseArray(int arr[]) {
+        int n = arr.length;
+        int left = 0;
+        int right = n - 1;
+        while(left<right)
+        {
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left ++ ;
+            right --;
+        }
+    }
+}
+```
+<img width="916" height="519" alt="image" src="https://github.com/user-attachments/assets/cbeb8305-fa99-45e6-995d-2b72390144ac" />
 
 
 
