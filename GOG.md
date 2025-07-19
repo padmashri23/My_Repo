@@ -1062,9 +1062,24 @@ class Solution {
 ```
 <img width="916" height="519" alt="image" src="https://github.com/user-attachments/assets/cbeb8305-fa99-45e6-995d-2b72390144ac" />
 
-
-
-
+### 52)Minimum Number in a sorted rotated array:
+```java
+class Solution {
+    static int minNumber(int arr[], int low, int high) {
+       int n = arr.length;
+       int min = arr[0];
+       for(int i = 0;i<n;i++)
+       {
+           if(arr[i]<min)
+           {
+               min = arr[i];
+           }
+       }
+        return  min;
+    }
+}
+```
+<img width="452" height="599" alt="image" src="https://github.com/user-attachments/assets/73aa855f-da7b-493d-bba1-9eba5d2938a5" />
 
 
 
