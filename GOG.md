@@ -1081,6 +1081,29 @@ class Solution {
 ```
 <img width="452" height="599" alt="image" src="https://github.com/user-attachments/assets/73aa855f-da7b-493d-bba1-9eba5d2938a5" />
 
+### 53)Facing the sun:
+```java
+class Solution {
+    public int countBuildings(int[] arr) {
+         int  n = arr.length;
+         int max = arr[0];
+         int count = 1;
+         for(int i = 0;i<n;i++)
+         {
+             if(arr[i]>max)
+             {
+                 count++;
+                 max = arr[i];
+             }
+         }
+         return count;
+    }
+}
+```
+<img width="909" height="422" alt="image" src="https://github.com/user-attachments/assets/6ef27ec7-26ce-45d0-9442-a11e19690ec3" />
+<img width="790" height="565" alt="image" src="https://github.com/user-attachments/assets/b7b64873-36a8-4f2e-b78f-2606961f9ca6" />
+
+
 
 
 
