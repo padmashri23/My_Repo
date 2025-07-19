@@ -1023,6 +1023,25 @@ class Solution {
 ```
 <img width="887" height="281" alt="image" src="https://github.com/user-attachments/assets/69c6449a-9d24-4c67-84cf-bd40b752b991" />
 
+### 50)Missing in Array:
+```java
+class Solution {
+    int missingNum(int arr[]) {
+        long n = arr.length;
+        long add = n + 1;
+        long sum = 0;
+        long total = add * (add + 1) / 2;
+        for(int i = 0;i<n;i++)
+        {
+            sum = sum + arr[i];
+        }
+        long missing = total - sum;
+        return (int)missing;
+    }
+}
+```
+<img width="756" height="442" alt="image" src="https://github.com/user-attachments/assets/cd7dc906-728b-4590-964f-86b4cde417c9" />
+
 
 
 
