@@ -1103,6 +1103,30 @@ class Solution {
 <img width="909" height="422" alt="image" src="https://github.com/user-attachments/assets/6ef27ec7-26ce-45d0-9442-a11e19690ec3" />
 <img width="790" height="565" alt="image" src="https://github.com/user-attachments/assets/b7b64873-36a8-4f2e-b78f-2606961f9ca6" />
 
+### 54)Chocolate Distribution Problem:
+```java
+class Solution {
+    public int findMinDiff(ArrayList<Integer> arr, int m) {
+        int n = arr.size();
+        if(n<m)
+        {
+            return -1;
+        }
+        Collections.sort(arr);
+        int minDiff = Integer.MAX_VALUE;
+        for(int i = 0;i<= n - m;i++)
+        {
+            int diff = arr.get(i + m - 1) - arr.get(i);
+            if(diff<minDiff)
+            {
+                minDiff = diff;
+            }
+        }
+        return minDiff;
+    }
+}
+```
+<img width="909" height="526" alt="image" src="https://github.com/user-attachments/assets/0ee37fd5-ea2c-4c62-ae6d-a7ccbfd0d579" />
 
 
 
