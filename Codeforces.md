@@ -15,7 +15,7 @@ public class Main
 	    uniquecolours.add(s3);
 	    uniquecolours.add(s4);
 	    int required=4-uniquecolours.size();
-		System.out.println(required);
+		System.out.println(required);   
 		scanner.close();
 	}
 }
