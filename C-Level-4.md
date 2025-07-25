@@ -131,7 +131,7 @@ int main()
     int alphabets,digits,others,i;
     alphabets=digits=others=i=0;
     printf("Enter the string:");
-    fgets(str,MAX_SIZE,stdin);
+    fgets(str,MAX_SIZE,stdin);   
     str[strcspn(str,"\n")]='\0';
     while(str[i]!='\0')
     {
