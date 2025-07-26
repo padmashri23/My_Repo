@@ -292,7 +292,7 @@ public class Main{
           System.out.print(sq+" ");
         }
       }
-    }
+    }    
     else
     {
       for(int i = 1;i<=n;i++)
