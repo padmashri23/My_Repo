@@ -1128,8 +1128,20 @@ class Solution {
 ```
 <img width="909" height="526" alt="image" src="https://github.com/user-attachments/assets/0ee37fd5-ea2c-4c62-ae6d-a7ccbfd0d579" />
 
+### 55)Three Great Candidates:
+```java
 
-
+class Solution {
+    int maxProduct(int[] arr) {
+       int n = arr.length;
+       Arrays.sort(arr);
+       long prod1 = arr[n - 3] * arr[n - 2] * arr[n - 1];
+       long prod2 = arr[0] * arr[1] * arr[n - 1];
+       return (int)Math.max(prod1,prod2);
+    }
+}
+```
+<img width="745" height="344" alt="image" src="https://github.com/user-attachments/assets/e2002026-7d4f-4bea-a84f-e0343afba420" />
 
 
 
