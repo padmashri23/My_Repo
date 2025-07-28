@@ -125,7 +125,7 @@ class Solution {
         {
         int digit=num%10;
         reverse=reverse*10+digit;
-        num=num/10;
+        num=num/10;     
         }
         return original==reverse;
     }
