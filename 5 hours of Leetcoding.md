@@ -88,7 +88,7 @@ The second for loop:
 ```java
 for (int i = 0; i < size; i++) {
     if (numbers.get(i) == 2) {
-        found = true;
+        found = true;   
         break;
     }
 }
