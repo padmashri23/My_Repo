@@ -1,3 +1,5 @@
+### Refer to Notes for Better Understanding:
+
 ### 595. Big Countries:
 
 ```SQL
