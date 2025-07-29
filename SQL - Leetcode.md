@@ -16,3 +16,11 @@ from Person as p
 Left join Address as a on a.personId = p.personId;
 ```
 <img width="702" height="593" alt="image" src="https://github.com/user-attachments/assets/11467dd9-7604-4243-bc57-9db093ade5b9" />
+
+### 3)182. Duplicate Emails:
+```SQL
+select email from Person
+group by email
+Having count(id)>1;
+```
+<img width="591" height="538" alt="image" src="https://github.com/user-attachments/assets/4bcb215d-2b82-49dd-b569-805ef8d663b2" />
