@@ -24,3 +24,12 @@ group by email
 Having count(id)>1;
 ```
 <img width="591" height="538" alt="image" src="https://github.com/user-attachments/assets/4bcb215d-2b82-49dd-b569-805ef8d663b2" />
+
+### 4)596. Classes With at Least 5 Students:
+```SQL
+select class from Courses
+group by class
+having count(student)>=5
+```
+<img width="747" height="700" alt="image" src="https://github.com/user-attachments/assets/1924893a-71fa-4522-a171-462fe59e1061" />
+
