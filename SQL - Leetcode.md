@@ -56,3 +56,11 @@ where referee_id is null or referee_id != 2;
 ```
 <img width="403" height="628" alt="image" src="https://github.com/user-attachments/assets/8fdbc665-2eda-45ad-bc84-6815cc459e49" />
 
+### 8)511. Game Play Analysis I:
+```SQL
+select player_id,min(event_date) as 'first_login' from Activity
+group by player_id
+```
+<img width="712" height="570" alt="image" src="https://github.com/user-attachments/assets/41202f42-c727-4f86-a58b-09798fb8e4dc" />
+
+
