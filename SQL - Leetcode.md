@@ -49,3 +49,10 @@ group by user_id;
 ```
 <img width="448" height="618" alt="image" src="https://github.com/user-attachments/assets/ad105614-ac42-4723-a632-10ba66767eb1" />
 
+### 7)584. Find Customer Referee:
+```SQL
+select name from Customer
+where referee_id is null or referee_id != 2;
+```
+<img width="403" height="628" alt="image" src="https://github.com/user-attachments/assets/8fdbc665-2eda-45ad-bc84-6815cc459e49" />
+
