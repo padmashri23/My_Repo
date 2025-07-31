@@ -41,7 +41,7 @@ class Solution {
 class Solution {
     void pushZerosToEnd(int[] arr) {
         int l=0,r=0,n=arr.length;
-        while(r<n)
+        while(r<n)   
         {
             if(arr[r]!=0)
             {
