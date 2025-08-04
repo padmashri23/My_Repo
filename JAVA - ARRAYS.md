@@ -916,3 +916,45 @@ public class Main{
 }
 ```
 <img width="676" height="311" alt="image" src="https://github.com/user-attachments/assets/76b3cc55-0666-434d-b6ba-317541c5b699" />
+
+### 27)To sort an array in manual way without using Arrays.sort():
+```java
+//To sort an array in manual way without using Arrays.sort();
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        for(int i = 0;i<n;i++)
+        {
+            for(int j = i + 1;j<n;j++)
+            {
+                if(arr[i]>arr[j])
+                {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        System.out.print("Arrays after sorting:");
+        for(int i = 0;i<n;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+        scanner.close();
+    }
+}
+```
+<img width="607" height="228" alt="image" src="https://github.com/user-attachments/assets/b05052f6-7dc2-4ba0-bd2c-0121a825c587" />
+
+The Time Complexity of the above program is O(n^2)
+Use Arrays.sort() → O(n log n)
