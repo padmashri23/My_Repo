@@ -140,7 +140,7 @@ class Solution {
         for(int num:arr)
         {
            if(num<=x)
-           {
+           {   
                count++;
            }
         }
