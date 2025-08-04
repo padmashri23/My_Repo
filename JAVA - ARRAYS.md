@@ -1057,3 +1057,53 @@ public class Main{
 ```
 <img width="622" height="260" alt="image" src="https://github.com/user-attachments/assets/95d5838f-0d0d-4cc8-92ec-802fdf996910" />
 
+### 29)Print the median of an array after sorting:
+```java
+//Print the median of an array after sorting:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        for(int i = 0;i<n;i++)
+        {
+            for(int j = i + 1;j<n;j++)
+            {
+                if(arr[i]>arr[j])
+                {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        System.out.print("Arrays after Sorting:");
+        for(int i = 0;i<n;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+        double median;
+        if(n%2==0)
+        {
+            median = (arr[n/2 - 1] + arr[n/2])/2.0;
+        }
+        else
+        {
+            median = arr[n/2];
+        }
+        System.out.print("\n"+"The median is:"+median);
+        scanner.close();
+    }
+}
+```
+<img width="625" height="234" alt="image" src="https://github.com/user-attachments/assets/3aa10330-0021-46f3-acc2-4b416fdd9bc1" />
+<img width="556" height="268" alt="image" src="https://github.com/user-attachments/assets/1f84f3c8-427d-4616-afd7-b271115e5ba5" />
+
