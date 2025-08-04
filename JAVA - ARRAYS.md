@@ -958,3 +958,47 @@ public class Main{
 
 The Time Complexity of the above program is O(n^2)
 Use Arrays.sort() → O(n log n)
+
+### 28)Sort the arrays in ascending order and print even numbers first and odd numbers next using Arrays.sort():
+```java
+//Sort the arrays in ascending order and print even numbers first and odd numbers next:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        Arrays.sort(arr);
+        System.out.print("The arrays after sorting:");
+        for(int i =0;i<n;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+        System.out.print("\n"+"Even numbers after sorting:");
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]%2==0)
+            {
+                System.out.print(arr[i]+" ");
+            }
+        }
+        System.out.print("\n"+"Odd numbers after sorting:");
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]%2!=0)
+            {
+                System.out.print(arr[i]+" ");
+            }
+        }
+        scanner.close();
+    }
+}
+```
+<img width="514" height="276" alt="image" src="https://github.com/user-attachments/assets/5380256d-09aa-4a82-8312-e8d3695020d4" />
