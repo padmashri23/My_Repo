@@ -888,3 +888,31 @@ public class Main{
 <img width="527" height="204" alt="image" src="https://github.com/user-attachments/assets/3528223c-56ff-4c85-ad98-827dce658c2e" />
 <img width="553" height="213" alt="image" src="https://github.com/user-attachments/assets/02660391-a654-4f3f-90ed-9ae906e0f437" />
 <img width="536" height="207" alt="image" src="https://github.com/user-attachments/assets/26e3e924-6e64-45d9-a609-8da81d4410ed" />
+
+### 26)Sorting an array using Arrays.sort():
+```java
+//to sort an array:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        Arrays.sort(arr);
+        System.out.print("The sorted array is:");
+        for(int i = 0;i<n;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+        scanner.close();
+    }
+}
+```
+<img width="676" height="311" alt="image" src="https://github.com/user-attachments/assets/76b3cc55-0666-434d-b6ba-317541c5b699" />
