@@ -1002,3 +1002,58 @@ public class Main{
 }
 ```
 <img width="514" height="276" alt="image" src="https://github.com/user-attachments/assets/5380256d-09aa-4a82-8312-e8d3695020d4" />
+
+```java
+//Sort the array and print even first and odd next in Manual O(n^2) way:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the array size:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        for(int i = 0;i<n;i++)
+        {
+            for(int j = i + 1;j<n;j++)
+            {
+                if(arr[i]>arr[j])
+                {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        System.out.print("After sorting:");
+        for(int i = 0;i<n;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+        System.out.print("\n"+"Even elements:");
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]%2==0)
+            {
+                System.out.print(arr[i]+" ");
+            }
+        }
+        System.out.print("\n"+"Odd Elements:");
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]%2!=0)
+            {
+                System.out.print(arr[i]+" ");
+            }
+        }
+        scanner.close();
+    }
+}
+```
+<img width="622" height="260" alt="image" src="https://github.com/user-attachments/assets/95d5838f-0d0d-4cc8-92ec-802fdf996910" />
+
