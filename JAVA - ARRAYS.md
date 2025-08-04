@@ -855,3 +855,36 @@ public class Main{
 }
 ```
 <img width="531" height="256" alt="image" src="https://github.com/user-attachments/assets/653eb0e0-f3e8-4f39-9d40-1e5bc5bf0499" />
+
+### 25)Sum of even numbers in an array:
+```java
+//Sum of even numbers in the array:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int sum = 0;
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]%2==0)
+            {
+                sum = sum + arr[i];
+            }
+        }
+        System.out.print("The sum of even numbers in the array:"+sum);
+        scanner.close();
+    }
+}
+```
+<img width="527" height="204" alt="image" src="https://github.com/user-attachments/assets/3528223c-56ff-4c85-ad98-827dce658c2e" />
+<img width="553" height="213" alt="image" src="https://github.com/user-attachments/assets/02660391-a654-4f3f-90ed-9ae906e0f437" />
+<img width="536" height="207" alt="image" src="https://github.com/user-attachments/assets/26e3e924-6e64-45d9-a609-8da81d4410ed" />
