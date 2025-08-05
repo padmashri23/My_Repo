@@ -1208,4 +1208,51 @@ public class Main{
 ```
 <img width="634" height="232" alt="image" src="https://github.com/user-attachments/assets/a81e57c2-343f-4e1a-8729-f45abb155255" />
 
+### 32)//Print unique elements along with their sum:
+```java
+//Print unique elements along with their sum:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        boolean unique = false;
+        int sum = 0;
+        System.out.print("The unique elements are:");
+        for(int i = 0;i<n;i++)
+        {
+            int count = 0;
+            for(int j = 0;j<n;j++)
+            {
+                if(arr[i] == arr[j])
+                {
+                    count++;
+                }
+            }
+            if(count == 1)
+            {
+                sum = sum + arr[i];
+                System.out.print(arr[i]+" ");
+                unique = true;
+            }
+        }
+        if(!unique)
+        {
+            System.out.print("0");
+        }
+        System.out.print("\n"+"The sum of unique elements:"+sum);
+        scanner.close();
+    }
+}
+```
+<img width="541" height="224" alt="image" src="https://github.com/user-attachments/assets/7f12a94d-5664-4a0c-9131-e0b80a95cceb" />
+<img width="556" height="250" alt="image" src="https://github.com/user-attachments/assets/07faaa49-6400-4c51-94b6-788b1b09645f" />
 
