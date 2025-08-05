@@ -1299,3 +1299,33 @@ public class Main{
 ```
 <img width="633" height="299" alt="image" src="https://github.com/user-attachments/assets/b9eea487-4bb9-4804-a14b-356898fea570" />
 
+### 34)Adding k to each element:
+```java
+//Adding k to each element:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        System.out.print("Enter the element to add:");
+        int add = scanner.nextInt();
+        System.out.print("The elements after adding:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = arr[i]+add;
+            System.out.print(arr[i]+" ");
+        }
+        scanner.close();
+    }
+}
+```
+<img width="546" height="240" alt="image" src="https://github.com/user-attachments/assets/9e5cd5ea-8c94-40b6-9855-62d177993c78" />
+
