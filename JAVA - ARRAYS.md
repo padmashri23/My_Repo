@@ -1180,4 +1180,32 @@ public class Main{
 ```
 <img width="537" height="250" alt="image" src="https://github.com/user-attachments/assets/0d87b4c9-fea3-4cd0-b5e9-704b704610dc" />
 
+### 31)Increment each element by 1:
+```java
+//Increment each element by 1:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        System.out.print("Elements after incrementing by 1:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = arr[i] + 1;
+            System.out.print(arr[i]+" ");
+        }
+        scanner.close();
+    }
+}
+```
+<img width="634" height="232" alt="image" src="https://github.com/user-attachments/assets/a81e57c2-343f-4e1a-8729-f45abb155255" />
+
 
