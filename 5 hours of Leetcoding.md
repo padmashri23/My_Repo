@@ -1398,6 +1398,34 @@ class Solution {
 ```
 <img width="440" height="283" alt="image" src="https://github.com/user-attachments/assets/46bc8218-ea0b-4413-813e-a190cf2895cc" />
 
+### 48)1748. Sum of Unique Elements:
+```java
+class Solution {
+    public int sumOfUnique(int[] nums) {
+        int n  = nums.length;
+        int sum = 0;
+        boolean unique = false;
+        for(int i = 0;i<n;i++)
+        {
+            int count = 0;
+            for(int j = 0;j<n;j++)
+            {
+                if(nums[i] == nums[j])
+                {
+                    count++;
+                }
+            }
+            if(count == 1)
+            {
+                unique = true;
+                sum = sum + nums[i];
+            }
+        }
+        return sum;
+    }
+}
+```
+<img width="810" height="504" alt="image" src="https://github.com/user-attachments/assets/08f80b2d-e7ef-4420-a302-65ccfa94339e" />
 
 
 
