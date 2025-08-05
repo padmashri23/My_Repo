@@ -1427,8 +1427,28 @@ class Solution {
 ```
 <img width="810" height="504" alt="image" src="https://github.com/user-attachments/assets/08f80b2d-e7ef-4420-a302-65ccfa94339e" />
 
-
-
+### 49)2455. Average Value of Even Numbers That Are Divisible by Three:
+```java
+class Solution {
+    public int averageValue(int[] nums) {
+     int n = nums.length;
+     int count = 0;
+     int avg = 0;
+     int sum = 0;
+     for(int i = 0;i<n;i++)
+     {
+        if(nums[i]%2==0 && nums[i]%3==0)
+        {
+            count++;
+            sum = sum + nums[i];
+            avg = sum /count;
+        }
+     }
+     return avg;   
+    }
+}
+```
+<img width="828" height="398" alt="image" src="https://github.com/user-attachments/assets/fd10e068-373c-4fff-9669-069f971a423b" />
 
 
 
