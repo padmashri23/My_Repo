@@ -80,7 +80,7 @@ public class Main{
             System.out.print(arr[i]+" ");
             negcount++;
         }
-        }
+        }   
         System.out.print("\n"+"The neg elements count are:"+negcount);
         System.out.print("\n"+"the zero elements are:");
         for(int i = 0;i<n;i++){
