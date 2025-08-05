@@ -1107,3 +1107,43 @@ public class Main{
 <img width="625" height="234" alt="image" src="https://github.com/user-attachments/assets/3aa10330-0021-46f3-acc2-4b416fdd9bc1" />
 <img width="556" height="268" alt="image" src="https://github.com/user-attachments/assets/1f84f3c8-427d-4616-afd7-b271115e5ba5" />
 
+### Median of an array with float and accurate median answer:
+```java
+//Median of an array with float and accurate median answer:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        Arrays.sort(arr);
+        System.out.print("The elements after sorting:");
+        for(int i = 0;i<n;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+        float med1;
+        int med2;
+        if(n%2==0)
+        {
+            med1 =(arr[n/2 - 1]+arr[n/2])/2.0f;
+            System.out.printf("\n"+"The median is:%.2f",med1);
+        }
+        if(n%2!=0)
+        {
+            med2 = arr[n/2];
+            System.out.print("\n"+"The median is:"+med2);
+        }
+        scanner.close();
+    }
+}
+```
+<img width="532" height="271" alt="image" src="https://github.com/user-attachments/assets/80c138c2-ae8c-4b9a-936f-d637bf918d02" />
+<img width="816" height="301" alt="image" src="https://github.com/user-attachments/assets/3af5a389-7f34-407e-a10e-90933d6e25d1" />
