@@ -1147,3 +1147,37 @@ public class Main{
 ```
 <img width="532" height="271" alt="image" src="https://github.com/user-attachments/assets/80c138c2-ae8c-4b9a-936f-d637bf918d02" />
 <img width="816" height="301" alt="image" src="https://github.com/user-attachments/assets/3af5a389-7f34-407e-a10e-90933d6e25d1" />
+
+### 30)Calculate sum and product of all the elements in the array:
+```java
+//Calculate sum and product of all the elements in the array:
+
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int prod = 1;
+        int sum = 0;
+        for(int i = 0;i<n;i++)
+        {
+            prod = prod * arr[i];
+            sum = sum + arr[i];
+        }
+        System.out.print("The product of the array is:"+prod);
+        System.out.print("\n"+"The sum of the array is:"+sum);
+        scanner.close();
+    }
+}
+```
+<img width="537" height="250" alt="image" src="https://github.com/user-attachments/assets/0d87b4c9-fea3-4cd0-b5e9-704b704610dc" />
+
+
