@@ -1450,12 +1450,33 @@ class Solution {
 ```
 <img width="828" height="398" alt="image" src="https://github.com/user-attachments/assets/fd10e068-373c-4fff-9669-069f971a423b" />
 
-
-
-
-
-
-
+### 50)2535. Difference Between Element Sum and Digit Sum of an Array:
+```java
+class Solution {
+    public int differenceOfSum(int[] nums) {
+        int n = nums.length;
+        int sum = 0;
+        for(int i = 0;i<n;i++)
+        {
+            sum = sum + nums[i];
+        }
+        int digsum = 0;
+        for(int i = 0;i<n;i++)
+        {
+            int num = nums[i];
+            while(num!=0)
+            {
+                int a = num%10;
+                digsum = digsum + a;
+                num = num/10;
+            }
+        }
+        int abs = Math.abs(sum - digsum);
+        return abs;
+    }
+}
+```
+<img width="806" height="551" alt="image" src="https://github.com/user-attachments/assets/5c8d138f-d087-4185-b6ce-45e3154acf01" />
 
 
 
