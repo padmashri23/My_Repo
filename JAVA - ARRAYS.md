@@ -1208,7 +1208,7 @@ public class Main{
 ```
 <img width="634" height="232" alt="image" src="https://github.com/user-attachments/assets/a81e57c2-343f-4e1a-8729-f45abb155255" />
 
-### 32)//Print unique elements along with their sum:
+### 32)Print unique elements along with their sum:
 ```java
 //Print unique elements along with their sum:
 import java.util.*;
@@ -1255,4 +1255,47 @@ public class Main{
 ```
 <img width="541" height="224" alt="image" src="https://github.com/user-attachments/assets/7f12a94d-5664-4a0c-9131-e0b80a95cceb" />
 <img width="556" height="250" alt="image" src="https://github.com/user-attachments/assets/07faaa49-6400-4c51-94b6-788b1b09645f" />
+
+### 33)Identify the index of highest and lowest score:
+```java
+//identify the index of highest and lowest score:
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array:");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the elements of the array:");
+        for(int i = 0;i<n;i++)
+        {
+            arr[i] = scanner.nextInt();
+        }
+        int min = arr[0];
+        int max = arr[0];
+        int minin = 0;
+        int maxin = 0;
+        for(int i = 0;i<n;i++)
+        {
+            if(arr[i]>max)
+            {
+                max = arr[i];
+                maxin = i;
+            }
+            if(arr[i]<min)
+            {
+                min = arr[i];
+                minin = i;
+            }
+        }
+        System.out.print("The max element is:"+max);
+        System.out.print("\n"+"The min element is:"+min);
+        System.out.print("\n"+"The max element index is:"+maxin);
+        System.out.print("\n"+"The min element index is:"+minin);
+        scanner.close();
+    }
+}
+```
+<img width="633" height="299" alt="image" src="https://github.com/user-attachments/assets/b9eea487-4bb9-4804-a14b-356898fea570" />
 
