@@ -1516,6 +1516,38 @@ class Solution {
 ```
 <img width="808" height="527" alt="image" src="https://github.com/user-attachments/assets/55f8e0e3-3077-4635-b1ea-58f7c2a6b76f" />
 
+### 52)3300. Minimum Element After Replacement With Digit Sum:
+```java
+class Solution {
+    public int minElement(int[] nums) {
+      int n = nums.length;
+      int[] temp = new int[n]; 
+      for(int i = 0;i<n;i++)
+      {
+        int sum = 0;
+        int num = nums[i];
+        while(num!=0)
+        {
+            int a = num % 10;
+            sum = sum + a;
+            num = num/10;
+        }
+          temp[i] = sum;
+      }
+      int min = temp[0];
+      for(int i = 0;i<n;i++)
+      {
+        if(temp[i]<min)
+        {
+            min = temp[i];
+        }
+      }
+      return min;  
+    }
+}
+```
+<img width="761" height="694" alt="image" src="https://github.com/user-attachments/assets/3136f310-2342-4670-a2b1-81c42639c988" />
+
 
 
 
