@@ -541,6 +541,22 @@ class Solution {
     }
 }
 ```
+```java
+class Solution {
+    public int findMin(int[] nums) {
+        int min = nums[0];
+        int n = nums.length;
+        for(int i = 0;i<n;i++)
+        {
+            if(nums[i]<min)
+            {
+                min = nums[i]; // The problem should not be approached like this cuz I just found the minimum element in the array.
+            }
+        }
+        return min;
+    }
+}
+```
 Refer to note for the problem understanding and for the iterations.
 
 Time Complexity  : O(log n) //which is faster than O(n).
