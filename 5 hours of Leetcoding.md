@@ -1548,6 +1548,34 @@ class Solution {
 ```
 <img width="761" height="694" alt="image" src="https://github.com/user-attachments/assets/3136f310-2342-4670-a2b1-81c42639c988" />
 
+### 53)1287. Element Appearing More Than 25% In Sorted Array:
+```java
+class Solution {
+    public int findSpecialInteger(int[] arr) {
+        int n = arr.length;
+        int math = n * 25 / 100;
+        for(int i = 0;i<n;i++)  
+        {
+            int count = 0;
+            for(int j = i + 1;j<n;j++)
+            {
+                if(arr[i] == arr[j])
+                {
+                    count++;
+                }
+            }
+        if(count>=math )
+        {
+            return arr[i];
+        }
+        } 
+        return 0;
+    }
+}
+```
+<img width="542" height="280" alt="image" src="https://github.com/user-attachments/assets/4b6bf1ee-0139-436e-9d09-de6c0983ab46" />
+
+Not so Optimized.
 
 
 
