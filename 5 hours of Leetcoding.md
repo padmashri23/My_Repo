@@ -1577,5 +1577,35 @@ class Solution {
 
 Not so Optimized.
 
+### 54)1295. Find Numbers with Even Number of Digits:
+```java
+class Solution {
+    public int findNumbers(int[] nums) {
+       int n = nums.length;
+       int[] temp = new int[n];
+       for(int i = 0;i<n;i++)
+       {
+        int num = nums[i];
+        int count = 0;
+        while(num!=0)
+        {
+          num = num/10;
+          count++;   
+        }
+        temp[i] = count;
+       }
+       int count2 = 0;
+       for(int i = 0;i<n;i++)
+       {
+        if(temp[i]%2==0)
+        {
+           count2++;
+        }
+       }
+       return count2; 
+    }
+}
+```
+<img width="766" height="508" alt="image" src="https://github.com/user-attachments/assets/9be55c84-648e-4420-8426-aa5c6b4b41a4" />
 
 
