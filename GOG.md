@@ -798,7 +798,7 @@ class Solution {
 
 ### 39)Precise Format - Java:
 ```java
-class Solution {
+class Solution {  
     static ArrayList<Float> divisionWithPrecision(float a, float b) {
         float ans1 = a/b;
         float ans2 = Float.parseFloat(String.format("%.3f",ans1));
