@@ -1478,7 +1478,27 @@ class Solution {
 ```
 <img width="806" height="551" alt="image" src="https://github.com/user-attachments/assets/5c8d138f-d087-4185-b6ce-45e3154acf01" />
 
-
+### 51)1450. Number of Students Doing Homework at a Given Time:
+```java
+class Solution {
+    public int busyStudent(int[] startTime, int[] endTime, int queryTime) {
+        int count = 0;
+        int n1 = startTime.length;
+        for(int i = 0;i<n1;i++)
+        {
+           for(int j = startTime[i];j<=endTime[i];j++)
+           {
+            if(j == queryTime)
+            {
+                count++;
+            }
+           }
+        }
+        return count;
+    }
+}
+```
+<img width="808" height="527" alt="image" src="https://github.com/user-attachments/assets/55f8e0e3-3077-4635-b1ea-58f7c2a6b76f" />
 
 
 
