@@ -1627,3 +1627,29 @@ class Solution {
 <img width="656" height="328" alt="image" src="https://github.com/user-attachments/assets/717b6d6f-5ed7-4e96-84d6-d0e1ac1a12d7" />
 
 I knew that this was not a correct way to solve this problem but just finished to see the Accepted Word.
+
+### 56)88. Merge Sorted Array:
+```java
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+       int[] temp = new int[m+n];
+       for(int i = 0;i<m;i++)
+       {
+        temp[i] = nums1[i];
+       }
+       for(int i = 0;i<n;i++)
+       {
+        temp[m + i] = nums2[i];
+       }
+        Arrays.sort(temp);
+        int len = temp.length;
+        for(int i = 0;i<len;i++)
+        {
+            nums1[i] = temp[i];
+        }
+    }
+}
+```
+<img width="844" height="670" alt="image" src="https://github.com/user-attachments/assets/d7bf9697-e741-442b-b343-c10bfce58667" />
+
+
