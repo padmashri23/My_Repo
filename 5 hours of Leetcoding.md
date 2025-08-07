@@ -1655,3 +1655,33 @@ class Solution {
 //We are copying back into nums1 because in problems like this (especially Leetcode-style problems), the final merged and sorted result is expected to be stored in nums1 itself.
 //We copy the result from temp back to nums1, because the problem requires us to update nums1 in-place with the final sorted array.
 //If you don’t copy back, nums1 will still contain the original values (plus unused zeroes), and the function won’t produce the expected result.
+
+### 57)137. Single Number II:
+```java
+class Solution {
+    public int singleNumber(int[] nums) {
+        int n = nums.length;
+        boolean unique = false;
+        int found = 0;
+        for(int i = 0;i<n;i++)
+        {
+            int count = 0;
+            for(int j = 0;j<n;j++)
+            {
+                if(nums[i] == nums[j])
+                {
+                   count++;
+                }
+            }
+            if(count<=2 && count!=0)
+            {
+               unique = true;
+               found = nums[i];  
+            }
+        }
+        return found;
+    }
+}
+```
+<img width="456" height="250" alt="image" src="https://github.com/user-attachments/assets/44b1799d-fe18-465d-8db8-51a30ab07396" />
+
