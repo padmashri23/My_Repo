@@ -1652,4 +1652,6 @@ class Solution {
 ```
 <img width="844" height="670" alt="image" src="https://github.com/user-attachments/assets/d7bf9697-e741-442b-b343-c10bfce58667" />
 
-
+//We are copying back into nums1 because in problems like this (especially Leetcode-style problems), the final merged and sorted result is expected to be stored in nums1 itself.
+//We copy the result from temp back to nums1, because the problem requires us to update nums1 in-place with the final sorted array.
+//If you don’t copy back, nums1 will still contain the original values (plus unused zeroes), and the function won’t produce the expected result.
