@@ -598,7 +598,7 @@ public class Main{
         if(n<=10 || n>21) //There is no card with a value of more than 10 in a standard deck of 52 cards.
         {
             System.out.println(0);
-        }
+        }   
         else if(n==20)
         {
             System.out.println(15);
