@@ -1608,4 +1608,22 @@ class Solution {
 ```
 <img width="766" height="508" alt="image" src="https://github.com/user-attachments/assets/9be55c84-648e-4420-8426-aa5c6b4b41a4" />
 
+### 55)81. Search in Rotated Sorted Array II:
+```java
+class Solution {
+    public boolean search(int[] nums, int target) {
+        int n = nums.length;
+        for(int i = 0;i<n;i++)
+        {
+            if(nums[i]==target)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+```
+<img width="656" height="328" alt="image" src="https://github.com/user-attachments/assets/717b6d6f-5ed7-4e96-84d6-d0e1ac1a12d7" />
 
+I knew that this was not a correct way to solve this problem but just finished to see the Accepted Word.
