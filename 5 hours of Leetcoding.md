@@ -1110,7 +1110,7 @@ class Solution {
                 if(istriple(a,b,c))
                 {
                     count++;
-                }
+                }    
             }
          }
        }
