@@ -190,7 +190,7 @@ class Solution {
        {
         set.add(i);
        }
-       for(int num:nums)
+       for(int num:nums)    
        {
         set.remove(num);
        }
