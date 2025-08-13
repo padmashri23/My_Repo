@@ -138,7 +138,7 @@ not so optimized the time complexity is O(n^2) no so efficient: 70/76 testcase p
 but we can solve using HashSet 
 ```java
 class Solution {
-    public boolean containsDuplicate(int[] nums) {
+    public boolean containsDuplicate(int[] nums) {    
         HashSet<Integer> seen = new HashSet<>();
         for(int num:nums)
         {
