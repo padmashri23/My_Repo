@@ -173,7 +173,7 @@ int main()
     for(i=0;str[i]!='\0';i++)
     {
         if(islower(str[i]))
-        {
+        {         
             putchar(toupper(str[i]));
         }
         else
