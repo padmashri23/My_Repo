@@ -6,7 +6,7 @@ my_list=[1,25,465,159,45,78,23,4,2,5,6,8,852,963,741,7894,7]
 print("Original list:")
 print(my_list)
 sorted_list=[]
-for i in my_list:
+for i in my_list:    
     position=bisect.bisect(sorted_list,i)
     bisect.insort(sorted_list,i)
 print("Sorted list:")
