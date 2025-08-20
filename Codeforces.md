@@ -715,7 +715,48 @@ public class Main{
 }
 ```
 ![image](https://github.com/user-attachments/assets/e160bbf0-4b4c-456c-9ff7-e0f952d7b190)
-
+### 29. A. Panoramix's Prediction:
+```java
+//check the m value is the next prime number for the given n;
+import java.util.*;
+public class Main{
+    public static boolean isPrime(int num)
+    {
+        if(num<2)
+        {
+            return false;
+        }
+        for(int i = 2;i * i <= num;i++)
+        {
+            if(num%i==0)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
+        int nextPrime = n + 1;
+        while(!isPrime(nextPrime))
+        {
+            nextPrime++;
+        }
+        if(nextPrime == m)
+        {
+            System.out.print("YES");
+        }
+        else{
+            System.out.print("NO");
+        }
+        scanner.close();
+    }
+}
+```
+<img width="334" height="506" alt="image" src="https://github.com/user-attachments/assets/74992f71-60a8-4f62-a6ec-0a1dfb75c0a8" />
 
 
 
