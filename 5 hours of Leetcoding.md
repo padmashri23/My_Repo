@@ -1706,4 +1706,35 @@ class Solution {
 
 I knew that this was not a correct way to solve this problem but just finished to see the Accepted Word.
 
+### 59)260. Single Number III:
+```java
+class Solution {
+    public int[] singleNumber(int[] nums) {
+        int n = nums.length;
+        int[] result = new int[2];
+        int index = 0;
+        for(int i = 0;i<n;i++)
+        {
+            int count = 0;
+            for(int j = 0;j<n;j++)
+            {
+                if(nums[i] == nums[j])
+                {
+                    count++;
+                }
+            }
+            if(count == 1)
+            {
+                result[index++] = nums[i];
+                if(index==2)
+                {
+                    return result;
+                }
+            }
+        }
+        return result;
+    }
+}
+```
+<img width="680" height="430" alt="image" src="https://github.com/user-attachments/assets/77474525-cd80-48b9-a3d1-f10878da95af" />
 
