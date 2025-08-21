@@ -1685,3 +1685,25 @@ class Solution {
 ```
 <img width="456" height="250" alt="image" src="https://github.com/user-attachments/assets/44b1799d-fe18-465d-8db8-51a30ab07396" />
 
+### 58)154. Find Minimum in Rotated Sorted Array II:
+```java
+class Solution {
+    public int findMin(int[] nums) {
+        int n = nums.length;
+        int min = nums[0];
+        for(int i = 0;i<n;i++)
+        {
+            if(nums[i]<min)
+            {
+                min = nums[i];
+            }
+        }
+        return min;
+    }
+}
+```
+<img width="507" height="305" alt="image" src="https://github.com/user-attachments/assets/af29e73a-a54f-4e14-97b2-1f4d365b8048" />
+
+I knew that this was not a correct way to solve this problem but just finished to see the Accepted Word.
+
+
