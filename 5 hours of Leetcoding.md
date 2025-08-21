@@ -352,7 +352,7 @@ class Solution {
         {
             if(f[i]!=l[i])
             break;
-            {
+            {   
                 result.append(f[i]);
             }
         }
