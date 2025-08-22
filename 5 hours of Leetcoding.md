@@ -1133,7 +1133,7 @@ class Solution {
         if(n == 2)
         {
             return 2;
-        }
+        }   
         int a,b,c;
         a = 1;
         b = 2;
