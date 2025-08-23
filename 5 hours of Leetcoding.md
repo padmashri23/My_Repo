@@ -1621,7 +1621,7 @@ class Solution {
             }
         }
         return false;
-    }
+    }   
 }
 ```
 <img width="656" height="328" alt="image" src="https://github.com/user-attachments/assets/717b6d6f-5ed7-4e96-84d6-d0e1ac1a12d7" />
