@@ -193,7 +193,7 @@ public class Main
 	    {
 	        scores[i]=scanner.nextInt();
 	    }
-	    int threshhold = scores[k-1];
+	    int threshhold = scores[k-1];   
 	    int count=0;
 	    for(int score:scores)
 	    {     
