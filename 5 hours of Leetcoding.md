@@ -1724,7 +1724,7 @@ class Solution {
                 }
             }
             if(count == 1)
-            {
+            {   
                 result[index++] = nums[i];
                 if(index==2)
                 {
