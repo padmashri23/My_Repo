@@ -13,7 +13,7 @@ where area>=3000000 or population>=25000000;
 ```SQL
 select p.firstName,p.lastName,a.city,a.state
 from Person as p
-Left join Address as a on a.personId = p.personId;
+Left join Address as a on a.personId = p.personId;    
 ```
 <img width="702" height="593" alt="image" src="https://github.com/user-attachments/assets/11467dd9-7604-4243-bc57-9db093ade5b9" />
 
