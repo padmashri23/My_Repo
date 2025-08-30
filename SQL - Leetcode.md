@@ -70,4 +70,12 @@ group by teacher_id;
 ```
 <img width="499" height="658" alt="image" src="https://github.com/user-attachments/assets/b691b034-f788-4ee5-bdf0-81f8ef15aedc" />
 
+### 10)1148. Article Views I:
+```SQL
+select author_id as 'id' from Views
+where author_id = viewer_id
+group by author_id 
+order by author_id;
+```
+<img width="745" height="613" alt="image" src="https://github.com/user-attachments/assets/9fab8fef-606d-4140-92b6-3db3998ac5c5" />
 
