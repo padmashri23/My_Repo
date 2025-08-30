@@ -63,4 +63,11 @@ group by player_id
 ```
 <img width="712" height="570" alt="image" src="https://github.com/user-attachments/assets/41202f42-c727-4f86-a58b-09798fb8e4dc" />
 
+### 9)2356. Number of Unique Subjects Taught by Each Teacher:
+```SQL
+select teacher_id,count(distinct subject_id) as 'cnt' from Teacher
+group by teacher_id;
+```
+<img width="499" height="658" alt="image" src="https://github.com/user-attachments/assets/b691b034-f788-4ee5-bdf0-81f8ef15aedc" />
+
 
