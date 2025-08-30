@@ -85,3 +85,11 @@ select product_id from Products
 where low_fats = 'Y' and recyclable = 'Y';
 ```
 <img width="830" height="577" alt="image" src="https://github.com/user-attachments/assets/cde43717-b865-43b9-817e-f65889dc80a9" />
+
+### 12)620. Not Boring Movies:
+```SQL
+select id,movie,description,rating from Cinema
+where id%2<>0 and description <> 'boring'
+order by rating desc;
+```
+<img width="904" height="652" alt="image" src="https://github.com/user-attachments/assets/cdcfa29b-e3db-43e4-8a74-f47063486d87" />
