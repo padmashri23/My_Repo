@@ -171,7 +171,7 @@ public class Main
 	                x^=i+1;
 	                y^=j+1;
 	            }
-	        }
+	        }    
 	    }
 		System.out.println(x+" "+y);
 		scanner.close();
