@@ -79,3 +79,9 @@ order by author_id;
 ```
 <img width="745" height="613" alt="image" src="https://github.com/user-attachments/assets/9fab8fef-606d-4140-92b6-3db3998ac5c5" />
 
+### 11)1757. Recyclable and Low Fat Products:
+```SQL
+select product_id from Products
+where low_fats = 'Y' and recyclable = 'Y';
+```
+<img width="830" height="577" alt="image" src="https://github.com/user-attachments/assets/cde43717-b865-43b9-817e-f65889dc80a9" />
