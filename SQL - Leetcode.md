@@ -93,3 +93,15 @@ where id%2<>0 and description <> 'boring'
 order by rating desc;
 ```
 <img width="904" height="652" alt="image" src="https://github.com/user-attachments/assets/cdcfa29b-e3db-43e4-8a74-f47063486d87" />
+
+### 13)610. Triangle Judgement:
+```SQL
+select x,y,z,
+case when (x+y>z) and (y+z>x) and (z+x>y) then 'Yes'
+else 'No'
+end as 'triangle'
+from Triangle;
+```
+<img width="500" height="471" alt="image" src="https://github.com/user-attachments/assets/da366f9d-2a1e-4715-9e6a-5a599751b186" />
+
+
