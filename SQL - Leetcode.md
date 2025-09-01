@@ -82,7 +82,7 @@ order by author_id;
 ### 11)1757. Recyclable and Low Fat Products:
 ```SQL
 select product_id from Products
-where low_fats = 'Y' and recyclable = 'Y';
+where low_fats = 'Y' and recyclable = 'Y';   
 ```
 <img width="830" height="577" alt="image" src="https://github.com/user-attachments/assets/cde43717-b865-43b9-817e-f65889dc80a9" />
 
