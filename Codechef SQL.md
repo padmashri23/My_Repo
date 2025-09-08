@@ -24,3 +24,10 @@ select department_name,location from departments
 where location like 'S%';
 ```
 <img width="546" height="281" alt="image" src="https://github.com/user-attachments/assets/2ac6e9fe-32b1-454f-a31a-61f4ea17b3e3" />
+
+### 5)Distinct Companies:
+```SQL
+select distinct company_name from Works;
+```
+<img width="237" height="330" alt="image" src="https://github.com/user-attachments/assets/92a3458d-ddfb-4f7e-a9fd-8c51e54216db" />
+
