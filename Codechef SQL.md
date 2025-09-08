@@ -56,3 +56,11 @@ order by author_id ;
 <img width="887" height="246" alt="image" src="https://github.com/user-attachments/assets/cd51d7ff-6f8b-430c-aeec-fafa8fe58e78" />
 <img width="612" height="302" alt="image" src="https://github.com/user-attachments/assets/aa3fa466-f54b-4a6d-a2a1-2cd075e4f030" />
 
+### 9)Fiction Collection Size:
+```SQL
+select count(*) as 'fiction_count' from Books
+where genre = 'Fiction';
+```
+<img width="1908" height="752" alt="image" src="https://github.com/user-attachments/assets/a510a8bd-1f77-4532-a0f2-55dc2bcf884a" />
+<img width="671" height="768" alt="image" src="https://github.com/user-attachments/assets/ac3cbbf4-37ce-4d81-b069-5970477b91eb" />  
+
