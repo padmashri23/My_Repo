@@ -47,3 +47,12 @@ order by salary desc;
 <img width="874" height="225" alt="image" src="https://github.com/user-attachments/assets/bda9f015-a7e6-47cc-a044-4ba179430e93" />
 <img width="563" height="340" alt="image" src="https://github.com/user-attachments/assets/f96c8555-9929-4f7a-87d4-daa4e1b52323" />
 
+### 8)Article views:
+```SQL
+select author_id,author_name,publication_name from Views
+where view_count = 0
+order by author_id ;
+```
+<img width="887" height="246" alt="image" src="https://github.com/user-attachments/assets/cd51d7ff-6f8b-430c-aeec-fafa8fe58e78" />
+<img width="612" height="302" alt="image" src="https://github.com/user-attachments/assets/aa3fa466-f54b-4a6d-a2a1-2cd075e4f030" />
+
