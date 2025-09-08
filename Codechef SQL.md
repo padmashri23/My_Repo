@@ -17,3 +17,10 @@ where price > 100;
 select avg(salary) as 'avg_salary' from Works;
 ```
 <img width="311" height="225" alt="image" src="https://github.com/user-attachments/assets/9bbc722c-9926-4f1a-bc56-80fb56e5b2cf" />
+
+### 4)Locate People:
+```SQL
+select department_name,location from departments
+where location like 'S%';
+```
+<img width="546" height="281" alt="image" src="https://github.com/user-attachments/assets/2ac6e9fe-32b1-454f-a31a-61f4ea17b3e3" />
