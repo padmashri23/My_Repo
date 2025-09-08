@@ -38,3 +38,12 @@ where Rating > 7 and Rating < 9;
 ```
 <img width="253" height="348" alt="image" src="https://github.com/user-attachments/assets/774f3079-74f8-4209-b229-299c24fe7f16" />
 
+### 7)Salary of Employees:
+```SQL
+select employee_name,company,salary from Employees
+where category = 'Full-Time'
+order by salary desc;
+```
+<img width="874" height="225" alt="image" src="https://github.com/user-attachments/assets/bda9f015-a7e6-47cc-a044-4ba179430e93" />
+<img width="563" height="340" alt="image" src="https://github.com/user-attachments/assets/f96c8555-9929-4f7a-87d4-daa4e1b52323" />
+
