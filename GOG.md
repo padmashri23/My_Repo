@@ -8,7 +8,7 @@ class Solution {
             if(arr[left]>=arr[right])
             {
                 left++;
-            }
+            }   
             else
             {    
                 right--;
