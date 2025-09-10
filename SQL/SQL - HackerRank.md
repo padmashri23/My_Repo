@@ -83,3 +83,9 @@ case when (A+B <= C) or (B+C <= A) or (C+A <= B) then 'Not A Triangle'
 from TRIANGLES;
 ```
 
+### 14)Revising Aggregations - The Count Function:
+```SQL
+select count(NAME) from CITY
+where POPULATION > 100000;
+```
+
