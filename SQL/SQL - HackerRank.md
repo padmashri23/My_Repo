@@ -22,3 +22,8 @@ select * from City
 where COUNTRYCODE = 'JPN';
 ```
 
+### 5)Japanese Cities' Names:
+```SQL
+select NAME from City
+where COUNTRYCODE = 'JPN';
+```
