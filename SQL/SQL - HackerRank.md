@@ -95,4 +95,9 @@ select floor(Avg(population)) from City;
 ```
 //FLOOR() → rounds down to the nearest integer.
 
+### 16)Japan Population:
+```SQL
+select sum(population) from city
+where COUNTRYCODE = 'JPN';
+```
 
