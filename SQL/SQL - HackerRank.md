@@ -101,3 +101,8 @@ select sum(population) from city
 where COUNTRYCODE = 'JPN';
 ```
 
+### 17)Population Density Difference:
+```SQL
+select max(population) - min(population) from City;
+```
+
