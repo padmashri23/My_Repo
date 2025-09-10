@@ -66,3 +66,11 @@ select name from Employee
 order by name asc;
 ```
 
+### 12)Employee Salaries:
+```SQL
+select name from Employee
+where months < 10 and salary > 2000;
+```
+
+
+
