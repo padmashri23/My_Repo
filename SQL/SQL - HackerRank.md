@@ -43,3 +43,10 @@ where ID % 2 = 0;
 ```SQL
 select count(CITY) - count(distinct city) from station;
 ```
+
+### 9)Weather Observation Station 6:
+```SQL
+select distinct CITY from STATION
+where CITY LIKE 'a%' or CITY LIKE 'e%' or  CITY LIKE 'i%' or
+CITY LIKE 'o%' or CITY LIKE 'u%';
+```
