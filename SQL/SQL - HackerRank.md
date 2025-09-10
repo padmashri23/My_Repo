@@ -38,3 +38,8 @@ select city,state from Station;
 select distinct city from station
 where ID % 2 = 0;
 ```
+
+### 8)Weather Observation Station 4:
+```SQL
+select count(CITY) - count(distinct city) from station;
+```
