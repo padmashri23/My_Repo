@@ -72,5 +72,14 @@ select name from Employee
 where months < 10 and salary > 2000;
 ```
 
-
+### 13)Type of Triangle:
+```SQL
+select 
+case when (A+B <= C) or (B+C <= A) or (C+A <= B) then 'Not A Triangle'
+     when (A = B and B = C) then 'Equilateral'
+     when (A = B) or (A = C) or (B = C) then 'Isosceles'
+     else 'Scalene'
+     end as 'Triangle_Type'
+from TRIANGLES;
+```
 
