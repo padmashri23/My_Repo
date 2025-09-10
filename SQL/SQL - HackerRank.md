@@ -32,3 +32,9 @@ where COUNTRYCODE = 'JPN';
 ```SQL
 select city,state from Station;
 ```
+
+### 7)Weather Observation Station 3:
+```SQL
+select distinct city from station
+where ID % 2 = 0;
+```
