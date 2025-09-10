@@ -89,3 +89,10 @@ select count(NAME) from CITY
 where POPULATION > 100000;
 ```
 
+### 15)Average Population:
+```SQL
+select floor(Avg(population)) from City;
+```
+//FLOOR() → rounds down to the nearest integer.
+
+
