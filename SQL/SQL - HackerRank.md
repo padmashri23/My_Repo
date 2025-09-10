@@ -59,3 +59,10 @@ CITY like '%i' or
 CITY like '%o' or 
 CITY like '%u'
 ```
+
+### 11)Employee Names:
+```SQL
+select name from Employee
+order by name asc;
+```
+
