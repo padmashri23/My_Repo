@@ -110,3 +110,16 @@ select max(population) - min(population) from City;
 ```SQL
 select * from CITY;
 ```
+
+### 19)Weather Observation Station 14:
+```SQL
+select TRUNCATE (LAT_N,4) from STATION
+where LAT_N < 137.2345
+order by LAT_N desc
+limit 1;
+```
+```SQL
+select truncate (max(LAT_N),4) from STATION
+where LAT_N < 137.2345;
+```
+```
