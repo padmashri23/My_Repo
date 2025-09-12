@@ -123,3 +123,14 @@ select truncate (max(LAT_N),4) from STATION
 where LAT_N < 137.2345;
 ```
 
+### 20)Weather Observation Station 10:
+```SQL
+select distinct city from station
+where city not like '%a' AND
+city not like '%e' AND
+city not like '%i' AND
+city not like '%o' AND
+city not like '%u';
+```
+
+
