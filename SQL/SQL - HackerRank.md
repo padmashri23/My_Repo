@@ -106,3 +106,7 @@ where COUNTRYCODE = 'JPN';
 select max(population) - min(population) from City;
 ```
 
+### 18)Select All:
+```SQL
+select * from CITY;
+```
