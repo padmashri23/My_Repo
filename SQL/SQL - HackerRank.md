@@ -133,4 +133,10 @@ city not like '%o' AND
 city not like '%u';
 ```
 
+### 21)Revising Aggregations - The Sum Function:
+```SQL
+select sum(population) from CITY
+where DISTRICT = 'California';
+```
+
 
