@@ -22,3 +22,10 @@ where first_name like 'c%';
 select first_name,last_name from patients
 where weight between 100 and 120;
 ```
+
+### 5.Update the patients table for the allergies column. If the patient's allergies is null then replace it with 'NKA':
+```SQL
+update patients
+set allergies = 'NKA'
+where allergies is null;
+```
