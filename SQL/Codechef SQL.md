@@ -32,7 +32,7 @@ select distinct company_name from Works;
 <img width="237" height="330" alt="image" src="https://github.com/user-attachments/assets/92a3458d-ddfb-4f7e-a9fd-8c51e54216db" />
 
 ### 6)List of Movies with Ratings:
-```SQL
+```SQL   
 select Movie_name from Cinema
 where Rating > 7 and Rating < 9;
 ```
