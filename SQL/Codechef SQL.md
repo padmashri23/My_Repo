@@ -51,7 +51,7 @@ order by salary desc;
 ```SQL
 select author_id,author_name,publication_name from Views
 where view_count = 0
-order by author_id ;
+order by author_id ;   
 ```
 <img width="887" height="246" alt="image" src="https://github.com/user-attachments/assets/cd51d7ff-6f8b-430c-aeec-fafa8fe58e78" />
 <img width="612" height="302" alt="image" src="https://github.com/user-attachments/assets/aa3fa466-f54b-4a6d-a2a1-2cd075e4f030" />
