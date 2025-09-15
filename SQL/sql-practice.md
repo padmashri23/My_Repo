@@ -10,3 +10,9 @@ wHere gender = 'M';
 select first_name,last_name from patients
 where allergies is null;
 ```
+
+### 3.Show first name of patients that start with the letter 'C':
+```SQL
+select first_name from patients
+where first_name like 'c%';
+```
