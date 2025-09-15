@@ -170,3 +170,9 @@ select round(min(LAT_N),4) from station
 where LAT_N > 38.7780;
 ```
 
+### 25)Weather Observation Station 2:
+```SQL
+select round(sum(LAT_N),2) as 'lat'
+, round(sum(LONG_W),2) as 'lon'  from station;
+```
+
