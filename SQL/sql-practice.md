@@ -65,3 +65,9 @@ where admission_date = discharge_date;
 select patient_id,count(patient_id) as 'total_admissions' from admissions
 where patient_id = 579;
 ```
+
+### 12)Based on the cities that our patients live in, show unique cities that are in province_id 'NS':
+```SQL
+select distinct city as 'unique_cities' from patients
+where province_id = 'NS';
+```
