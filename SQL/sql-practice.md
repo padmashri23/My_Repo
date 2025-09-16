@@ -59,3 +59,9 @@ select count(*) as 'total_admissions' from admissions;
 select * from admissions
 where admission_date = discharge_date;
 ```
+
+### 11.Show the patient id and the total number of admissions for patient_id 579:
+```SQL
+select patient_id,count(patient_id) as 'total_admissions' from admissions
+where patient_id = 579;
+```
