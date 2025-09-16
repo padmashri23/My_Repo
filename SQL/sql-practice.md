@@ -83,3 +83,9 @@ where height > 160 and weight > 70;
 select first_name,last_name,allergies from patients
 where allergies is not null and city = 'Hamilton';
 ```
+
+### 15)Show unique birth years from patients and order them by ascending:
+```SQL
+select distinct year(birth_date) as 'birth_year' from patients
+order by birth_year;
+```
