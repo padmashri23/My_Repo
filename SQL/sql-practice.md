@@ -53,3 +53,9 @@ where patient_id in (1,45,534,879,1000);
 ```SQL
 select count(*) as 'total_admissions' from admissions;
 ```
+
+### 10.Show all the columns from admissions where the patient was admitted and discharged on the same day:
+```SQL
+select * from admissions
+where admission_date = discharge_date;
+```
