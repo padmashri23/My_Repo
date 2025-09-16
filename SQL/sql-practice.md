@@ -96,3 +96,9 @@ select first_name,last_name,allergies from patients
 where allergies = 'Penicillin' or allergies = 'Morphine'
 order by allergies, first_name,last_name;
 ```
+
+### 17)Show the difference between the largest weight and smallest weight for patients with the last name 'Maroni':
+```SQL
+select (max(weight) - min(weight)) as 'weight_delta' from patients
+where last_name = 'Maroni';
+```
