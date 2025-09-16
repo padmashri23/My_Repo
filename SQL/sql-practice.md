@@ -89,3 +89,10 @@ where allergies is not null and city = 'Hamilton';
 select distinct year(birth_date) as 'birth_year' from patients
 order by birth_year;
 ```
+
+### 16)Show first and last name, allergies from patients which have allergies to either 'Penicillin' or 'Morphine'. Show results ordered ascending by allergies then by first_name then by last_name:
+```SQL
+select first_name,last_name,allergies from patients
+where allergies = 'Penicillin' or allergies = 'Morphine'
+order by allergies, first_name,last_name;
+```
