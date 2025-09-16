@@ -29,3 +29,10 @@ update patients
 set allergies = 'NKA'
 where allergies is null;
 ```
+
+### 6.Show how many patients have a birth_date with 2010 as the birth year.:
+```SQL
+select count(birth_date) as 'total_patients' from patients
+where year(birth_date) =  2010 ;
+```
+
