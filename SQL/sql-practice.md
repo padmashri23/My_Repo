@@ -48,3 +48,8 @@ limit 1;
 select * from patients
 where patient_id in (1,45,534,879,1000);
 ```
+
+### 9.Show the total number of admissions:
+```SQL
+select count(*) as 'total_admissions' from admissions;
+```
