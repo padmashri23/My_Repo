@@ -141,3 +141,10 @@ where country not in ('Germany' , 'Mexico' , 'Spain');
 select order_date,shipped_date,customer_id,freight from orders
 where order_date = '2018-02-26';
 ```
+
+### 24)Show the employee_id, order_id, customer_id, required_date, shipped_date from all orders shipped later than the required date:
+```SQL
+select employee_id,order_id,customer_id,required_date,shipped_date  
+from orders
+where shipped_date > required_date;
+```
