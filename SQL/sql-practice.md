@@ -117,3 +117,10 @@ where year(birth_date) >= 1970 and year(birth_date) <= 1979
 order by birth_date asc;
 ```
 
+### 20)Show all columns for patient_id 542's most recent admission_date:
+```SQL
+select * from admissions
+where patient_id = 542
+order by admission_date desc
+limit 1;
+```
