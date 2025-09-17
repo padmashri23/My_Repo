@@ -148,3 +148,9 @@ select employee_id,order_id,customer_id,required_date,shipped_date
 from orders
 where shipped_date > required_date;
 ```
+
+### 25)Show all the even numbered Order_id from the orders table:
+```SQL
+select order_id from orders
+where order_id % 2 = 0;
+```
