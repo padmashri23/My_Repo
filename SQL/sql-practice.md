@@ -167,3 +167,10 @@ select city,company_name,contact_name from customers
 where city like '%l%'
 order by contact_name asc;
 ```
+
+### 28)Show the first_name, last_name. hire_date of the most recently hired employee.
+```SQL
+select first_name,last_name,hire_date from employees
+order by hire_date desc
+limit 1;
+```
