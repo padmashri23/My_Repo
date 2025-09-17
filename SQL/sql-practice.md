@@ -129,3 +129,9 @@ limit 1;
 ```SQL
 select category_name,description from categories;
 ```
+
+### 22)Show all the contact_name, address, city of all customers which are not from 'Germany', 'Mexico', 'Spain':
+```SQL
+select contact_name,address,city from customers
+where country not in ('Germany' , 'Mexico' , 'Spain');
+```
