@@ -135,3 +135,9 @@ select category_name,description from categories;
 select contact_name,address,city from customers
 where country not in ('Germany' , 'Mexico' , 'Spain');
 ```
+
+### 23)Show order_date, shipped_date, customer_id, Freight of all orders placed on 2018 Feb 26:
+```SQL
+select order_date,shipped_date,customer_id,freight from orders
+where order_date = '2018-02-26';
+```
