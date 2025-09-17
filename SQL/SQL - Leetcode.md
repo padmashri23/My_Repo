@@ -37,7 +37,7 @@ having count(student)>=5
 ```SQL
 select user_id,count(follower_id) as 'followers_count' from Followers
 group by user_id
-order by user_id;
+order by user_id;   
 ```
 <img width="537" height="657" alt="image" src="https://github.com/user-attachments/assets/3456f44d-678e-4ac1-9a3c-761d830ba81e" />
 
