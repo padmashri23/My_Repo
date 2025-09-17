@@ -161,7 +161,7 @@ select company_name,contact_name,fax from customers
 where fax is not null;
 ```
 
-### 25)Show the city, company_name, contact_name of all customers from cities which contains the letter 'L' in the city name, sorted by contact_name:
+### 27)Show the city, company_name, contact_name of all customers from cities which contains the letter 'L' in the city name, sorted by contact_name:
 ```SQL
 select city,company_name,contact_name from customers
 where city like '%l%'
