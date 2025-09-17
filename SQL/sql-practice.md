@@ -124,3 +124,8 @@ where patient_id = 542
 order by admission_date desc
 limit 1;
 ```
+
+### 21)Show the category_name and description from the categories table sorted by category_name:
+```SQL
+select category_name,description from categories;
+```
