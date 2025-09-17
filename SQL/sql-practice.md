@@ -102,3 +102,10 @@ order by allergies, first_name,last_name;
 select (max(weight) - min(weight)) as 'weight_delta' from patients
 where last_name = 'Maroni';
 ```
+
+### 18)Show the city and the total number of patients in the city.Order from most to least patients and then by city name ascending.
+```SQL
+select city,count(patient_id) as 'num_patients' from patients
+group by city
+order by num_patients desc , city asc;
+```
