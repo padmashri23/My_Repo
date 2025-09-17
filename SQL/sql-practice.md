@@ -155,6 +155,12 @@ select order_id from orders
 where order_id % 2 = 0;
 ```
 
+### 26)Show the company_name, contact_name, fax number of all customers that has a fax number. (not null):
+```SQL
+select company_name,contact_name,fax from customers
+where fax is not null;
+```
+
 ### 25)Show the city, company_name, contact_name of all customers from cities which contains the letter 'L' in the city name, sorted by contact_name:
 ```SQL
 select city,company_name,contact_name from customers
