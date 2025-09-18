@@ -181,3 +181,9 @@ select patient_id,first_name from patients
 where first_name like 's%' and first_name like '%s'
 and Length(first_name) >= 6;
 ```
+
+### 30)Display every patient's first_name.Order the list by the length of each name and then by alphabetically:
+```SQL
+select first_name from patients
+order by length(first_name),first_name asc;
+```
