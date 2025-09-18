@@ -187,3 +187,11 @@ and Length(first_name) >= 6;
 select first_name from patients
 order by length(first_name),first_name asc;
 ```
+
+### 31)Show all allergies ordered by popularity. Remove NULL values from query:
+```SQL
+select allergies,count(allergies) as 'total_diagnosis' from patients
+where allergies is not null
+group by allergies
+order by total_diagnosis desc;
+```
