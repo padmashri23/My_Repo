@@ -174,3 +174,10 @@ select first_name,last_name,hire_date from employees
 order by hire_date desc
 limit 1;
 ```
+
+### 29)Show patient_id and first_name from patients where their first_name start and ends with 's' and is at least 6 characters long.:
+```SQL
+select patient_id,first_name from patients
+where first_name like 's%' and first_name like '%s'
+and Length(first_name) >= 6;
+```
