@@ -13,7 +13,7 @@ where POPULATION > 120000 and COUNTRYCODE = 'USA';
 ### 3)Select By ID:
 ```SQL
 select * from City
-where ID = '1661';
+where ID = '1661';   
 ```
 
 ### 4)Japanese Cities' Attributes:
