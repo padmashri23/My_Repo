@@ -59,7 +59,7 @@ order by author_id ;
 ### 9)Fiction Collection Size:
 ```SQL
 select count(*) as 'fiction_count' from Books
-where genre = 'Fiction';
+where genre = 'Fiction';    
 ```
 <img width="1908" height="752" alt="image" src="https://github.com/user-attachments/assets/a510a8bd-1f77-4532-a0f2-55dc2bcf884a" />
 <img width="671" height="768" alt="image" src="https://github.com/user-attachments/assets/ac3cbbf4-37ce-4d81-b069-5970477b91eb" />  
