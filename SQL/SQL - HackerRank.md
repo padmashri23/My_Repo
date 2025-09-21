@@ -4,7 +4,7 @@ select * from City
 where population > 100000 and CountryCode = 'USA';
 ```
 
-### 2)Revising the Select Query II:
+### 2)Revising the Select Query II:   
 ```SQL
 select NAME from City
 where POPULATION > 120000 and COUNTRYCODE = 'USA';
