@@ -201,3 +201,10 @@ order by total_diagnosis desc;
 select p.first_name,p.last_name,pn.province_name from patients as 'p'
 left join province_names as 'pn' on p.province_id = pn.province_id;
 ```
+
+### 33)Show patient_id, first_name, last_name from patients whos diagnosis is 'Dementia'.Primary diagnosis is stored in the admissions table.
+```SQL
+select p.patient_id,p.first_name,p.last_name from patients as 'p'
+left join admissions as 'a' on p.patient_id = a.patient_id
+where a.diagnosis = 'Dementia';
+```
