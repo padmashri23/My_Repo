@@ -195,3 +195,9 @@ where allergies is not null
 group by allergies
 order by total_diagnosis desc;
 ```
+
+### 32)Show first name, last name, and the full province name of each patient.Example: 'Ontario' instead of 'ON':
+```SQL
+select p.first_name,p.last_name,pn.province_name from patients as 'p'
+left join province_names as 'pn' on p.province_id = pn.province_id;
+```
