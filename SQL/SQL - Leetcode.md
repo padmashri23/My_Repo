@@ -19,7 +19,7 @@ Left join Address as a on a.personId = p.personId;
 
 ### 3)182. Duplicate Emails:
 ```SQL
-select email from Person
+select email from Person  
 group by email
 Having count(id)>1;
 ```
