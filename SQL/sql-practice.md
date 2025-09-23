@@ -208,3 +208,11 @@ select p.patient_id,p.first_name,p.last_name from patients as 'p'
 left join admissions as 'a' on p.patient_id = a.patient_id
 where a.diagnosis = 'Dementia';
 ```
+
+### 34)Show the category_name and the average product unit price for each category rounded to 2 decimal places:
+```SQL
+select c.category_name,round(avg(p.unit_price),2) as 'average_unit_price'
+from categories as c 
+left join products as p on c.category_id = p.category_id
+group by category_name;
+```
