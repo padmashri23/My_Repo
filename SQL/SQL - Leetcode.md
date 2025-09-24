@@ -109,3 +109,6 @@ from Triangle;
 select tweet_id  from Tweets
 where length(content) > 15;
 ```
+<img width="710" height="537" alt="image" src="https://github.com/user-attachments/assets/888aa5d2-b350-4cb2-a7a7-8b297a1fe36a" />
+
+
