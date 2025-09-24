@@ -176,3 +176,11 @@ select round(sum(LAT_N),2) as 'lat'
 , round(sum(LONG_W),2) as 'lon'  from station;
 ```
 
+### 26)African Cities:
+```SQL
+select c.NAME from City as c
+left join country as co on c.COUNTRYCODE = co.CODE
+where co.CONTINENT = 'Africa';
+```
+
+
