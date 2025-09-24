@@ -111,4 +111,11 @@ where length(content) > 15;
 ```
 <img width="710" height="537" alt="image" src="https://github.com/user-attachments/assets/888aa5d2-b350-4cb2-a7a7-8b297a1fe36a" />
 
+### 15)577. Employee Bonus:
+```SQL
+select e.name,b.bonus from employee as e
+left join Bonus as b on e.empId = b.empId
+where b.bonus < 1000 or b.bonus is null;
+```
+<img width="653" height="703" alt="image" src="https://github.com/user-attachments/assets/dd3b3eeb-adb7-41bf-8454-e71b69f4fde0" />
 
