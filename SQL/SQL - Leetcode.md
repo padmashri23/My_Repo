@@ -119,3 +119,9 @@ where b.bonus < 1000 or b.bonus is null;
 ```
 <img width="653" height="703" alt="image" src="https://github.com/user-attachments/assets/dd3b3eeb-adb7-41bf-8454-e71b69f4fde0" />
 
+### 16)1068. Product Sales Analysis I:
+```SQL
+select p.product_name,s.year,s.price from Product as p
+left join Sales as s on p.product_id = s.product_id
+where s.year and s.price is not null;
+```
