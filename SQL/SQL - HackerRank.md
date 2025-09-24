@@ -70,7 +70,7 @@ order by name asc;
 ```SQL
 select name from Employee
 where months < 10 and salary > 2000;
-```
+```   
 
 ### 13)Type of Triangle:
 ```SQL
