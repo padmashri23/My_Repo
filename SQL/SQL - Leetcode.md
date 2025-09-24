@@ -104,4 +104,8 @@ from Triangle;
 ```
 <img width="500" height="471" alt="image" src="https://github.com/user-attachments/assets/da366f9d-2a1e-4715-9e6a-5a599751b186" />
 
-
+### 14)1683. Invalid Tweets:
+```SQL
+select tweet_id  from Tweets
+where length(content) > 15;
+```
