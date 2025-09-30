@@ -41,7 +41,7 @@ where Rating > 7 and Rating < 9;
 ### 7)Salary of Employees:
 ```SQL
 select employee_name,company,salary from Employees
-where category = 'Full-Time'
+where category = 'Full-Time'   
 order by salary desc;
 ```
 <img width="874" height="225" alt="image" src="https://github.com/user-attachments/assets/bda9f015-a7e6-47cc-a044-4ba179430e93" />
