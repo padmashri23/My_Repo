@@ -30,7 +30,7 @@ where COUNTRYCODE = 'JPN';
 
 ### 6)Weather Observation Station 1:
 ```SQL
-select city,state from Station;
+select city,state from Station;   
 ```
 
 ### 7)Weather Observation Station 3:
