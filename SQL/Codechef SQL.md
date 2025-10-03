@@ -14,7 +14,7 @@ where price > 100;
 
 ### 3)Average Salary:
 ```SQL
-select avg(salary) as 'avg_salary' from Works;
+select avg(salary) as 'avg_salary' from Works;   
 ```
 <img width="311" height="225" alt="image" src="https://github.com/user-attachments/assets/9bbc722c-9926-4f1a-bc56-80fb56e5b2cf" />
 
