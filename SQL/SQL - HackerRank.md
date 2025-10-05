@@ -167,7 +167,7 @@ and city not like '%u';
 ### 24)Weather Observation Station 16:
 ```SQL
 select round(min(LAT_N),4) from station
-where LAT_N > 38.7780;
+where LAT_N > 38.7780;   
 ```
 
 ### 25)Weather Observation Station 2:
