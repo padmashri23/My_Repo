@@ -216,3 +216,10 @@ from categories as c
 left join products as p on c.category_id = p.category_id
 group by category_name;
 ```
+
+### 35)Show the province_id(s), sum of height; where the total sum of its patient's height is greater than or equal to 7,000.
+```SQL
+select province_id,sum(height) as 'sum_height' from patients
+group by province_id
+having sum(height) > 7000;
+```
