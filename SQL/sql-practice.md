@@ -217,6 +217,14 @@ left join products as p on c.category_id = p.category_id
 group by category_name;
 ```
 
+### 35.Show all of the days of the month (1-31) and how many admission_dates occurred on that day. Sort by the day with most admissions to least admissions:
+```SQL
+select day(admission_date) as 'day_number',
+count(*) as 'number_of_admissions' from admissions
+group by day_number
+order by number_of_admissions desc;
+```
+
 ### 35)Show the province_id(s), sum of height; where the total sum of its patient's height is greater than or equal to 7,000.
 ```SQL
 select province_id,sum(height) as 'sum_height' from patients
