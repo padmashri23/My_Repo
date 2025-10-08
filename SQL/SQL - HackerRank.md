@@ -9,7 +9,7 @@ where population > 100000 and CountryCode = 'USA';
 select NAME from City
 where POPULATION > 120000 and COUNTRYCODE = 'USA';   
 ```
-   
+     
 ### 3)Select By ID:
 ```SQL
 select * from City
