@@ -85,7 +85,7 @@ from TRIANGLES;
 
 ### 14)Revising Aggregations - The Count Function:
 ```SQL
-select count(NAME) from CITY
+select count(NAME) from CITY   
 where POPULATION > 100000;
 ```
 
