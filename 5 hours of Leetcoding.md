@@ -295,7 +295,7 @@ Selection Sort,Bubble Sort,Insertion Sort has the worst case time complexity of 
 
 Merge Sort,Quick Sort has the average case time complexity of O(n* log n) 
 
-Counting sort helpful where you have limited range of elements.-- very very fast
+Counting sort helpful where you have limited range of elements.-- very very fast   
 
 Eg: English alphabets has only 26 letters, subject marks of students is between 0 - 100
 
