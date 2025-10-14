@@ -118,3 +118,12 @@ left join Bonus as b on e.empId = b.empId
 where b.bonus < 1000 or b.bonus is null;
 ```
 <img width="653" height="703" alt="image" src="https://github.com/user-attachments/assets/dd3b3eeb-adb7-41bf-8454-e71b69f4fde0" />
+
+### 16)1075. Project Employees I:
+```SQL
+select project_id ,round(avg(e.experience_years),2) as 'average_years' from Project as p
+left join Employee as e on p.employee_id = e.employee_id
+group by p.project_id;
+```
+<img width="756" height="682" alt="image" src="https://github.com/user-attachments/assets/16b3c59a-0704-4e91-a29f-7ce8265b9dfc" />
+
