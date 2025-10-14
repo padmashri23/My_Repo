@@ -213,3 +213,11 @@ city like 'u%o' or
 city like 'u%u';
 ```
 
+### 28)Weather Observation Station 15:
+```SQL
+select round(LONG_W,4)from STATION
+WHERE LAT_N < 137.2345
+order by LAT_N DESC
+limit 1;
+```
+
