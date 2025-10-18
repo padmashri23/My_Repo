@@ -16,7 +16,7 @@ console.log(getWage(baseSalary, overtime, rate));
 //part of one unit
 let employee = {     
   baseSalary: 30000,  
-  overtime: 10,
+  overtime: 10,     
   rate: 20,
   getWage: function() { //has no parameters
     return this.baseSalary + (this.overtime * this.rate);
