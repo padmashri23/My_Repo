@@ -10,3 +10,11 @@ select company,continent from forbes_global_2010_2014
 where sector = 'Financials' 
 having max(profits);
 ```
+
+### 3.Order Details:
+```SQL
+select c.first_name,o.order_date,o.order_details,o.total_order_cost from orders as o
+left join customers as c on o.cust_id = c.id
+where c.first_name in ('Jill','Eva')
+order by o.cust_id asc ;
+```
