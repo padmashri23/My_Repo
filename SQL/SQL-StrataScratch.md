@@ -41,3 +41,10 @@ order by event_count desc;
 select * from lyft_drivers
 where yearly_salary<=30000 or yearly_salary>=70000;
 ```
+
+### 7.Artist Appearance Count:
+```SQL
+select artist,count(artist) as 'n_occurences' from spotify_worldwide_daily_song_ranking
+group by artist
+order by n_occurences desc;
+```
