@@ -35,3 +35,9 @@ where device = 'macbook pro'
 group by event_name
 order by event_count desc;
 ```
+
+### 6.Lyft Driver Wages:
+```SQL
+select * from lyft_drivers
+where yearly_salary<=30000 or yearly_salary>=70000;
+```
