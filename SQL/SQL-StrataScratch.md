@@ -48,3 +48,11 @@ select artist,count(artist) as 'n_occurences' from spotify_worldwide_daily_song_
 group by artist
 order by n_occurences desc;
 ```
+
+### 8.Top Ranked Songs:
+```SQL
+select trackname,count(*) as 'times_top1' from spotify_worldwide_daily_song_ranking
+where position = '1'
+group by trackname
+order by times_top1 desc;
+```
