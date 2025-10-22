@@ -27,3 +27,11 @@ where business_name = 'Roxanne Cafe'
 group by inspection_year
 order by inspection_year;
 ```
+
+### 5.MacBookPro User Event Count:
+```SQL
+select event_name,count(device) as 'event_count' from playbook_events
+where device = 'macbook pro'
+group by event_name
+order by event_count desc;
+```
