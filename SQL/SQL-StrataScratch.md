@@ -16,7 +16,7 @@ having max(profits);
 select c.first_name,o.order_date,o.order_details,o.total_order_cost from orders as o
 left join customers as c on o.cust_id = c.id
 where c.first_name in ('Jill','Eva')
-order by o.cust_id asc ;
+order by o.cust_id asc ;   
 ```
 
 ### 4.Number of violations:
