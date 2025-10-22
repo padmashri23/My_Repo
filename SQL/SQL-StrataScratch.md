@@ -62,3 +62,11 @@ order by times_top1 desc;
 select city,property_type,avg(bathrooms) as 'n_bathrooms_avg',avg(bedrooms) as 'n_bedrooms_avg' from airbnb_search_details
 group by city,property_type;
 ```
+
+### 10.Workers by Department Since April:
+```SQL
+select department,count(*) as 'num_workers' from worker
+where joining_date>='2014-04-01'
+group by department
+order by num_workers desc;
+```
