@@ -18,3 +18,12 @@ left join customers as c on o.cust_id = c.id
 where c.first_name in ('Jill','Eva')
 order by o.cust_id asc ;
 ```
+
+### 4.Number of violations:
+```SQL
+select year(inspection_date) as 'inspection_year',count(violation_id) as 'n_violations'
+from sf_restaurant_health_violations
+where business_name = 'Roxanne Cafe'
+group by inspection_year
+order by inspection_year;
+```
