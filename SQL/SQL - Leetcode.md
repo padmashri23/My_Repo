@@ -143,4 +143,11 @@ where o.customerId is null;
 ```
 <img width="289" height="675" alt="image" src="https://github.com/user-attachments/assets/1b394b3a-e7b9-4361-9d5f-2c60b7b7382f" />
 
+### 19)1068. Product Sales Analysis I:
+```SQL
+select p.product_name,s.year,s.price from Sales as s
+left join Product as p on s.product_id = p.product_id;
+```
+<img width="804" height="652" alt="image" src="https://github.com/user-attachments/assets/8ae42461-8ab7-49a8-88e1-7a530a0ac828" />
+
 
