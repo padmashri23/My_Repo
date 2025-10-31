@@ -113,7 +113,7 @@ Worst Case (O(n)): If 2 is not found or appears at the end.
 ![image](https://github.com/user-attachments/assets/f9787136-3c40-4c1c-86bf-a791924cf9c0)
    
 ### ARRAYS:
-### 1)217.Contains Duplicate:
+### 1)217.Contains Duplicate:  
 ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
