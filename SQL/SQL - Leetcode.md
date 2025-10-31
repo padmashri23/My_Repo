@@ -127,3 +127,12 @@ group by p.project_id;
 ```
 <img width="756" height="682" alt="image" src="https://github.com/user-attachments/assets/16b3c59a-0704-4e91-a29f-7ce8265b9dfc" />
 
+### 17)181. Employees Earning More Than Their Managers:
+```SQL
+select e.name as Employee from Employee as e
+join Employee as m on e.managerId = m.id
+where e.salary> m.salary;
+```
+<img width="831" height="551" alt="image" src="https://github.com/user-attachments/assets/bd67a955-7299-46ca-9aec-a4c167514ce0" />
+
+
