@@ -150,4 +150,9 @@ left join Product as p on s.product_id = p.product_id;
 ```
 <img width="804" height="652" alt="image" src="https://github.com/user-attachments/assets/8ae42461-8ab7-49a8-88e1-7a530a0ac828" />
 
-
+### 20)196. Delete Duplicate Emails:
+```SQL
+Delete p1 from Person as p1
+join Person as p2 on p1.email = p2.email
+and p1.id>p2.id;
+```
