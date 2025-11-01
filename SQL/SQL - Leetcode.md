@@ -156,3 +156,5 @@ Delete p1 from Person as p1
 join Person as p2 on p1.email = p2.email
 and p1.id>p2.id;
 ```
+<img width="836" height="558" alt="image" src="https://github.com/user-attachments/assets/e46bd3ac-cff0-49cb-a7f1-00fd417f05d0" />
+
