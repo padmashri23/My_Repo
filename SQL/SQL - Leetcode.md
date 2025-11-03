@@ -158,3 +158,14 @@ and p1.id>p2.id;
 ```
 <img width="836" height="558" alt="image" src="https://github.com/user-attachments/assets/e46bd3ac-cff0-49cb-a7f1-00fd417f05d0" />
 
+
+### 21)1407. Top Travellers:
+```SQL
+select u.name,coalesce(sum(r.distance),0) as 'travelled_distance'
+from Users as u
+left join Rides as r on u.id = r.user_id
+group by r.user_id
+order by travelled_distance desc,name;
+```
+<img width="835" height="769" alt="image" src="https://github.com/user-attachments/assets/a62d7fda-19a6-4e98-946b-c0bacc95b99e" />
+
