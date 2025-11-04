@@ -57,7 +57,7 @@ group by trackname
 order by times_top1 desc;
 ```
 
-### 9.Number Of Bathrooms And Bedrooms:
+### 9.Number Of Bathrooms And Bedrooms:   
 ```SQL
 select city,property_type,avg(bathrooms) as 'n_bathrooms_avg',avg(bedrooms) as 'n_bedrooms_avg' from airbnb_search_details
 group by city,property_type;
