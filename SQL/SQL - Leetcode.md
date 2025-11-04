@@ -169,3 +169,13 @@ order by travelled_distance desc,name;
 ```
 <img width="835" height="769" alt="image" src="https://github.com/user-attachments/assets/a62d7fda-19a6-4e98-946b-c0bacc95b99e" />
 
+### 22)1327. List the Products Ordered in a Period:
+```SQL
+select p.product_name,sum(o.unit) as 'unit' from Products as p
+left join Orders as o on p.product_id = o.product_id
+where o.order_date between '2020-02-01' and '2020-02-29'
+group by o.product_id
+having unit>=100;
+```
+<img width="797" height="770" alt="image" src="https://github.com/user-attachments/assets/7fc8d0ab-3ed6-4b5c-a00c-9d0b41071212" />
+
