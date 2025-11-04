@@ -70,3 +70,11 @@ where joining_date>='2014-04-01'
 group by department
 order by num_workers desc;
 ```
+
+### 11.Unique Users Per Client Per Month:
+```SQL
+select client_id,month(time_id) as 'month',
+count(distinct user_id) as 'users_num'
+from fact_events
+group by client_id,month;
+```
