@@ -238,3 +238,10 @@ select first_name from patients
 group by first_name
 having count(first_name) = 1;
 ```
+
+### 37)Show the total amount of male patients and the total amount of female patients in the patients table.Display the two results in the same row.
+```SQL
+select
+sum(gender = 'M') as 'male_count',
+sum(gender = 'F') as 'female_count' from patients;
+```
