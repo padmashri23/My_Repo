@@ -231,3 +231,10 @@ select province_id,sum(height) as 'sum_height' from patients
 group by province_id
 having sum(height) > 7000;
 ```
+
+### 36)Show unique first names from the patients table which only occurs once in the list.For example, if two or more people are named 'John' in the first_name column then don't include their name in the output list. If only 1 person is named 'Leo' then include them in the output.
+```SQL
+select first_name from patients
+group by first_name
+having count(first_name) = 1;
+```
