@@ -78,3 +78,10 @@ count(distinct user_id) as 'users_num'
 from fact_events
 group by client_id,month;
 ```
+
+### 12.April Admin Employees:
+```SQL
+select count(*) as 'n_admins' from worker
+where department = 'Admin' and 
+month(joining_date) >= 4;
+```
