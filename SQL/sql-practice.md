@@ -280,3 +280,11 @@ from patients
 group by first_name,last_name
 having count(first_name or last_name)>1;
 ```
+
+### 42)Show the ProductName, CompanyName, CategoryName from the products, suppliers, and categories table:
+```SQL
+select p.product_name,s.company_name,c.category_name
+from products as p 
+join categories as c on p.category_id = c.category_id
+join suppliers as s on p.supplier_id = s.supplier_id;
+```
