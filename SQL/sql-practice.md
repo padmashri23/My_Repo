@@ -262,3 +262,13 @@ from doctors as d
 right join admissions as a on d.doctor_id = a.attending_doctor_id
 group by d.doctor_id;
 ```
+
+### 40)Display the total amount of patients for each province. Order by descending:
+```SQL
+select p.province_name,count(patient_id) as 'patient_count' from 
+province_names as p 
+left join patients as pa on p.province_id = pa.province_id
+group by p.province_name
+having patient_count > 0
+order by patient_count desc;
+```
