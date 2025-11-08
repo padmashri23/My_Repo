@@ -272,3 +272,11 @@ group by p.province_name
 having patient_count > 0
 order by patient_count desc;
 ```
+
+### 41)display the first name, last name and number of duplicate patients based on their first name and last name.Ex: A patient with an identical name can be considered a duplicate:
+```SQL
+select first_name,last_name,count(*) as 'num_of_duplicates'
+from patients
+group by first_name,last_name
+having count(first_name or last_name)>1;
+```
