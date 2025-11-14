@@ -186,3 +186,12 @@ right join Employees as e on en.id = e.id;
 ```
 <img width="733" height="738" alt="image" src="https://github.com/user-attachments/assets/763c08b2-bac7-426c-86db-e4b4375511a3" />
 
+### 24)1587. Bank Account Summary II:
+```SQL
+select u.name,sum(t.amount) as 'balance' from Users as u
+join Transactions as t on u.account = t.account
+group by t.account
+having balance > 10000;
+```
+<img width="738" height="649" alt="image" src="https://github.com/user-attachments/assets/18625241-0006-43ab-85f3-e6613102dd62" />
+
