@@ -179,3 +179,10 @@ having unit>=100;
 ```
 <img width="797" height="770" alt="image" src="https://github.com/user-attachments/assets/7fc8d0ab-3ed6-4b5c-a00c-9d0b41071212" />
 
+### 23)1378. Replace Employee ID With The Unique Identifier:
+```SQL
+select en.unique_id,e.name from EmployeeUNI as en
+right join Employees as e on en.id = e.id;
+```
+<img width="733" height="738" alt="image" src="https://github.com/user-attachments/assets/763c08b2-bac7-426c-86db-e4b4375511a3" />
+
