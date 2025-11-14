@@ -73,7 +73,7 @@ group by teacher_id;
 ### 10)1148. Article Views I:
 ```SQL
 select author_id as 'id' from Views
-where author_id = viewer_id
+where author_id = viewer_id   
 group by author_id 
 order by author_id;
 ```
