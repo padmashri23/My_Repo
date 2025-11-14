@@ -194,4 +194,15 @@ group by t.account
 having balance > 10000;
 ```
 <img width="738" height="649" alt="image" src="https://github.com/user-attachments/assets/18625241-0006-43ab-85f3-e6613102dd62" />
+                                                
+### 25)1873. Calculate Special Bonus:
+```SQL
+select employee_id,
+case when employee_id % 2 = 0 or  name  like 'M%' then 0
+     when employee_id%2!=0 and name not like 'M%' then salary
+ End as 'bonus' 
+ from Employees
+ order by employee_id;
+```
+<img width="804" height="594" alt="image" src="https://github.com/user-attachments/assets/70493227-3f0c-4da8-acd0-1d8dffdc3f1c" />
 
