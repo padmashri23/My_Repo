@@ -90,7 +90,7 @@ where low_fats = 'Y' and recyclable = 'Y';
 ```SQL
 select id,movie,description,rating from Cinema
 where id%2<>0 and description <> 'boring'
-order by rating desc;
+order by rating desc;   
 ```
 <img width="904" height="652" alt="image" src="https://github.com/user-attachments/assets/cdcfa29b-e3db-43e4-8a74-f47063486d87" />
 
