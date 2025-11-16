@@ -301,3 +301,12 @@ left join orders as o on e.employee_id = o.employee_id
 group by e.last_name,e.first_name,shipped 
 order by e.last_name,e.first_name,num_orders desc;
 ```
+
+### 44)We need a breakdown for the total amount of admissions each doctor has started each year. Show the doctor_id, doctor_full_name, specialty, year, total_admissions for that year:
+```SQL
+select d.doctor_id,concat(d.first_name,' ',d.last_name) as 'doctor_name',
+d.specialty,year(a.admission_date) as 'selected_year',count(*) 
+as 'total_admissions' from doctors as d 
+join admissions as a on d.doctor_id = a.attending_doctor_id
+group by selected_year,d.doctor_id;
+```
