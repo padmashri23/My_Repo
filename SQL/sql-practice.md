@@ -385,3 +385,12 @@ union
 select s.city,s.company_name,s.contact_name,
 'suppliers' as relationship from suppliers as s;
 ```
+
+### 53)Show first name, last name and role of every person that is either patient or doctor.The roles are either "Patient" or "Doctor":
+```SQL
+select p.first_name,p.last_name,'Patient' as role 
+from patients as p 
+union ALL
+select d.first_name,d.last_name,'Doctor' as role
+from doctors as d;
+```
