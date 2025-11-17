@@ -376,3 +376,12 @@ join doctors as d on a.attending_doctor_id = d.doctor_id
 where a.diagnosis = 'Epilepsy'
 and d.first_name = 'Lisa';
 ```
+
+### 52)Show the city, company_name, contact_name from the customers and suppliers table merged together.Create a column which contains 'customers' or 'suppliers' depending on the table it came from.
+```SQL
+select c.city,c.company_name,c.contact_name,
+'customers' as relationship from customers as c 
+union
+select s.city,s.company_name,s.contact_name,
+'suppliers' as relationship from suppliers as s;
+```
