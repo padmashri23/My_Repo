@@ -330,3 +330,12 @@ from patients as p
 Right join admissions as a on p.patient_id = a.patient_id
 group by p.patient_id;
 ```
+
+### 47)Show patient_id, weight, height, isObese from the patients table.Display isObese as a boolean 0 or 1.Obese is defined as weight(kg)/(height(m)2) >= 30.weight is in units kg.height is in units cm.
+```SQL
+select patient_id,weight,height,
+case when weight / ( (height/100.0) * (height/100.0) ) >= 30 then '1'
+     else '0'
+     end as 'isObese'
+from patients;
+```
