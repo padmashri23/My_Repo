@@ -349,3 +349,12 @@ join admissions as a on p.patient_id = a.patient_id
 join doctors as d on a.attending_doctor_id = d.doctor_id;
 ```
 
+### 49)For each doctor, display their id, full name, and the first and last admission date they attended:
+```SQL
+select d.doctor_id,concat(d.first_name,' ',d.last_name) as 'full_name',
+min(a.admission_date) as 'first_admission_date',max(a.admission_date) as 
+'last_admission_date' from doctors as d 
+join admissions as a on d.doctor_id = a.attending_doctor_id
+group by d.doctor_id;
+```
+
