@@ -138,7 +138,7 @@ where e.salary> m.salary;
 ### 18)183. Customers Who Never Order:
 ```SQL
 select c.name as Customers from Customers as c
-left join Orders as o on c.id = o.customerId
+left join Orders as o on c.id = o.customerId   
 where o.customerId is null;
 ```
 <img width="289" height="675" alt="image" src="https://github.com/user-attachments/assets/1b394b3a-e7b9-4361-9d5f-2c60b7b7382f" />
