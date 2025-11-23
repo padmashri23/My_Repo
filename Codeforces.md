@@ -100,7 +100,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n=scanner.nextInt();
         int m=scanner.nextInt();
-        int count=0;
+        int count=0;   
         for(int a=0;a<=1000;a++)
         {
             for(int b=0;b<=1000;b++)
