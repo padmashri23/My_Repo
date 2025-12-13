@@ -9,7 +9,7 @@ public class Main
 	    int s2=scanner.nextInt();
 	    int s3=scanner.nextInt();    
 	    int s4=scanner.nextInt();   
-	    Set<Integer> uniquecolours = new HashSet<>();
+	    Set<Integer> uniquecolours = new HashSet<>();  
 	    uniquecolours.add(s1);
 	    uniquecolours.add(s2);
 	    uniquecolours.add(s3);
@@ -727,7 +727,7 @@ public class Main{
             return false;
         }
         for(int i = 2;i * i <= num;i++)
-        {
+        {   
             if(num%i==0)
             {
                 return false;
