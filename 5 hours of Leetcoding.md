@@ -240,7 +240,7 @@ class Solution {
         }
         result.put(nums[i],i);
         }
-        return new int[]{};
+        return new int[]{};   
     }
 }
 ```
