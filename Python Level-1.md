@@ -67,7 +67,7 @@ else:
 num=int(input("Enter the number:"))
 ld=num%10
 if ld in [3,6,9,0]:
-    print("Yes!")
+    print("Yes!") 
 else:
     print("no!")
 ```
