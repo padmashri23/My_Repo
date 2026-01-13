@@ -1,5 +1,6 @@
 ### OOPS CONCEPT:  
 
+//OOPS Concepts Learning!:
 ### ENCAPSULATION     
 ```JavaScript   
 //procedural implementation:-- variables on one side and functions on the other side                                              
@@ -45,7 +46,7 @@ public class Main{
         System.out.print("Enter the elements:");
         for(int i=0;i<size;i++)
         {
-            numbers.add(scanner.nextInt());
+            numbers.add(scanner.nextInt()); 
         }
         boolean found = false;
         for(int i = 0;i<size;i++)
