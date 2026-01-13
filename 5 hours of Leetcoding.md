@@ -192,7 +192,7 @@ class Solution {
        }
        for(int num:nums)    
        {
-        set.remove(num);
+        set.remove(num);   
        }
        result.addAll(set);
        return result;
