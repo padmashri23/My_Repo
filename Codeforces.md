@@ -77,7 +77,7 @@ public class Main
 	    int n= scanner.nextInt();
 	    if(n%2!=0) 
 	    {
-	     System.out.println(-1);   
+	     System.out.println(-1);    
 	    }
 	    else
 	    {
