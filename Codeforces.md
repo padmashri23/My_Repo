@@ -107,7 +107,7 @@ public class Main {
             {
                 if(a*a+b==n && a+b*b==m)
                 {
-                    count++;
+                    count++; 
                 }
             }
         }
