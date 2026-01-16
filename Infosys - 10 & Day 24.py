@@ -12,7 +12,7 @@ class Solution:
 #For Input: 
 978 518 300
 #Your Output: 
-518
+518 S
 
 #Python: Push three items into the heap and print the items from the heap:
 import heapq
